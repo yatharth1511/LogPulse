@@ -1,0 +1,12 @@
+# LogPulse cron jobs. Install system-wide (note the extra "user" column):
+#   sudo cp linux/logpulse.cron /etc/cron.d/logpulse && sudo chmod 644 /etc/cron.d/logpulse
+# Or per user (drop the "logpulse" user column): crontab -e
+# Adjust /opt/logpulse to where the project is installed.
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+
+# Every 5 minutes: ingest any new files dropped into the incoming directory
+*/5 * * * * logpulse /opt/logpulse/scripts/run_etl.sh >> /var/log/logpulse/etl.log 2>&1
+
+# Every night at 02:30: PostgreSQL backup (older than 7 days are pruned)
+30 2 * * * logpulse /opt/logpulse/scripts/backup_db.sh >> /var/log/logpulse/backup.log 2>&1

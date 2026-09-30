@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Log #{{ event.pk }}{% endblock %}
+{% block content %}
+<p><a href="{% url 'logs:explorer' %}">← Back to explorer</a></p>
+<h1>Log #{{ event.pk }} <span class="badge {{ event.level|lower }}">{{ event.level }}</span></h1>
+<div class="card">
+<dl class="details">
+  <dt>Timestamp (UTC)</dt><dd>{{ event.timestamp|date:"Y-m-d H:i:s.u" }}</dd>
+  <dt>Level</dt><dd>{{ event.level }}</dd>
+  <dt>Service</dt><dd>{{ event.service.name }}</dd>
+  <dt>Host</dt><dd>{{ event.host.name }}</dd>
+  <dt>Message</dt><dd>{{ event.message }}</dd>
+  <dt>HTTP method</dt><dd>{{ event.http_method|default:"–" }}</dd>
+  <dt>Endpoint</dt><dd>{{ event.endpoint|default:"–" }}</dd>
+  <dt>Status code</dt><dd>{{ event.status_code|default_if_none:"–" }}</dd>
+  <dt>Response time</dt><dd>{% if event.response_time_ms is not None %}{{ event.response_time_ms }} ms{% else %}–{% endif %}</dd>
+  <dt>IP address</dt><dd>{{ event.ip_address|default_if_none:"–" }}</dd>
+  <dt>Source format</dt><dd>{{ event.source_format|default:"–" }}</dd>
+  <dt>Pipeline run</dt><dd>{% if event.pipeline_run %}#{{ event.pipeline_run_id }} – {{ event.pipeline_run.source_file }}{% else %}–{% endif %}</dd>
+  <dt>Fingerprint</dt><dd><code>{{ event.fingerprint }}</code></dd>
+  <dt>Ingested at</dt><dd>{{ event.created_at|date:"Y-m-d H:i:s" }}</dd>
+</dl>
+<h2>Raw line</h2>
+<pre>{{ event.raw|default:"–" }}</pre>
+</div>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Log Explorer{% endblock %}
+{% block content %}
+<h1>Log Explorer</h1>
+<form method="get" class="card filters">
+  <label>Keyword<input type="text" name="q" value="{{ params.q }}" placeholder="message contains…"></label>
+  <label>Level
+    <select name="level"><option value="">Any</option>
+      {% for lvl in levels %}<option value="{{ lvl }}" {% if params.level == lvl %}selected{% endif %}>{{ lvl }}</option>{% endfor %}
+    </select></label>
+  <label>Service
+    <select name="service"><option value="">Any</option>
+      {% for name in services %}<option value="{{ name }}" {% if params.service == name %}selected{% endif %}>{{ name }}</option>{% endfor %}
+    </select></label>
+  <label>Status<input type="text" name="status_code" value="{{ params.status_code }}" placeholder="404 or 5xx" size="8"></label>
+  <label>Endpoint<input type="text" name="endpoint" value="{{ params.endpoint }}" placeholder="/api/orders"></label>
+  <label>From<input type="datetime-local" name="start" value="{{ params.start }}"></label>
+  <label>To<input type="datetime-local" name="end" value="{{ params.end }}"></label>
+  <div class="actions"><button type="submit">Search</button> <a class="btn secondary" href="{% url 'logs:explorer' %}">Reset</a></div>
+</form>
+
+{% if error %}<div class="alert error">{{ error }}</div>{% endif %}
+<p class="muted">{{ page_obj.paginator.count }} matching log{{ page_obj.paginator.count|pluralize }}</p>
+<div class="card table-wrap">
+<table>
+  <thead><tr><th>Time (UTC)</th><th>Level</th><th>Service</th><th>Host</th><th>Method</th><th>Endpoint</th><th>Status</th><th class="num">ms</th><th>Message</th></tr></thead>
+  <tbody>
+  {% for e in page_obj %}
+    <tr>
+      <td class="nowrap"><a href="{{ e.get_absolute_url }}">{{ e.timestamp|date:"Y-m-d H:i:s" }}</a></td>
+      <td><span class="badge {{ e.level|lower }}">{{ e.level }}</span></td>
+      <td>{{ e.service.name }}</td><td>{{ e.host.name }}</td><td>{{ e.http_method }}</td>
+      <td><code>{{ e.endpoint }}</code></td><td>{{ e.status_code|default_if_none:"" }}</td>
+      <td class="num">{{ e.response_time_ms|floatformat:1|default:"" }}</td>
+      <td>{{ e.message|truncatechars:70 }}</td>
+    </tr>
+  {% empty %}<tr><td colspan="9" class="muted">No logs match these filters.</td></tr>{% endfor %}
+  </tbody>
+</table>
+</div>
+{% include "partials/pagination.html" %}
+{% endblock %}

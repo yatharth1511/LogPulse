@@ -1,0 +1,25 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}LogPulse{% endblock %} · LogPulse</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="{% url 'analytics:dashboard' %}">Log<span>Pulse</span></a>
+    <nav>
+      <a href="{% url 'analytics:dashboard' %}">Dashboard</a>
+      <a href="{% url 'logs:explorer' %}">Log Explorer</a>
+      <a href="{% url 'ingestion:pipelines' %}">Pipelines</a>
+      <a href="/api/">API</a>
+    </nav>
+  </header>
+  <main class="container">
+    {% for message in messages %}<div class="alert {{ message.tags }}">{{ message }}</div>{% endfor %}
+    {% block content %}{% endblock %}
+  </main>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

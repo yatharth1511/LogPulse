@@ -1,0 +1,9 @@
+.git
+.venv
+__pycache__
+*.pyc
+.env
+backups
+incoming_logs
+processed_logs
+failed_logs

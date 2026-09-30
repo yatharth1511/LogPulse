@@ -1,0 +1,26 @@
+# systemd unit for the LogPulse web app (gunicorn).
+#   sudo cp linux/logpulse.service /etc/systemd/system/logpulse.service
+#   sudo systemctl daemon-reload && sudo systemctl enable --now logpulse
+#   journalctl -u logpulse -f
+[Unit]
+Description=LogPulse Django application (gunicorn)
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=simple
+User=logpulse
+Group=logpulse
+WorkingDirectory=/opt/logpulse
+EnvironmentFile=/opt/logpulse/.env
+Environment=PYTHONPATH=/opt/logpulse
+ExecStartPre=/opt/logpulse/.venv/bin/python manage.py migrate --noinput
+ExecStartPre=/opt/logpulse/.venv/bin/python manage.py collectstatic --noinput
+ExecStart=/opt/logpulse/.venv/bin/gunicorn config.wsgi:application --bind 127.0.0.1:8000 --workers 3 --access-logfile -
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

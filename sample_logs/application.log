@@ -1,0 +1,1500 @@
+2026-09-29 00:00:07,085 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=29.35 ip=192.253.174.150
+2026-09-29 00:01:51,866 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=112.72 ip=203.89.134.42
+2026-09-29 00:02:18,479 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=46.03 ip=10.156.133.179
+2026-09-29 00:03:14,447 WARNING  [notification-service] (notif-01) Cache miss ratio above threshold
+2026-09-29 00:04:27,848 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=80.55 ip=10.177.97.165
+2026-09-29 00:05:09,882 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 00:06:01,725 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=82.89 ip=172.227.139.214
+2026-09-29 00:07:27,198 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=85.41 ip=10.231.125.102
+2026-09-29 00:07:50,102 INFO     [order-service] (ord-01) Order created
+2026-09-29 00:09:23,244 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=62.95 ip=203.89.134.42
+2026-09-29 00:10:23,760 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=87.67 ip=192.228.36.21
+2026-09-29 00:11:07,644 DEBUG    [notification-service] (notif-01) Cache lookup completed
+2026-09-29 00:11:40,071 INFO     [payment-service] (pay-01) Order created
+2026-09-29 00:12:38,777 CRITICAL [notification-service] (notif-01) Database primary unreachable
+2026-09-29 00:13:35,805 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=80.35 ip=192.136.127.168
+2026-09-29 00:15:11,448 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=80.53 ip=192.228.36.21
+2026-09-29 00:15:24,355 INFO     [payment-service] (pay-01) Order created
+2026-09-29 00:16:52,971 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/search status=400 duration_ms=78.01 ip=203.169.127.194
+2026-09-29 00:17:36,258 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=153.4 ip=192.155.216.82
+2026-09-29 00:19:08,375 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=64.76 ip=192.90.233.254
+2026-09-29 00:19:40,368 WARNING  [notification-service] (notif-01) Disk usage above 80%
+2026-09-29 00:20:58,954 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 00:21:59,246 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=55.19 ip=192.225.121.175
+2026-09-29 00:22:47,937 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/health status=429 duration_ms=130.47 ip=172.47.133.72
+2026-09-29 00:23:18,860 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=130.27 ip=203.29.133.108
+2026-09-29 00:24:12,496 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=50.7 ip=192.212.89.20
+2026-09-29 00:25:48,843 ERROR    [auth-service] (auth-02) Failed to publish message to queue
+2026-09-29 00:26:14,593 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 00:27:13,385 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=64.48 ip=203.28.171.66
+2026-09-29 00:27:57,391 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=41.82 ip=192.74.201.252
+2026-09-29 00:29:25,865 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=77.66 ip=203.183.64.25
+2026-09-29 00:30:33,702 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=119.52 ip=10.32.230.200
+2026-09-29 00:30:49,409 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 00:32:33,527 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=211.43 ip=172.37.188.202
+2026-09-29 00:33:01,892 INFO     [auth-service] (auth-01) Cache warmed
+2026-09-29 00:33:51,766 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=42.9 ip=10.162.156.242
+2026-09-29 00:34:45,718 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=99.93 ip=203.33.131.220
+2026-09-29 00:35:59,514 INFO     [api-gateway] (gw-02) Cache warmed
+2026-09-29 00:36:42,829 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=88.2 ip=172.216.87.161
+2026-09-29 00:37:46,757 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=404 duration_ms=156.5 ip=10.239.185.154
+2026-09-29 00:38:56,268 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=108.24 ip=10.212.216.128
+2026-09-29 00:40:13,808 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=22.09 ip=203.112.178.130
+2026-09-29 00:40:37,995 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=101.7 ip=203.156.240.152
+2026-09-29 00:41:41,334 DEBUG    [order-service] (ord-02) Cache lookup completed
+2026-09-29 00:42:14,990 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=129.47 ip=172.55.228.180
+2026-09-29 00:43:37,732 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=52.55 ip=10.169.246.68
+2026-09-29 00:44:43,614 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=86.37 ip=203.4.148.153
+2026-09-29 00:45:10,502 INFO     [payment-service] (pay-01) Email queued
+2026-09-29 00:46:54,734 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=88.47 ip=192.228.36.21
+2026-09-29 00:47:56,422 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 00:48:23,745 INFO     [payment-service] (pay-01) Order created
+2026-09-29 00:49:52,481 INFO     [payment-service] (pay-02) Cache warmed
+2026-09-29 00:50:11,760 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=51.68 ip=192.20.90.70
+2026-09-29 00:51:04,908 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=145.25 ip=10.177.97.165
+2026-09-29 00:52:33,038 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 00:52:50,182 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=63.91 ip=192.74.201.252
+2026-09-29 00:54:23,690 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=75.09 ip=203.246.245.132
+2026-09-29 00:55:10,902 INFO     [auth-service] (auth-01) Order created
+2026-09-29 00:55:43,020 WARNING  [order-service] (ord-02) Cache miss ratio above threshold
+2026-09-29 00:57:19,035 INFO     [payment-service] (pay-02) Order created
+2026-09-29 00:57:54,935 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=256.55 ip=10.166.87.1
+2026-09-29 00:59:17,572 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/search status=403 duration_ms=81.72 ip=192.225.121.175
+2026-09-29 00:59:56,274 ERROR    [api-gateway] (gw-02) Failed to publish message to queue
+2026-09-29 01:01:21,768 INFO     [order-service] (ord-03) User login succeeded
+2026-09-29 01:01:59,759 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=23.11 ip=192.75.248.174
+2026-09-29 01:02:55,831 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=65.39 ip=192.121.8.8
+2026-09-29 01:03:43,925 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=77.06 ip=203.193.85.14
+2026-09-29 01:04:19,721 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 01:05:23,259 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=41.23 ip=203.151.140.32
+2026-09-29 01:07:03,219 WARNING  [auth-service] (auth-01) Retrying upstream request
+2026-09-29 01:07:20,440 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=98.07 ip=172.101.177.241
+2026-09-29 01:08:31,582 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=71.04 ip=10.162.64.164
+2026-09-29 01:09:40,209 CRITICAL [payment-service] (pay-02) Out of memory: killing worker
+2026-09-29 01:10:11,030 INFO     [auth-service] (auth-02) Order created
+2026-09-29 01:11:51,875 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=101.41 ip=172.242.238.82
+2026-09-29 01:12:50,655 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=105.0 ip=192.119.146.3
+2026-09-29 01:13:42,002 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=34.85 ip=192.25.178.164
+2026-09-29 01:14:36,738 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=34.22 ip=203.67.121.97
+2026-09-29 01:15:29,455 INFO     [order-service] (ord-01) Email queued
+2026-09-29 01:15:55,539 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=72.86 ip=192.132.73.92
+2026-09-29 01:17:17,939 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=88.18 ip=203.55.237.22
+2026-09-29 01:18:13,166 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 01:19:13,375 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=80.43 ip=203.169.127.194
+2026-09-29 01:20:29,207 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=191.66 ip=172.232.9.242
+2026-09-29 01:21:19,055 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=91.4 ip=172.131.122.254
+2026-09-29 01:22:25,038 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=116.69 ip=10.136.79.209
+2026-09-29 01:23:16,829 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=453.93 ip=10.162.156.242
+2026-09-29 01:24:07,291 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 01:25:21,210 INFO     [notification-service] (notif-01) Order created
+2026-09-29 01:25:46,894 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=39.56 ip=203.95.205.161
+2026-09-29 01:27:06,005 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 01:27:59,893 WARNING  [notification-service] (notif-01) Retrying upstream request
+2026-09-29 01:28:41,365 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=592.38 ip=203.212.139.240
+2026-09-29 01:30:09,399 WARNING  [api-gateway] (gw-01) Slow query detected
+2026-09-29 01:30:42,174 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=61.31 ip=203.22.36.81
+2026-09-29 01:31:47,480 INFO     [api-gateway] (gw-01) Order created
+2026-09-29 01:32:36,591 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=216.58 ip=192.20.90.70
+2026-09-29 01:33:58,065 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=80.29 ip=192.225.121.175
+2026-09-29 01:34:18,946 INFO     [order-service] (ord-01) Order created
+2026-09-29 01:35:47,834 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=183.39 ip=203.202.152.110
+2026-09-29 01:36:06,122 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=52.18 ip=192.85.79.155
+2026-09-29 01:36:57,858 INFO     [order-service] (ord-03) User login succeeded
+2026-09-29 01:38:08,420 WARNING  [auth-service] (auth-01) Cache miss ratio above threshold
+2026-09-29 01:39:10,728 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=156.93 ip=192.136.127.168
+2026-09-29 01:39:56,709 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=97.92 ip=10.9.169.221
+2026-09-29 01:41:01,184 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=220.43 ip=10.7.249.226
+2026-09-29 01:41:51,222 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=183.57 ip=10.180.78.128
+2026-09-29 01:42:46,598 ERROR    [order-service] (ord-02) request completed method=POST path=/api/orders status=500 duration_ms=293.05 ip=203.193.85.14
+2026-09-29 01:43:46,389 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=141.11 ip=172.31.193.146
+2026-09-29 01:44:48,836 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=304 duration_ms=34.19 ip=172.67.130.167
+2026-09-29 01:46:27,459 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=78.15 ip=203.33.131.220
+2026-09-29 01:47:19,983 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=142.62 ip=192.212.89.20
+2026-09-29 01:47:51,064 INFO     [payment-service] (pay-02) Order created
+2026-09-29 01:48:51,123 INFO     [api-gateway] (gw-02) Cache warmed
+2026-09-29 01:49:50,865 INFO     [api-gateway] (gw-02) Email queued
+2026-09-29 01:50:31,381 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=78.4 ip=10.156.133.179
+2026-09-29 01:52:07,712 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=213.21 ip=192.147.203.105
+2026-09-29 01:52:28,165 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=400 duration_ms=103.92 ip=10.32.230.200
+2026-09-29 01:53:52,419 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=199.87 ip=203.158.16.170
+2026-09-29 01:55:09,815 INFO     [order-service] (ord-03) Order created
+2026-09-29 01:55:18,720 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=33.72 ip=203.9.217.42
+2026-09-29 01:56:30,575 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=35.25 ip=203.117.226.64
+2026-09-29 01:57:37,660 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 01:58:26,441 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=142.53 ip=203.197.156.146
+2026-09-29 01:59:09,559 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=47.66 ip=203.212.139.240
+2026-09-29 02:00:14,698 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=400 duration_ms=87.25 ip=172.37.188.202
+2026-09-29 02:01:03,494 INFO     [api-gateway] (gw-02) Email queued
+2026-09-29 02:02:36,174 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=78.2 ip=192.164.234.69
+2026-09-29 02:03:36,943 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=82.76 ip=192.106.195.240
+2026-09-29 02:04:40,890 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=71.45 ip=203.59.3.24
+2026-09-29 02:05:19,902 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=63.1 ip=192.74.201.252
+2026-09-29 02:06:06,240 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=56.78 ip=192.85.79.155
+2026-09-29 02:07:16,808 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=148.67 ip=10.162.64.164
+2026-09-29 02:08:24,513 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=116.34 ip=10.176.30.205
+2026-09-29 02:09:32,890 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=43.06 ip=10.212.216.128
+2026-09-29 02:09:44,899 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=224.89 ip=203.76.46.47
+2026-09-29 02:11:14,710 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=93.29 ip=203.41.150.110
+2026-09-29 02:12:24,852 WARNING  [order-service] (ord-02) Disk usage above 80%
+2026-09-29 02:12:52,768 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=57.7 ip=203.29.133.108
+2026-09-29 02:13:44,202 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=76.46 ip=192.176.220.157
+2026-09-29 02:15:13,459 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=50.05 ip=172.216.87.161
+2026-09-29 02:15:26,813 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 02:16:51,530 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=60.6 ip=172.37.188.202
+2026-09-29 02:18:10,623 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=58.04 ip=203.173.146.223
+2026-09-29 02:19:05,476 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=54.88 ip=192.35.188.196
+2026-09-29 02:19:39,775 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=42.28 ip=203.158.16.170
+2026-09-29 02:20:24,979 INFO     [payment-service] (pay-02) Order created
+2026-09-29 02:21:20,920 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=159.09 ip=172.133.159.64
+2026-09-29 02:22:36,107 DEBUG    [api-gateway] (gw-01) Cache lookup completed
+2026-09-29 02:23:39,000 INFO     [api-gateway] (gw-01) Payment authorized
+2026-09-29 02:24:19,566 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 02:24:59,329 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=110.13 ip=10.7.249.226
+2026-09-29 02:26:30,078 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=321.59 ip=203.119.251.43
+2026-09-29 02:27:29,070 INFO     [order-service] (ord-02) Email queued
+2026-09-29 02:28:42,770 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=35.29 ip=192.51.23.15
+2026-09-29 02:28:56,604 INFO     [payment-service] (pay-02) Payment authorized
+2026-09-29 02:29:48,593 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=169.3 ip=10.177.247.158
+2026-09-29 02:31:25,543 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=304 duration_ms=177.27 ip=192.74.201.252
+2026-09-29 02:32:30,165 ERROR    [payment-service] (pay-02) Upstream service unavailable
+2026-09-29 02:32:40,352 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=66.46 ip=10.84.74.216
+2026-09-29 02:33:44,535 INFO     [payment-service] (pay-02) Cache warmed
+2026-09-29 02:34:37,198 DEBUG    [notification-service] (notif-01) Loaded configuration from environment
+2026-09-29 02:36:22,042 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=30.22 ip=10.19.101.158
+2026-09-29 02:36:45,397 WARNING  [api-gateway] (gw-02) Disk usage above 80%
+2026-09-29 02:38:15,933 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 02:38:55,426 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=117.39 ip=192.56.72.172
+2026-09-29 02:39:20,750 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=23.01 ip=172.73.13.240
+2026-09-29 02:41:01,559 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=403 duration_ms=332.94 ip=172.20.221.101
+2026-09-29 02:41:22,285 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=42.68 ip=203.169.127.194
+2026-09-29 02:42:39,844 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=126.75 ip=10.212.216.128
+2026-09-29 02:44:05,145 WARNING  [api-gateway] (gw-01) Disk usage above 80%
+2026-09-29 02:44:36,668 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=129.82 ip=172.232.183.52
+2026-09-29 02:45:17,961 WARNING  [order-service] (ord-02) request completed method=POST path=/api/orders status=404 duration_ms=48.54 ip=203.33.131.220
+2026-09-29 02:46:39,480 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=132.52 ip=203.76.46.47
+2026-09-29 02:47:45,076 WARNING  [notification-service] (notif-01) Cache miss ratio above threshold
+2026-09-29 02:48:22,609 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=73.44 ip=172.20.221.101
+2026-09-29 02:49:00,322 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=139.74 ip=203.255.71.98
+2026-09-29 02:50:33,852 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=46.24 ip=10.22.106.171
+2026-09-29 02:50:54,927 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=65.49 ip=203.249.49.140
+2026-09-29 02:52:17,317 ERROR    [payment-service] (pay-01) Database connection timeout
+2026-09-29 02:52:52,408 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=100.67 ip=203.246.245.132
+2026-09-29 02:54:09,920 WARNING  [payment-service] (pay-01) Disk usage above 80%
+2026-09-29 02:55:07,316 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 02:55:41,224 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=233.61 ip=203.109.24.230
+2026-09-29 02:57:12,382 WARNING  [order-service] (ord-02) Retrying upstream request
+2026-09-29 02:58:10,271 WARNING  [api-gateway] (gw-01) Slow query detected
+2026-09-29 02:59:02,556 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 03:00:07,924 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=107.49 ip=203.157.1.19
+2026-09-29 03:00:34,668 WARNING  [api-gateway] (gw-02) Retrying upstream request
+2026-09-29 03:01:33,229 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=109.27 ip=10.154.246.218
+2026-09-29 03:02:39,852 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=129.99 ip=10.192.140.55
+2026-09-29 03:04:05,956 INFO     [order-service] (ord-01) Email queued
+2026-09-29 03:05:08,678 ERROR    [api-gateway] (gw-02) Payment gateway returned 502
+2026-09-29 03:05:24,555 ERROR    [auth-service] (auth-01) Payment gateway returned 502
+2026-09-29 03:06:40,177 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=37.51 ip=10.42.50.197
+2026-09-29 03:07:17,176 WARNING  [order-service] (ord-01) request completed method=GET path=/api/orders status=404 duration_ms=152.94 ip=192.177.105.44
+2026-09-29 03:08:46,081 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=304 duration_ms=54.86 ip=172.133.159.64
+2026-09-29 03:09:31,619 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 03:10:15,725 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=213.09 ip=10.52.248.97
+2026-09-29 03:11:23,808 ERROR    [api-gateway] (gw-02) Upstream service unavailable
+2026-09-29 03:12:30,873 WARNING  [payment-service] (pay-02) Slow query detected
+2026-09-29 03:13:42,822 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=304 duration_ms=71.3 ip=203.184.9.108
+2026-09-29 03:14:35,124 INFO     [auth-service] (auth-01) User login succeeded
+2026-09-29 03:15:31,151 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=118.62 ip=10.218.103.26
+2026-09-29 03:16:05,892 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=304 duration_ms=67.32 ip=192.51.23.15
+2026-09-29 03:17:40,655 INFO     [order-service] (ord-03) Order created
+2026-09-29 03:18:09,819 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=151.51 ip=203.99.235.129
+2026-09-29 03:18:45,876 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=146.3 ip=203.242.14.206
+2026-09-29 03:20:03,115 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=76.34 ip=203.41.150.110
+2026-09-29 03:21:26,130 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=35.31 ip=203.33.131.220
+2026-09-29 03:22:24,503 DEBUG    [order-service] (ord-02) Cache lookup completed
+2026-09-29 03:22:44,309 INFO     [order-service] (ord-03) Email queued
+2026-09-29 03:24:04,675 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=131.33 ip=203.156.240.152
+2026-09-29 03:24:38,122 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=88.32 ip=192.9.23.106
+2026-09-29 03:25:47,101 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=61.68 ip=192.119.146.3
+2026-09-29 03:26:49,150 INFO     [auth-service] (auth-01) request completed method=POST path=/api/logout status=201 duration_ms=32.4 ip=203.99.235.129
+2026-09-29 03:28:01,575 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=94.95 ip=203.197.156.146
+2026-09-29 03:28:37,921 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=165.26 ip=10.212.216.128
+2026-09-29 03:29:42,108 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=53.77 ip=192.119.146.3
+2026-09-29 03:30:22,714 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=47.68 ip=203.151.140.32
+2026-09-29 03:31:34,710 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=295.61 ip=172.213.223.197
+2026-09-29 03:32:27,968 WARNING  [payment-service] (pay-02) Slow query detected
+2026-09-29 03:33:48,439 INFO     [auth-service] (auth-02) User login succeeded
+2026-09-29 03:34:29,676 ERROR    [payment-service] (pay-02) request completed method=POST path=/api/payments status=500 duration_ms=191.3 ip=192.217.165.88
+2026-09-29 03:35:33,264 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 03:36:02,942 INFO     [order-service] (ord-03) Payment authorized
+2026-09-29 03:36:59,482 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=43.18 ip=10.32.36.209
+2026-09-29 03:38:41,710 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=33.32 ip=172.101.177.241
+2026-09-29 03:39:24,863 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=78.0 ip=172.135.15.41
+2026-09-29 03:40:27,632 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=85.95 ip=172.213.223.197
+2026-09-29 03:41:03,047 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=266.11 ip=172.133.159.64
+2026-09-29 03:42:32,765 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 03:42:50,879 WARNING  [notification-service] (notif-01) request completed method=POST path=/api/notifications status=401 duration_ms=41.97 ip=203.28.171.66
+2026-09-29 03:43:50,975 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=121.62 ip=10.239.185.154
+2026-09-29 03:44:55,703 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=107.95 ip=172.37.188.202
+2026-09-29 03:46:10,741 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 03:46:50,084 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/health status=404 duration_ms=55.18 ip=203.95.205.161
+2026-09-29 03:48:17,769 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=80.35 ip=203.107.21.111
+2026-09-29 03:48:38,601 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 03:49:27,798 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=61.7 ip=192.51.23.15
+2026-09-29 03:50:48,524 ERROR    [api-gateway] (gw-02) Failed to publish message to queue
+2026-09-29 03:51:52,939 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products status=504 duration_ms=305.12 ip=192.136.61.140
+2026-09-29 03:52:21,134 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/search status=400 duration_ms=142.72 ip=192.25.178.164
+2026-09-29 03:53:50,443 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=400 duration_ms=52.9 ip=10.7.249.226
+2026-09-29 03:54:17,117 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=39.6 ip=203.15.147.227
+2026-09-29 03:55:17,075 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 03:56:10,423 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=166.74 ip=203.202.152.110
+2026-09-29 03:57:29,897 WARNING  [payment-service] (pay-02) Cache miss ratio above threshold
+2026-09-29 03:58:42,334 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=93.54 ip=172.181.209.136
+2026-09-29 03:59:57,838 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=76.73 ip=203.193.85.14
+2026-09-29 04:00:54,026 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=401 duration_ms=51.92 ip=203.107.21.111
+2026-09-29 04:01:14,863 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=193.09 ip=172.101.177.241
+2026-09-29 04:02:40,069 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=41.57 ip=192.228.36.21
+2026-09-29 04:03:04,515 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=400 duration_ms=214.05 ip=203.209.144.66
+2026-09-29 04:04:01,830 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=28.71 ip=10.212.216.128
+2026-09-29 04:05:10,712 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=49.47 ip=192.98.84.160
+2026-09-29 04:06:07,721 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 04:07:24,805 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 04:07:57,088 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 04:09:07,902 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 04:10:02,444 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=64.47 ip=203.32.155.207
+2026-09-29 04:11:27,622 INFO     [payment-service] (pay-02) Order created
+2026-09-29 04:11:49,138 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=287.39 ip=203.32.155.207
+2026-09-29 04:12:54,050 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/search status=404 duration_ms=84.73 ip=203.33.131.220
+2026-09-29 04:13:58,595 INFO     [auth-service] (auth-01) User login succeeded
+2026-09-29 04:15:11,893 INFO     [api-gateway] (gw-02) Payment authorized
+2026-09-29 04:15:38,389 INFO     [order-service] (ord-03) Cache warmed
+2026-09-29 04:16:40,422 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=156.05 ip=192.177.105.44
+2026-09-29 04:18:10,396 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=48.12 ip=10.22.106.171
+2026-09-29 04:18:24,590 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=59.01 ip=10.92.73.38
+2026-09-29 04:19:37,417 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=93.13 ip=192.175.108.23
+2026-09-29 04:20:11,832 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=64.29 ip=10.111.189.138
+2026-09-29 04:21:40,488 INFO     [auth-service] (auth-01) User login succeeded
+2026-09-29 04:22:49,908 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=24.28 ip=203.80.17.60
+2026-09-29 04:23:17,035 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=82.04 ip=172.34.74.137
+2026-09-29 04:24:20,595 INFO     [order-service] (ord-03) Payment authorized
+2026-09-29 04:25:52,854 ERROR    [order-service] (ord-01) Failed to publish message to queue
+2026-09-29 04:26:15,028 INFO     [auth-service] (auth-02) Email queued
+2026-09-29 04:27:35,983 WARNING  [payment-service] (pay-02) request completed method=POST path=/api/payments status=404 duration_ms=94.04 ip=172.1.209.62
+2026-09-29 04:27:54,734 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 04:29:12,294 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 04:30:05,852 WARNING  [order-service] (ord-03) Retrying upstream request
+2026-09-29 04:31:39,728 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=403 duration_ms=114.06 ip=10.171.200.245
+2026-09-29 04:32:36,172 INFO     [notification-service] (notif-01) Order created
+2026-09-29 04:32:39,856 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=105.01 ip=10.22.106.171
+2026-09-29 04:34:19,098 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=98.41 ip=203.193.85.14
+2026-09-29 04:35:23,012 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=403 duration_ms=71.81 ip=192.232.20.107
+2026-09-29 04:36:11,130 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 04:36:44,995 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 04:38:05,316 ERROR    [payment-service] (pay-01) Payment gateway returned 502
+2026-09-29 04:38:46,031 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 04:39:45,977 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 04:41:15,690 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=120.73 ip=203.243.23.201
+2026-09-29 04:41:44,645 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=20.64 ip=10.239.185.154
+2026-09-29 04:42:37,867 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=68.26 ip=10.43.14.216
+2026-09-29 04:43:30,002 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 04:44:31,381 INFO     [api-gateway] (gw-02) Cache warmed
+2026-09-29 04:45:54,980 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=79.23 ip=192.175.108.23
+2026-09-29 04:46:43,744 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 04:47:04,751 WARNING  [notification-service] (notif-01) Disk usage above 80%
+2026-09-29 04:48:28,955 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=79.91 ip=192.136.127.168
+2026-09-29 04:49:41,588 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=133.03 ip=203.15.147.227
+2026-09-29 04:50:06,561 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=304 duration_ms=54.51 ip=203.67.121.97
+2026-09-29 04:51:48,112 ERROR    [api-gateway] (gw-02) request completed method=GET path=/api/products status=502 duration_ms=1612.15 ip=10.154.246.218
+2026-09-29 04:52:31,729 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=143.55 ip=10.52.248.97
+2026-09-29 04:53:31,403 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=115.01 ip=192.75.248.174
+2026-09-29 04:54:34,400 WARNING  [payment-service] (pay-01) Disk usage above 80%
+2026-09-29 04:55:20,625 WARNING  [payment-service] (pay-01) Slow query detected
+2026-09-29 04:56:11,596 WARNING  [auth-service] (auth-02) Cache miss ratio above threshold
+2026-09-29 04:57:18,022 INFO     [payment-service] (pay-01) Order created
+2026-09-29 04:58:27,447 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=230.89 ip=10.44.75.235
+2026-09-29 04:58:56,372 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=304 duration_ms=143.11 ip=10.44.75.235
+2026-09-29 05:00:21,635 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 05:01:12,760 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 05:01:54,031 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=62.92 ip=192.190.210.239
+2026-09-29 05:02:48,011 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=57.16 ip=192.252.42.129
+2026-09-29 05:03:35,346 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=49.33 ip=10.136.79.209
+2026-09-29 05:04:41,580 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=39.66 ip=192.136.127.168
+2026-09-29 05:05:22,145 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=57.09 ip=203.57.211.46
+2026-09-29 05:06:15,559 INFO     [api-gateway] (gw-01) Payment authorized
+2026-09-29 05:07:30,875 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=234.41 ip=10.162.64.164
+2026-09-29 05:08:16,447 WARNING  [auth-service] (auth-01) Slow query detected
+2026-09-29 05:09:44,669 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=50.52 ip=203.184.9.108
+2026-09-29 05:10:21,969 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=80.99 ip=203.41.150.110
+2026-09-29 05:11:31,412 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=155.2 ip=172.154.167.248
+2026-09-29 05:12:09,956 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=59.01 ip=10.177.247.158
+2026-09-29 05:13:04,783 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=105.26 ip=203.159.4.234
+2026-09-29 05:14:46,601 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=62.19 ip=192.90.233.254
+2026-09-29 05:15:46,265 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=117.84 ip=10.166.87.1
+2026-09-29 05:16:26,222 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=42.73 ip=172.154.48.126
+2026-09-29 05:17:06,631 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=100.82 ip=203.21.197.196
+2026-09-29 05:18:23,363 WARNING  [order-service] (ord-01) Retrying upstream request
+2026-09-29 05:19:12,373 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=66.03 ip=203.9.217.42
+2026-09-29 05:20:13,202 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=64.78 ip=203.9.217.42
+2026-09-29 05:20:44,214 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=63.76 ip=192.176.220.157
+2026-09-29 05:21:39,904 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 05:23:19,898 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=39.47 ip=10.92.73.38
+2026-09-29 05:24:23,516 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 05:24:53,345 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=135.01 ip=203.80.17.60
+2026-09-29 05:25:51,201 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=304 duration_ms=104.52 ip=192.136.127.168
+2026-09-29 05:27:10,776 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 05:28:03,136 INFO     [order-service] (ord-03) Cache warmed
+2026-09-29 05:28:56,764 INFO     [api-gateway] (gw-02) User login succeeded
+2026-09-29 05:29:27,263 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/search status=401 duration_ms=89.2 ip=192.70.14.102
+2026-09-29 05:30:30,863 WARNING  [payment-service] (pay-01) Retrying upstream request
+2026-09-29 05:31:32,904 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=230.35 ip=172.181.209.136
+2026-09-29 05:33:05,406 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=119.42 ip=192.51.23.15
+2026-09-29 05:33:23,175 DEBUG    [notification-service] (notif-01) Loaded configuration from environment
+2026-09-29 05:34:39,083 WARNING  [api-gateway] (gw-02) Disk usage above 80%
+2026-09-29 05:35:49,034 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 05:36:31,167 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 05:37:22,407 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=50.7 ip=172.15.182.152
+2026-09-29 05:38:21,619 INFO     [auth-service] (auth-01) Cache warmed
+2026-09-29 05:39:27,857 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=304 duration_ms=88.56 ip=203.93.207.28
+2026-09-29 05:40:25,035 WARNING  [auth-service] (auth-01) Disk usage above 80%
+2026-09-29 05:41:21,845 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=61.27 ip=192.132.73.92
+2026-09-29 05:42:39,269 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=186.6 ip=192.228.36.21
+2026-09-29 05:43:34,501 INFO     [auth-service] (auth-02) Order created
+2026-09-29 05:44:36,241 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=52.69 ip=10.92.73.38
+2026-09-29 05:44:51,045 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 05:45:52,034 WARNING  [api-gateway] (gw-01) Retrying upstream request
+2026-09-29 05:46:56,405 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=131.46 ip=192.119.146.3
+2026-09-29 05:47:58,641 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=38.99 ip=192.68.136.223
+2026-09-29 05:49:06,377 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 05:50:16,783 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=89.87 ip=203.107.21.111
+2026-09-29 05:50:27,900 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=18.08 ip=203.173.146.223
+2026-09-29 05:51:23,062 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=153.47 ip=10.254.83.20
+2026-09-29 05:52:52,240 INFO     [auth-service] (auth-01) Payment authorized
+2026-09-29 05:53:23,591 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=71.39 ip=203.29.133.108
+2026-09-29 05:55:07,467 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=33.19 ip=192.166.105.234
+2026-09-29 05:55:27,303 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=138.8 ip=10.32.36.209
+2026-09-29 05:56:18,522 INFO     [notification-service] (notif-01) Order created
+2026-09-29 05:57:57,647 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=78.23 ip=203.4.148.153
+2026-09-29 05:58:43,025 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=53.84 ip=203.53.13.94
+2026-09-29 05:59:52,343 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=89.07 ip=192.228.36.21
+2026-09-29 06:00:35,822 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=182.18 ip=10.101.90.156
+2026-09-29 06:01:15,605 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=74.12 ip=203.212.139.240
+2026-09-29 06:02:10,663 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=81.61 ip=192.105.220.236
+2026-09-29 06:03:46,373 WARNING  [payment-service] (pay-01) Cache miss ratio above threshold
+2026-09-29 06:04:44,455 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=30.92 ip=10.156.133.179
+2026-09-29 06:05:00,755 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=27.9 ip=192.88.193.70
+2026-09-29 06:06:05,296 INFO     [auth-service] (auth-02) Order created
+2026-09-29 06:07:34,918 DEBUG    [order-service] (ord-01) Loaded configuration from environment
+2026-09-29 06:07:44,012 INFO     [payment-service] (pay-02) Cache warmed
+2026-09-29 06:09:19,251 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=188.69 ip=203.212.139.240
+2026-09-29 06:10:05,700 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 06:10:45,257 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=36.49 ip=192.225.121.175
+2026-09-29 06:12:05,686 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=169.19 ip=192.97.243.212
+2026-09-29 06:13:22,427 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 06:13:59,680 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=304 duration_ms=133.46 ip=192.9.23.106
+2026-09-29 06:14:41,278 INFO     [auth-service] (auth-02) Order created
+2026-09-29 06:16:06,638 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=90.17 ip=10.180.18.152
+2026-09-29 06:17:02,682 INFO     [order-service] (ord-01) Cache warmed
+2026-09-29 06:18:10,147 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=134.78 ip=192.85.79.155
+2026-09-29 06:18:38,309 INFO     [order-service] (ord-03) User login succeeded
+2026-09-29 06:20:07,957 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=304 duration_ms=61.79 ip=10.32.230.200
+2026-09-29 06:20:47,975 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=101.92 ip=10.239.185.154
+2026-09-29 06:21:13,101 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=56.77 ip=203.157.1.19
+2026-09-29 06:22:13,368 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=175.94 ip=192.19.209.243
+2026-09-29 06:23:06,313 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=304 duration_ms=119.33 ip=10.212.216.128
+2026-09-29 06:24:19,972 WARNING  [auth-service] (auth-02) request completed method=POST path=/api/login status=401 duration_ms=199.66 ip=10.218.103.26
+2026-09-29 06:25:21,703 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=66.49 ip=10.108.100.214
+2026-09-29 06:26:22,540 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=93.32 ip=192.119.146.3
+2026-09-29 06:27:36,251 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 06:28:00,148 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=138.36 ip=192.252.161.64
+2026-09-29 06:29:15,584 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=179.6 ip=172.175.211.174
+2026-09-29 06:30:35,632 INFO     [order-service] (ord-01) Cache warmed
+2026-09-29 06:31:24,882 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=142.23 ip=10.176.30.205
+2026-09-29 06:32:23,704 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=55.63 ip=172.73.13.240
+2026-09-29 06:32:51,472 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=289.73 ip=10.200.233.23
+2026-09-29 06:33:53,646 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=112.65 ip=10.42.50.197
+2026-09-29 06:34:51,597 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=70.51 ip=203.93.207.28
+2026-09-29 06:36:22,996 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=285.57 ip=192.74.201.252
+2026-09-29 06:36:27,864 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=85.12 ip=203.107.21.111
+2026-09-29 06:37:59,448 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=403 duration_ms=100.7 ip=203.107.21.111
+2026-09-29 06:39:14,163 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=29.49 ip=192.228.36.21
+2026-09-29 06:39:54,160 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=304 duration_ms=106.23 ip=192.35.188.196
+2026-09-29 06:40:34,059 INFO     [order-service] (ord-03) Order created
+2026-09-29 06:41:19,403 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=59.53 ip=203.15.147.227
+2026-09-29 06:42:22,352 WARNING  [api-gateway] (gw-02) Slow query detected
+2026-09-29 06:43:42,979 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 06:44:34,861 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 06:45:34,787 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=125.06 ip=203.202.152.110
+2026-09-29 06:46:46,260 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=145.18 ip=172.227.139.214
+2026-09-29 06:47:33,790 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=75.09 ip=172.37.188.202
+2026-09-29 06:48:54,835 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=403 duration_ms=96.36 ip=172.153.79.200
+2026-09-29 06:49:29,330 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=225.59 ip=10.111.189.138
+2026-09-29 06:50:14,042 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=404 duration_ms=63.38 ip=10.92.73.38
+2026-09-29 06:51:46,365 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 06:52:25,501 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=68.53 ip=203.204.141.135
+2026-09-29 06:53:44,087 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=95.41 ip=203.29.133.108
+2026-09-29 06:54:01,192 CRITICAL [api-gateway] (gw-02) Out of memory: killing worker
+2026-09-29 06:54:45,640 WARNING  [auth-service] (auth-02) Slow query detected
+2026-09-29 06:55:44,867 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=58.41 ip=10.192.140.55
+2026-09-29 06:57:34,210 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 06:57:56,027 ERROR    [auth-service] (auth-01) Failed to publish message to queue
+2026-09-29 06:58:49,761 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=103.56 ip=192.56.72.172
+2026-09-29 07:00:17,834 INFO     [order-service] (ord-02) User login succeeded
+2026-09-29 07:00:48,523 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=41.45 ip=203.87.225.188
+2026-09-29 07:02:03,224 WARNING  [api-gateway] (gw-01) Retrying upstream request
+2026-09-29 07:02:23,998 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=97.66 ip=192.228.36.21
+2026-09-29 07:03:33,668 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=60.1 ip=192.106.195.240
+2026-09-29 07:05:04,399 INFO     [order-service] (ord-03) Cache warmed
+2026-09-29 07:06:07,587 ERROR    [payment-service] (pay-02) request completed method=POST path=/api/payments status=503 duration_ms=236.88 ip=172.33.238.18
+2026-09-29 07:06:14,345 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=69.56 ip=203.243.23.201
+2026-09-29 07:07:26,971 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=59.27 ip=192.150.99.131
+2026-09-29 07:08:21,790 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=62.39 ip=192.25.178.164
+2026-09-29 07:09:59,877 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=403 duration_ms=84.66 ip=172.84.201.219
+2026-09-29 07:10:25,574 WARNING  [api-gateway] (gw-02) Slow query detected
+2026-09-29 07:11:21,111 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=304 duration_ms=295.84 ip=10.156.133.179
+2026-09-29 07:12:06,406 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=74.54 ip=172.184.105.132
+2026-09-29 07:13:33,484 INFO     [payment-service] (pay-01) Email queued
+2026-09-29 07:14:50,019 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=146.57 ip=192.75.248.174
+2026-09-29 07:15:17,234 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=114.4 ip=192.80.83.232
+2026-09-29 07:15:52,754 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=142.15 ip=172.118.250.148
+2026-09-29 07:17:20,388 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=47.55 ip=203.87.225.188
+2026-09-29 07:17:44,743 WARNING  [payment-service] (pay-01) Slow query detected
+2026-09-29 07:18:59,924 INFO     [order-service] (ord-03) Email queued
+2026-09-29 07:20:12,495 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=168.53 ip=192.121.8.8
+2026-09-29 07:20:38,317 INFO     [payment-service] (pay-02) Order created
+2026-09-29 07:22:28,364 ERROR    [order-service] (ord-03) request completed method=POST path=/api/orders status=500 duration_ms=1066.05 ip=172.73.13.240
+2026-09-29 07:23:26,489 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 07:23:36,313 INFO     [notification-service] (notif-01) Order created
+2026-09-29 07:24:54,163 INFO     [api-gateway] (gw-02) User login succeeded
+2026-09-29 07:26:19,243 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=189.01 ip=203.15.147.227
+2026-09-29 07:26:50,553 INFO     [auth-service] (auth-01) User login succeeded
+2026-09-29 07:27:54,369 WARNING  [auth-service] (auth-02) Retrying upstream request
+2026-09-29 07:28:54,403 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=58.43 ip=172.101.177.241
+2026-09-29 07:30:12,337 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=404 duration_ms=31.22 ip=203.209.144.66
+2026-09-29 07:30:50,389 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=36.85 ip=203.80.17.60
+2026-09-29 07:32:02,528 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=99.45 ip=203.202.152.110
+2026-09-29 07:32:58,658 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=53.28 ip=172.160.181.112
+2026-09-29 07:33:23,163 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=206.52 ip=192.186.218.76
+2026-09-29 07:34:44,350 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=85.54 ip=203.144.161.237
+2026-09-29 07:35:39,371 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=136.06 ip=203.107.21.111
+2026-09-29 07:36:22,308 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=103.36 ip=203.202.152.110
+2026-09-29 07:37:28,388 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=50.64 ip=192.119.146.3
+2026-09-29 07:37:58,480 ERROR    [notification-service] (notif-01) Payment gateway returned 502
+2026-09-29 07:39:37,878 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=98.39 ip=192.175.108.23
+2026-09-29 07:39:49,428 WARNING  [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=404 duration_ms=88.68 ip=192.203.26.90
+2026-09-29 07:41:03,113 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=65.33 ip=203.57.211.46
+2026-09-29 07:42:00,534 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 07:42:57,498 INFO     [payment-service] (pay-01) Order created
+2026-09-29 07:44:10,829 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=29.53 ip=203.33.71.228
+2026-09-29 07:45:15,541 WARNING  [order-service] (ord-02) Disk usage above 80%
+2026-09-29 07:45:42,777 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 07:46:40,024 WARNING  [order-service] (ord-03) request completed method=GET path=/api/orders status=429 duration_ms=64.39 ip=10.32.230.200
+2026-09-29 07:47:38,642 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=304 duration_ms=98.77 ip=203.33.71.228
+2026-09-29 07:48:59,812 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=64.96 ip=10.92.73.38
+2026-09-29 07:49:27,144 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 07:50:45,082 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=45.47 ip=10.23.138.212
+2026-09-29 07:51:43,860 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=462.92 ip=203.109.24.230
+2026-09-29 07:53:01,614 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=74.14 ip=192.19.209.243
+2026-09-29 07:54:08,607 WARNING  [order-service] (ord-01) Slow query detected
+2026-09-29 07:55:03,588 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=123.78 ip=192.25.178.164
+2026-09-29 07:55:47,535 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=123.26 ip=192.150.99.131
+2026-09-29 07:56:14,085 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=86.11 ip=10.156.133.179
+2026-09-29 07:57:34,036 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=166.79 ip=203.87.225.188
+2026-09-29 07:58:52,968 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=80.14 ip=203.33.131.220
+2026-09-29 07:59:23,548 DEBUG    [notification-service] (notif-01) Loaded configuration from environment
+2026-09-29 08:00:43,190 DEBUG    [auth-service] (auth-01) Cache lookup completed
+2026-09-29 08:01:24,763 INFO     [order-service] (ord-01) Order created
+2026-09-29 08:02:34,264 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=31.59 ip=203.190.52.183
+2026-09-29 08:03:44,847 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=127.24 ip=192.180.198.91
+2026-09-29 08:03:49,827 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=88.34 ip=203.15.147.227
+2026-09-29 08:04:55,342 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 08:06:38,490 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=304 duration_ms=133.72 ip=192.98.176.28
+2026-09-29 08:06:59,392 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=58.27 ip=192.74.201.252
+2026-09-29 08:08:28,304 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=97.36 ip=172.40.178.166
+2026-09-29 08:09:09,430 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=127.79 ip=203.209.144.66
+2026-09-29 08:10:05,863 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=306.07 ip=203.55.237.22
+2026-09-29 08:10:37,375 INFO     [order-service] (ord-02) Cache warmed
+2026-09-29 08:12:25,322 INFO     [order-service] (ord-01) User login succeeded
+2026-09-29 08:13:20,717 INFO     [auth-service] (auth-02) Email queued
+2026-09-29 08:13:40,536 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 08:14:31,207 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=168.43 ip=10.22.106.171
+2026-09-29 08:15:48,506 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=56.34 ip=192.253.174.150
+2026-09-29 08:17:00,980 ERROR    [notification-service] (notif-01) Failed to publish message to queue
+2026-09-29 08:17:35,935 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=41.39 ip=192.74.201.252
+2026-09-29 08:18:42,174 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=107.19 ip=203.112.178.130
+2026-09-29 08:19:35,266 WARNING  [api-gateway] (gw-02) Cache miss ratio above threshold
+2026-09-29 08:20:22,200 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=97.54 ip=10.200.233.23
+2026-09-29 08:21:27,043 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=82.4 ip=203.16.65.69
+2026-09-29 08:22:52,853 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=32.3 ip=192.166.105.234
+2026-09-29 08:23:15,557 INFO     [order-service] (ord-03) Order created
+2026-09-29 08:24:18,339 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=58.34 ip=172.102.74.236
+2026-09-29 08:25:10,611 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=106.16 ip=192.68.136.223
+2026-09-29 08:26:47,257 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=304 duration_ms=24.2 ip=192.136.61.140
+2026-09-29 08:27:22,954 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=63.13 ip=172.31.193.146
+2026-09-29 08:28:04,582 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 08:29:40,878 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=253.14 ip=10.9.169.221
+2026-09-29 08:30:35,746 WARNING  [auth-service] (auth-01) request completed method=POST path=/api/login status=400 duration_ms=69.22 ip=172.154.48.126
+2026-09-29 08:31:36,696 INFO     [order-service] (ord-01) Email queued
+2026-09-29 08:31:50,973 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=45.91 ip=192.155.216.82
+2026-09-29 08:33:10,996 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=69.75 ip=172.164.149.93
+2026-09-29 08:33:48,460 INFO     [auth-service] (auth-01) Order created
+2026-09-29 08:35:29,039 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=97.72 ip=172.55.228.180
+2026-09-29 08:35:42,201 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=250.34 ip=192.150.99.131
+2026-09-29 08:37:15,831 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=71.13 ip=203.219.90.136
+2026-09-29 08:38:20,377 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=53.19 ip=172.216.87.161
+2026-09-29 08:39:17,428 WARNING  [notification-service] (notif-01) Retrying upstream request
+2026-09-29 08:40:15,084 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=75.9 ip=10.239.185.154
+2026-09-29 08:40:29,229 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 08:41:43,917 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=297.27 ip=203.65.54.201
+2026-09-29 08:42:50,381 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=122.65 ip=10.254.83.20
+2026-09-29 08:43:54,713 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=92.8 ip=10.101.90.156
+2026-09-29 08:45:01,430 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=94.7 ip=203.109.24.230
+2026-09-29 08:45:28,016 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=138.33 ip=203.204.141.135
+2026-09-29 08:46:12,230 ERROR    [notification-service] (notif-01) Upstream service unavailable
+2026-09-29 08:47:28,208 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=83.19 ip=192.166.105.234
+2026-09-29 08:48:33,881 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=62.86 ip=203.95.205.161
+2026-09-29 08:49:53,230 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=304 duration_ms=59.83 ip=192.147.203.105
+2026-09-29 08:50:33,185 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=50.15 ip=203.16.65.69
+2026-09-29 08:51:41,276 INFO     [auth-service] (auth-02) Email queued
+2026-09-29 08:52:16,534 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=57.1 ip=192.70.14.102
+2026-09-29 08:53:33,177 INFO     [payment-service] (pay-02) Email queued
+2026-09-29 08:54:02,596 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=79.48 ip=172.154.48.126
+2026-09-29 08:55:22,587 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=368.66 ip=192.222.85.97
+2026-09-29 08:55:57,644 INFO     [payment-service] (pay-02) Order created
+2026-09-29 08:57:22,480 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=193.83 ip=10.156.133.179
+2026-09-29 08:57:38,616 INFO     [api-gateway] (gw-02) Cache warmed
+2026-09-29 08:58:52,658 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/health status=404 duration_ms=50.36 ip=10.19.101.158
+2026-09-29 08:59:49,512 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 09:01:18,591 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 09:02:09,717 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=123.44 ip=203.158.16.170
+2026-09-29 09:03:07,877 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 09:03:54,483 INFO     [auth-service] (auth-01) User login succeeded
+2026-09-29 09:04:51,517 WARNING  [notification-service] (notif-01) Disk usage above 80%
+2026-09-29 09:05:31,865 WARNING  [auth-service] (auth-01) request completed method=POST path=/api/login status=429 duration_ms=206.96 ip=203.95.205.161
+2026-09-29 09:06:51,795 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 09:07:54,379 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=133.35 ip=172.137.79.218
+2026-09-29 09:08:18,465 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=304 duration_ms=79.52 ip=203.55.237.22
+2026-09-29 09:09:54,650 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=49.13 ip=203.109.24.230
+2026-09-29 09:10:35,798 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=209.87 ip=10.180.78.128
+2026-09-29 09:11:42,800 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=71.34 ip=172.33.238.18
+2026-09-29 09:12:25,610 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=200.29 ip=203.33.131.220
+2026-09-29 09:13:01,222 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=76.29 ip=10.42.50.197
+2026-09-29 09:14:19,499 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=404 duration_ms=43.45 ip=192.106.195.240
+2026-09-29 09:14:59,710 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=500 duration_ms=198.12 ip=172.101.177.241
+2026-09-29 09:16:03,357 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=115.62 ip=192.20.90.70
+2026-09-29 09:17:22,377 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=117.16 ip=192.222.85.97
+2026-09-29 09:18:02,083 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=140.55 ip=203.202.152.110
+2026-09-29 09:19:24,175 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 09:20:21,789 INFO     [order-service] (ord-03) Email queued
+2026-09-29 09:21:01,447 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=80.49 ip=172.227.139.214
+2026-09-29 09:21:52,662 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=80.04 ip=192.35.188.196
+2026-09-29 09:23:01,717 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=46.46 ip=172.1.209.62
+2026-09-29 09:24:23,475 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=190.28 ip=172.55.228.180
+2026-09-29 09:24:32,783 INFO     [api-gateway] (gw-02) Payment authorized
+2026-09-29 09:25:48,324 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=130.73 ip=203.242.14.206
+2026-09-29 09:26:25,698 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=58.1 ip=172.160.181.112
+2026-09-29 09:27:22,569 INFO     [payment-service] (pay-02) Email queued
+2026-09-29 09:28:35,927 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=62.49 ip=172.242.238.82
+2026-09-29 09:29:27,530 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=304 duration_ms=96.19 ip=172.137.79.218
+2026-09-29 09:30:28,321 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=198.0 ip=172.154.48.126
+2026-09-29 09:31:25,820 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=152.69 ip=192.225.121.175
+2026-09-29 09:32:26,559 WARNING  [payment-service] (pay-02) Cache miss ratio above threshold
+2026-09-29 09:33:28,627 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=73.24 ip=172.135.15.41
+2026-09-29 09:34:14,332 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=36.55 ip=172.216.87.161
+2026-09-29 09:35:32,286 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=57.59 ip=10.9.169.221
+2026-09-29 09:36:12,095 INFO     [payment-service] (pay-02) Cache warmed
+2026-09-29 09:37:40,778 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=81.04 ip=172.20.221.101
+2026-09-29 09:38:20,227 INFO     [api-gateway] (gw-01) Payment authorized
+2026-09-29 09:39:48,864 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=142.31 ip=10.180.18.152
+2026-09-29 09:40:21,786 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=503 duration_ms=104.62 ip=203.246.245.132
+2026-09-29 09:41:17,346 ERROR    [api-gateway] (gw-01) Payment gateway returned 502
+2026-09-29 09:41:54,398 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=41.52 ip=192.217.165.88
+2026-09-29 09:42:49,809 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=108.2 ip=203.157.1.19
+2026-09-29 09:43:41,462 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=145.63 ip=172.37.188.202
+2026-09-29 09:45:12,619 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=137.84 ip=10.19.101.158
+2026-09-29 09:45:39,684 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=66.29 ip=172.55.228.180
+2026-09-29 09:47:26,852 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 09:48:27,721 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=93.44 ip=203.9.217.42
+2026-09-29 09:48:50,246 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/health status=400 duration_ms=239.93 ip=192.9.23.106
+2026-09-29 09:50:17,285 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=349.89 ip=10.136.81.9
+2026-09-29 09:51:20,169 INFO     [payment-service] (pay-01) Email queued
+2026-09-29 09:52:06,539 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 09:53:13,112 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=31.66 ip=172.21.136.129
+2026-09-29 09:53:50,843 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=51.93 ip=192.225.121.175
+2026-09-29 09:54:29,701 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=304 duration_ms=123.78 ip=203.184.9.108
+2026-09-29 09:55:25,130 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=115.97 ip=172.37.188.202
+2026-09-29 09:56:11,941 WARNING  [api-gateway] (gw-01) Retrying upstream request
+2026-09-29 09:58:01,735 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=229.38 ip=203.219.90.136
+2026-09-29 09:58:43,907 CRITICAL [api-gateway] (gw-02) Database primary unreachable
+2026-09-29 09:59:35,163 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=429 duration_ms=43.69 ip=203.16.65.69
+2026-09-29 09:59:59,454 ERROR    [order-service] (ord-02) Upstream service unavailable
+2026-09-29 10:01:28,074 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=57.78 ip=192.35.188.196
+2026-09-29 10:02:36,364 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=55.6 ip=10.166.87.1
+2026-09-29 10:03:07,609 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=404 duration_ms=82.04 ip=172.232.183.52
+2026-09-29 10:04:02,539 DEBUG    [payment-service] (pay-02) Cache lookup completed
+2026-09-29 10:05:32,469 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=41.23 ip=203.109.24.230
+2026-09-29 10:06:22,915 INFO     [notification-service] (notif-01) Order created
+2026-09-29 10:07:13,327 ERROR    [auth-service] (auth-01) Unhandled exception in request handler
+2026-09-29 10:07:52,743 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=266.54 ip=192.68.136.223
+2026-09-29 10:08:49,468 INFO     [api-gateway] (gw-02) Cache warmed
+2026-09-29 10:10:27,999 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 10:10:48,089 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=60.4 ip=203.16.65.69
+2026-09-29 10:12:07,542 WARNING  [notification-service] (notif-01) Cache miss ratio above threshold
+2026-09-29 10:12:39,445 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products status=500 duration_ms=224.87 ip=203.144.161.237
+2026-09-29 10:14:16,710 INFO     [auth-service] (auth-01) Cache warmed
+2026-09-29 10:15:07,910 DEBUG    [order-service] (ord-03) Cache lookup completed
+2026-09-29 10:15:27,580 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=70.22 ip=192.203.26.90
+2026-09-29 10:17:13,789 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=205.82 ip=203.249.49.140
+2026-09-29 10:17:58,143 INFO     [auth-service] (auth-01) Payment authorized
+2026-09-29 10:18:48,858 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=163.72 ip=10.52.248.97
+2026-09-29 10:19:43,285 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=75.87 ip=203.89.104.78
+2026-09-29 10:20:36,225 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=156.08 ip=203.107.21.111
+2026-09-29 10:21:19,368 WARNING  [payment-service] (pay-01) Retrying upstream request
+2026-09-29 10:22:11,799 WARNING  [api-gateway] (gw-02) Disk usage above 80%
+2026-09-29 10:23:47,644 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=54.87 ip=192.85.33.203
+2026-09-29 10:24:21,975 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=88.94 ip=10.169.246.68
+2026-09-29 10:25:12,060 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=257.0 ip=10.162.64.164
+2026-09-29 10:26:27,638 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=56.87 ip=172.21.136.129
+2026-09-29 10:27:34,926 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 10:28:39,667 INFO     [order-service] (ord-03) Email queued
+2026-09-29 10:29:22,219 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=401 duration_ms=71.59 ip=10.176.30.205
+2026-09-29 10:29:53,507 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=94.24 ip=172.84.201.219
+2026-09-29 10:31:36,128 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/search status=401 duration_ms=281.68 ip=192.66.228.11
+2026-09-29 10:32:04,616 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=97.16 ip=203.59.3.24
+2026-09-29 10:33:18,566 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=33.74 ip=172.160.181.112
+2026-09-29 10:34:04,284 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=98.76 ip=192.222.85.97
+2026-09-29 10:35:11,872 ERROR    [notification-service] (notif-01) Failed to publish message to queue
+2026-09-29 10:36:03,720 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=294.12 ip=192.70.14.102
+2026-09-29 10:36:57,720 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=100.62 ip=10.176.30.205
+2026-09-29 10:37:55,491 ERROR    [notification-service] (notif-01) request completed method=POST path=/api/notifications status=500 duration_ms=207.81 ip=10.61.125.66
+2026-09-29 10:39:10,870 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=71.99 ip=192.252.161.64
+2026-09-29 10:39:48,370 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=87.88 ip=203.109.24.230
+2026-09-29 10:41:07,793 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=79.89 ip=10.176.30.205
+2026-09-29 10:41:52,057 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=84.92 ip=203.16.65.69
+2026-09-29 10:43:08,573 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=189.92 ip=192.176.220.157
+2026-09-29 10:43:15,174 WARNING  [api-gateway] (gw-01) Retrying upstream request
+2026-09-29 10:45:01,833 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=52.47 ip=192.186.218.76
+2026-09-29 10:45:49,764 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=304 duration_ms=68.63 ip=10.162.64.164
+2026-09-29 10:46:04,582 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=52.45 ip=192.137.222.101
+2026-09-29 10:47:18,297 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=179.8 ip=192.217.165.88
+2026-09-29 10:48:37,323 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=77.74 ip=192.75.248.174
+2026-09-29 10:49:09,638 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=304 duration_ms=43.68 ip=192.56.72.172
+2026-09-29 10:50:21,793 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=403 duration_ms=56.03 ip=203.173.146.223
+2026-09-29 10:51:40,251 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=110.57 ip=172.1.209.62
+2026-09-29 10:52:46,220 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=190.72 ip=192.74.201.252
+2026-09-29 10:53:41,466 INFO     [api-gateway] (gw-01) Payment authorized
+2026-09-29 10:54:08,139 INFO     [payment-service] (pay-02) Payment authorized
+2026-09-29 10:55:26,343 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=153.74 ip=10.42.50.197
+2026-09-29 10:56:31,332 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 10:56:39,326 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=49.23 ip=172.131.122.254
+2026-09-29 10:58:16,349 DEBUG    [order-service] (ord-01) Cache lookup completed
+2026-09-29 10:59:00,503 WARNING  [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=404 duration_ms=166.25 ip=10.10.149.179
+2026-09-29 10:59:44,761 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=207.25 ip=192.98.84.160
+2026-09-29 11:00:41,368 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=102.91 ip=10.177.97.165
+2026-09-29 11:02:09,431 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=115.61 ip=172.153.79.200
+2026-09-29 11:02:25,702 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=14.8 ip=192.175.108.23
+2026-09-29 11:04:02,673 INFO     [order-service] (ord-02) Order created
+2026-09-29 11:04:39,451 INFO     [notification-service] (notif-01) Order created
+2026-09-29 11:05:37,248 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=95.52 ip=10.15.66.35
+2026-09-29 11:06:25,185 INFO     [auth-service] (auth-01) Cache warmed
+2026-09-29 11:07:41,203 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=118.97 ip=192.225.121.175
+2026-09-29 11:08:11,791 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=79.44 ip=10.156.133.179
+2026-09-29 11:09:26,186 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=69.43 ip=192.68.136.223
+2026-09-29 11:10:26,737 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=67.26 ip=10.231.125.102
+2026-09-29 11:11:23,712 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 11:12:47,944 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=102.58 ip=192.68.136.223
+2026-09-29 11:13:15,090 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=58.19 ip=192.98.176.28
+2026-09-29 11:14:43,075 WARNING  [auth-service] (auth-02) request completed method=POST path=/api/login status=401 duration_ms=156.05 ip=192.25.178.164
+2026-09-29 11:14:53,316 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=304 duration_ms=32.24 ip=203.109.24.230
+2026-09-29 11:16:41,807 INFO     [auth-service] (auth-01) Order created
+2026-09-29 11:17:22,475 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 11:18:27,474 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=50.09 ip=203.212.139.240
+2026-09-29 11:18:50,830 WARNING  [payment-service] (pay-01) Slow query detected
+2026-09-29 11:20:29,416 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 11:20:53,087 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=97.29 ip=192.175.108.23
+2026-09-29 11:21:50,851 DEBUG    [auth-service] (auth-02) Loaded configuration from environment
+2026-09-29 11:23:06,434 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=51.4 ip=10.2.170.37
+2026-09-29 11:23:34,434 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=116.93 ip=203.157.1.19
+2026-09-29 11:24:41,437 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=91.77 ip=192.19.112.130
+2026-09-29 11:25:35,251 WARNING  [order-service] (ord-03) Disk usage above 80%
+2026-09-29 11:27:03,271 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=82.12 ip=172.181.209.136
+2026-09-29 11:28:05,062 INFO     [payment-service] (pay-02) Payment authorized
+2026-09-29 11:28:20,818 INFO     [order-service] (ord-03) Cache warmed
+2026-09-29 11:29:30,743 DEBUG    [order-service] (ord-01) Cache lookup completed
+2026-09-29 11:30:16,484 INFO     [auth-service] (auth-01) request completed method=POST path=/api/logout status=201 duration_ms=81.82 ip=10.239.185.154
+2026-09-29 11:31:36,676 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=51.81 ip=10.2.170.37
+2026-09-29 11:32:13,018 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=56.3 ip=10.52.248.97
+2026-09-29 11:33:51,732 INFO     [order-service] (ord-03) User login succeeded
+2026-09-29 11:34:06,686 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=39.32 ip=192.164.234.69
+2026-09-29 11:35:11,670 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=73.45 ip=10.176.30.205
+2026-09-29 11:36:31,987 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=73.67 ip=203.190.52.183
+2026-09-29 11:37:23,555 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=44.99 ip=192.80.83.232
+2026-09-29 11:38:15,393 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=83.51 ip=203.241.142.224
+2026-09-29 11:39:03,090 WARNING  [payment-service] (pay-02) request completed method=POST path=/api/payments status=429 duration_ms=260.61 ip=10.176.30.205
+2026-09-29 11:40:45,873 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=41.29 ip=172.137.79.218
+2026-09-29 11:41:05,032 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=88.35 ip=203.16.65.69
+2026-09-29 11:41:54,361 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=108.05 ip=192.203.26.90
+2026-09-29 11:42:58,056 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=432.71 ip=203.170.71.34
+2026-09-29 11:44:00,369 INFO     [api-gateway] (gw-02) Cache warmed
+2026-09-29 11:45:27,396 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=103.26 ip=10.15.66.35
+2026-09-29 11:45:50,270 INFO     [notification-service] (notif-01) Order created
+2026-09-29 11:46:37,048 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=173.17 ip=203.212.139.240
+2026-09-29 11:47:36,100 INFO     [order-service] (ord-02) User login succeeded
+2026-09-29 11:48:36,739 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=304 duration_ms=153.44 ip=10.10.149.179
+2026-09-29 11:49:57,644 ERROR    [notification-service] (notif-01) Database connection timeout
+2026-09-29 11:50:36,201 INFO     [order-service] (ord-03) User login succeeded
+2026-09-29 11:51:54,814 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=191.71 ip=192.177.105.44
+2026-09-29 11:52:42,406 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=429 duration_ms=112.18 ip=203.183.64.25
+2026-09-29 11:53:40,280 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=54.14 ip=192.51.23.15
+2026-09-29 11:54:58,677 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=100.27 ip=192.252.42.129
+2026-09-29 11:55:22,616 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=138.7 ip=10.2.170.37
+2026-09-29 11:56:35,800 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=84.53 ip=203.212.139.240
+2026-09-29 11:57:46,225 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=57.66 ip=203.173.146.223
+2026-09-29 11:58:29,298 WARNING  [payment-service] (pay-01) Disk usage above 80%
+2026-09-29 11:59:29,037 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 12:00:42,899 WARNING  [notification-service] (notif-01) Slow query detected
+2026-09-29 12:01:37,318 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=98.7 ip=203.158.16.170
+2026-09-29 12:02:22,253 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=400 duration_ms=63.79 ip=172.118.250.148
+2026-09-29 12:03:25,019 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 12:04:28,783 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=92.62 ip=10.156.133.179
+2026-09-29 12:04:48,513 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=94.31 ip=10.52.248.97
+2026-09-29 12:06:33,042 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=48.14 ip=10.231.125.102
+2026-09-29 12:06:57,716 INFO     [order-service] (ord-01) User login succeeded
+2026-09-29 12:08:06,818 ERROR    [api-gateway] (gw-02) Upstream service unavailable
+2026-09-29 12:08:48,820 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=91.24 ip=10.212.216.128
+2026-09-29 12:09:52,949 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=113.93 ip=172.184.105.132
+2026-09-29 12:10:41,900 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=191.64 ip=10.111.189.138
+2026-09-29 12:11:36,810 INFO     [order-service] (ord-01) User login succeeded
+2026-09-29 12:12:48,849 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=403 duration_ms=44.2 ip=10.52.248.97
+2026-09-29 12:13:54,243 WARNING  [auth-service] (auth-02) Slow query detected
+2026-09-29 12:14:36,601 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 12:16:16,224 ERROR    [api-gateway] (gw-02) Upstream service unavailable
+2026-09-29 12:17:02,971 INFO     [notification-service] (notif-01) Order created
+2026-09-29 12:17:21,240 WARNING  [api-gateway] (gw-02) Cache miss ratio above threshold
+2026-09-29 12:18:46,359 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=110.38 ip=203.33.131.220
+2026-09-29 12:19:35,247 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=429 duration_ms=134.33 ip=10.40.214.146
+2026-09-29 12:20:22,530 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=110.33 ip=192.105.220.236
+2026-09-29 12:21:49,893 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=96.55 ip=172.118.250.148
+2026-09-29 12:22:18,922 CRITICAL [notification-service] (notif-01) Out of memory: killing worker
+2026-09-29 12:23:17,691 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=96.19 ip=172.21.136.129
+2026-09-29 12:24:42,361 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=130.61 ip=203.246.245.132
+2026-09-29 12:25:47,581 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=101.06 ip=10.176.30.205
+2026-09-29 12:26:03,098 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=90.22 ip=10.40.214.146
+2026-09-29 12:26:55,389 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=89.33 ip=192.35.188.196
+2026-09-29 12:27:59,591 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=108.08 ip=172.101.177.241
+2026-09-29 12:28:57,875 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=149.41 ip=172.34.74.137
+2026-09-29 12:30:07,709 INFO     [payment-service] (pay-02) Email queued
+2026-09-29 12:31:14,234 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 12:31:42,538 WARNING  [order-service] (ord-01) Disk usage above 80%
+2026-09-29 12:33:33,812 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=97.15 ip=192.85.79.155
+2026-09-29 12:34:23,145 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=185.41 ip=192.19.209.243
+2026-09-29 12:35:04,798 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=93.52 ip=172.184.105.132
+2026-09-29 12:35:58,884 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=72.24 ip=203.80.144.152
+2026-09-29 12:37:11,263 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=51.06 ip=192.217.165.88
+2026-09-29 12:37:51,523 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=136.24 ip=172.154.48.126
+2026-09-29 12:38:29,467 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=82.46 ip=10.9.169.221
+2026-09-29 12:39:47,944 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=94.51 ip=192.97.243.212
+2026-09-29 12:40:42,894 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=146.78 ip=172.232.183.52
+2026-09-29 12:41:38,164 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=49.74 ip=192.164.234.69
+2026-09-29 12:42:46,137 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=65.94 ip=203.32.155.207
+2026-09-29 12:43:22,873 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 12:45:05,328 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=46.56 ip=10.254.83.20
+2026-09-29 12:45:46,292 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=182.15 ip=10.61.125.66
+2026-09-29 12:46:51,552 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=410.11 ip=203.170.71.34
+2026-09-29 12:47:20,170 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 12:48:15,219 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=105.33 ip=203.249.49.140
+2026-09-29 12:49:39,632 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=94.5 ip=203.159.4.234
+2026-09-29 12:50:13,199 INFO     [order-service] (ord-01) Payment authorized
+2026-09-29 12:51:25,710 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=158.57 ip=203.33.71.228
+2026-09-29 12:52:33,089 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=40.3 ip=192.228.36.21
+2026-09-29 12:53:29,489 WARNING  [notification-service] (notif-01) Disk usage above 80%
+2026-09-29 12:54:37,203 WARNING  [order-service] (ord-03) Slow query detected
+2026-09-29 12:55:13,337 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=252.83 ip=203.55.237.22
+2026-09-29 12:56:33,566 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=304 duration_ms=41.94 ip=192.186.218.76
+2026-09-29 12:56:42,966 INFO     [order-service] (ord-03) Payment authorized
+2026-09-29 12:57:38,228 INFO     [order-service] (ord-02) Cache warmed
+2026-09-29 12:59:10,276 WARNING  [auth-service] (auth-01) Disk usage above 80%
+2026-09-29 13:00:02,662 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=160.44 ip=10.7.249.226
+2026-09-29 13:01:05,890 WARNING  [order-service] (ord-01) Slow query detected
+2026-09-29 13:02:20,319 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=46.67 ip=172.154.167.248
+2026-09-29 13:02:24,287 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=56.56 ip=203.170.71.34
+2026-09-29 13:03:56,137 INFO     [payment-service] (pay-02) Order created
+2026-09-29 13:04:31,937 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=124.07 ip=192.80.83.232
+2026-09-29 13:05:51,819 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 13:06:23,001 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=304 duration_ms=69.4 ip=10.2.170.37
+2026-09-29 13:07:59,612 ERROR    [order-service] (ord-03) request completed method=POST path=/api/orders status=500 duration_ms=159.42 ip=192.97.243.212
+2026-09-29 13:08:47,516 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=82.48 ip=172.184.105.132
+2026-09-29 13:09:44,030 INFO     [api-gateway] (gw-02) User login succeeded
+2026-09-29 13:10:32,896 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=96.89 ip=10.22.106.171
+2026-09-29 13:11:11,772 WARNING  [notification-service] (notif-01) Retrying upstream request
+2026-09-29 13:12:00,397 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=22.37 ip=192.178.148.77
+2026-09-29 13:12:59,625 INFO     [payment-service] (pay-01) Order created
+2026-09-29 13:14:37,832 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=18.93 ip=203.57.211.46
+2026-09-29 13:15:09,124 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=101.25 ip=172.73.13.240
+2026-09-29 13:16:34,746 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=103.12 ip=203.9.217.42
+2026-09-29 13:17:26,595 DEBUG    [notification-service] (notif-01) Cache lookup completed
+2026-09-29 13:17:56,228 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=48.53 ip=10.9.169.221
+2026-09-29 13:19:35,100 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=47.31 ip=192.150.99.131
+2026-09-29 13:19:42,063 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=276.38 ip=172.242.238.82
+2026-09-29 13:21:28,683 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=500 duration_ms=582.15 ip=10.32.230.200
+2026-09-29 13:21:38,496 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=61.63 ip=203.204.141.135
+2026-09-29 13:23:04,815 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=120.91 ip=203.21.197.196
+2026-09-29 13:24:05,448 WARNING  [order-service] (ord-03) Slow query detected
+2026-09-29 13:25:09,899 INFO     [api-gateway] (gw-01) Order created
+2026-09-29 13:26:14,769 ERROR    [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=500 duration_ms=286.74 ip=192.75.248.174
+2026-09-29 13:27:10,615 INFO     [order-service] (ord-01) Payment authorized
+2026-09-29 13:28:00,065 WARNING  [auth-service] (auth-01) request completed method=POST path=/api/logout status=403 duration_ms=57.68 ip=10.169.246.68
+2026-09-29 13:28:34,874 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=49.97 ip=203.55.237.22
+2026-09-29 13:30:06,986 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 13:30:57,865 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=34.9 ip=172.153.79.200
+2026-09-29 13:32:03,867 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=58.09 ip=10.42.50.197
+2026-09-29 13:32:54,357 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=114.43 ip=10.22.106.171
+2026-09-29 13:33:13,405 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=160.97 ip=10.7.249.226
+2026-09-29 13:34:10,818 ERROR    [payment-service] (pay-02) request completed method=POST path=/api/payments status=504 duration_ms=206.29 ip=10.92.73.38
+2026-09-29 13:35:21,965 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=97.22 ip=192.155.216.82
+2026-09-29 13:36:44,506 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=134.76 ip=10.162.156.242
+2026-09-29 13:36:57,945 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=21.69 ip=192.51.23.15
+2026-09-29 13:38:34,949 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=208.15 ip=203.173.146.223
+2026-09-29 13:38:57,362 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 13:40:38,925 INFO     [auth-service] (auth-02) User login succeeded
+2026-09-29 13:41:08,194 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=121.62 ip=192.252.161.64
+2026-09-29 13:42:39,688 WARNING  [order-service] (ord-03) Retrying upstream request
+2026-09-29 13:43:34,839 INFO     [order-service] (ord-01) Order created
+2026-09-29 13:44:35,815 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=126.32 ip=10.177.97.165
+2026-09-29 13:44:40,534 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=259.48 ip=203.29.133.108
+2026-09-29 13:45:53,439 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=111.97 ip=203.144.161.237
+2026-09-29 13:47:17,479 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=304 duration_ms=252.65 ip=172.73.13.240
+2026-09-29 13:47:30,338 INFO     [order-service] (ord-01) Order created
+2026-09-29 13:48:55,284 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=22.34 ip=172.21.136.129
+2026-09-29 13:49:33,935 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=63.07 ip=172.231.227.107
+2026-09-29 13:50:51,668 INFO     [order-service] (ord-01) User login succeeded
+2026-09-29 13:51:43,995 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 13:52:33,341 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=110.45 ip=192.74.201.252
+2026-09-29 13:53:36,302 INFO     [auth-service] (auth-01) User login succeeded
+2026-09-29 13:54:56,034 ERROR    [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=500 duration_ms=326.94 ip=203.33.131.220
+2026-09-29 13:55:31,446 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=155.98 ip=172.33.238.18
+2026-09-29 13:56:11,834 WARNING  [auth-service] (auth-01) Disk usage above 80%
+2026-09-29 13:57:29,795 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 13:58:38,459 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=98.37 ip=192.253.174.150
+2026-09-29 13:59:13,924 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=50.84 ip=10.84.74.216
+2026-09-29 14:00:48,530 WARNING  [order-service] (ord-03) Disk usage above 80%
+2026-09-29 14:01:21,904 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=61.62 ip=203.242.14.206
+2026-09-29 14:02:39,684 INFO     [auth-service] (auth-02) User login succeeded
+2026-09-29 14:03:29,260 INFO     [api-gateway] (gw-02) Email queued
+2026-09-29 14:04:19,649 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=89.57 ip=192.166.105.234
+2026-09-29 14:05:12,389 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=113.0 ip=203.4.148.153
+2026-09-29 14:06:01,358 ERROR    [auth-service] (auth-02) Payment gateway returned 502
+2026-09-29 14:07:16,491 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=144.76 ip=203.87.225.188
+2026-09-29 14:08:25,835 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 14:08:41,795 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 14:10:07,543 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=70.29 ip=10.239.185.154
+2026-09-29 14:10:57,711 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=55.56 ip=192.136.61.140
+2026-09-29 14:12:03,690 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=40.69 ip=203.246.245.132
+2026-09-29 14:12:36,146 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=55.78 ip=172.50.153.5
+2026-09-29 14:13:33,442 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 14:15:06,122 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 14:15:53,867 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=81.26 ip=203.197.156.146
+2026-09-29 14:17:03,852 INFO     [order-service] (ord-03) Order created
+2026-09-29 14:17:51,419 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=94.08 ip=203.89.104.78
+2026-09-29 14:19:05,475 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=62.9 ip=10.176.30.205
+2026-09-29 14:19:34,416 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=58.16 ip=203.29.133.108
+2026-09-29 14:20:31,393 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=99.79 ip=203.243.23.201
+2026-09-29 14:21:51,753 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=389.24 ip=203.28.171.66
+2026-09-29 14:22:03,830 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 14:23:15,379 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=119.81 ip=192.186.218.76
+2026-09-29 14:24:02,928 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=118.52 ip=192.178.148.77
+2026-09-29 14:25:51,954 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=65.69 ip=192.98.176.28
+2026-09-29 14:26:09,629 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=121.46 ip=192.97.51.102
+2026-09-29 14:27:43,285 ERROR    [auth-service] (auth-02) Database connection timeout
+2026-09-29 14:28:46,703 WARNING  [auth-service] (auth-02) Slow query detected
+2026-09-29 14:29:27,737 INFO     [auth-service] (auth-01) Email queued
+2026-09-29 14:30:01,398 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 14:31:17,805 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=264.22 ip=10.10.149.179
+2026-09-29 14:31:41,060 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=80.41 ip=10.44.75.235
+2026-09-29 14:32:57,339 WARNING  [order-service] (ord-02) Disk usage above 80%
+2026-09-29 14:33:42,045 ERROR    [api-gateway] (gw-01) Unhandled exception in request handler
+2026-09-29 14:34:43,028 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=69.45 ip=203.107.21.111
+2026-09-29 14:35:50,597 ERROR    [order-service] (ord-01) request completed method=GET path=/api/orders status=502 duration_ms=301.33 ip=203.242.14.206
+2026-09-29 14:36:33,052 INFO     [api-gateway] (gw-02) Email queued
+2026-09-29 14:37:56,833 INFO     [auth-service] (auth-01) Email queued
+2026-09-29 14:39:12,210 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=304 duration_ms=15.33 ip=172.37.188.202
+2026-09-29 14:40:13,444 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=54.08 ip=192.70.14.102
+2026-09-29 14:40:43,763 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=304 duration_ms=67.53 ip=203.80.17.60
+2026-09-29 14:41:24,147 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=40.15 ip=10.40.214.146
+2026-09-29 14:43:07,841 WARNING  [order-service] (ord-02) request completed method=GET path=/api/orders status=429 duration_ms=89.19 ip=192.190.210.239
+2026-09-29 14:44:01,669 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 14:44:39,887 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=92.05 ip=203.76.46.47
+2026-09-29 14:45:52,906 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=144.68 ip=172.102.74.236
+2026-09-29 14:46:59,944 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=93.44 ip=192.147.203.105
+2026-09-29 14:47:54,097 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=124.48 ip=172.137.79.218
+2026-09-29 14:48:00,158 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=97.96 ip=172.50.153.5
+2026-09-29 14:49:49,204 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=61.34 ip=172.184.105.132
+2026-09-29 14:50:02,812 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=140.0 ip=10.19.101.158
+2026-09-29 14:51:05,464 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=304 duration_ms=65.73 ip=10.254.83.20
+2026-09-29 14:52:42,390 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=64.51 ip=203.16.65.69
+2026-09-29 14:53:25,204 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=63.87 ip=192.19.112.130
+2026-09-29 14:54:11,269 WARNING  [payment-service] (pay-02) Cache miss ratio above threshold
+2026-09-29 14:55:35,476 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 14:55:45,082 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=129.9 ip=10.180.18.152
+2026-09-29 14:57:17,130 WARNING  [api-gateway] (gw-02) Cache miss ratio above threshold
+2026-09-29 14:57:56,598 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=73.69 ip=10.22.106.171
+2026-09-29 14:59:23,453 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 15:00:18,088 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 15:01:20,829 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 15:01:50,260 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=41.93 ip=192.162.127.40
+2026-09-29 15:02:40,911 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=92.56 ip=172.21.136.129
+2026-09-29 15:04:07,669 ERROR    [payment-service] (pay-02) Upstream service unavailable
+2026-09-29 15:05:13,812 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=73.79 ip=192.85.33.203
+2026-09-29 15:05:49,639 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=109.11 ip=203.183.64.25
+2026-09-29 15:06:30,210 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=80.21 ip=192.51.23.15
+2026-09-29 15:07:33,847 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=90.32 ip=192.51.23.15
+2026-09-29 15:08:28,365 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=193.06 ip=172.154.48.126
+2026-09-29 15:09:23,039 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=110.99 ip=203.183.64.25
+2026-09-29 15:10:34,500 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=69.79 ip=172.231.227.107
+2026-09-29 15:11:56,621 INFO     [auth-service] (auth-02) User login succeeded
+2026-09-29 15:11:59,204 INFO     [payment-service] (pay-02) Order created
+2026-09-29 15:13:36,773 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 15:14:41,359 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=134.13 ip=172.153.79.200
+2026-09-29 15:15:31,803 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=47.88 ip=203.107.21.111
+2026-09-29 15:16:04,769 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=99.53 ip=203.59.3.24
+2026-09-29 15:17:29,881 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=59.76 ip=192.137.222.101
+2026-09-29 15:18:31,974 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=36.73 ip=10.180.18.152
+2026-09-29 15:19:08,227 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=86.14 ip=10.10.149.179
+2026-09-29 15:20:07,386 ERROR    [notification-service] (notif-01) Failed to publish message to queue
+2026-09-29 15:21:09,565 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=105.75 ip=10.200.233.23
+2026-09-29 15:22:16,142 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=32.77 ip=192.178.148.77
+2026-09-29 15:23:06,091 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=50.98 ip=172.67.130.167
+2026-09-29 15:24:19,050 INFO     [auth-service] (auth-01) Email queued
+2026-09-29 15:25:03,333 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=400 duration_ms=55.72 ip=172.231.227.107
+2026-09-29 15:25:34,780 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=304 duration_ms=99.51 ip=10.177.97.165
+2026-09-29 15:27:03,960 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=247.52 ip=192.162.127.40
+2026-09-29 15:27:43,262 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=63.85 ip=192.252.161.64
+2026-09-29 15:28:36,535 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=214.78 ip=203.28.171.66
+2026-09-29 15:29:27,766 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=88.99 ip=192.20.90.70
+2026-09-29 15:30:39,676 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=32.3 ip=10.136.79.209
+2026-09-29 15:31:50,542 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=500 duration_ms=278.59 ip=10.52.248.97
+2026-09-29 15:32:26,601 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=133.01 ip=192.222.85.97
+2026-09-29 15:33:25,655 ERROR    [api-gateway] (gw-02) request completed method=GET path=/api/products status=500 duration_ms=455.8 ip=172.73.13.240
+2026-09-29 15:34:29,614 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=404 duration_ms=121.84 ip=172.153.79.200
+2026-09-29 15:35:15,418 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=139.89 ip=192.19.112.130
+2026-09-29 15:36:13,896 INFO     [auth-service] (auth-01) Order created
+2026-09-29 15:37:49,285 WARNING  [payment-service] (pay-02) Retrying upstream request
+2026-09-29 15:38:05,992 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=47.74 ip=192.203.26.90
+2026-09-29 15:39:17,531 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=403 duration_ms=67.42 ip=192.97.51.102
+2026-09-29 15:40:21,638 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=123.33 ip=172.55.228.180
+2026-09-29 15:40:56,479 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=58.38 ip=203.89.104.78
+2026-09-29 15:41:56,811 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=56.64 ip=192.90.233.254
+2026-09-29 15:43:18,997 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=35.91 ip=192.232.20.107
+2026-09-29 15:44:28,334 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=99.72 ip=10.166.87.1
+2026-09-29 15:45:28,003 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=55.64 ip=203.21.197.196
+2026-09-29 15:45:55,253 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=304 duration_ms=67.51 ip=203.209.144.66
+2026-09-29 15:47:00,714 DEBUG    [payment-service] (pay-02) Cache lookup completed
+2026-09-29 15:48:07,796 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=298.51 ip=203.151.140.32
+2026-09-29 15:49:01,274 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=59.76 ip=203.157.1.19
+2026-09-29 15:50:21,432 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=88.24 ip=172.213.223.197
+2026-09-29 15:50:32,899 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=38.77 ip=172.232.9.242
+2026-09-29 15:52:00,507 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=33.51 ip=203.28.171.66
+2026-09-29 15:52:20,617 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=72.14 ip=10.239.185.154
+2026-09-29 15:53:40,842 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=51.75 ip=172.195.248.98
+2026-09-29 15:54:14,758 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=133.3 ip=192.222.85.97
+2026-09-29 15:55:34,179 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=132.49 ip=172.231.227.107
+2026-09-29 15:56:38,119 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=70.25 ip=203.28.171.66
+2026-09-29 15:57:37,576 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=304 duration_ms=152.56 ip=192.203.26.90
+2026-09-29 15:58:57,892 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=401 duration_ms=54.39 ip=172.231.227.107
+2026-09-29 15:59:57,495 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 16:00:08,385 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=104.0 ip=203.57.211.46
+2026-09-29 16:00:57,513 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 16:02:18,462 INFO     [auth-service] (auth-01) Cache warmed
+2026-09-29 16:03:22,459 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=49.86 ip=192.119.146.3
+2026-09-29 16:04:04,605 WARNING  [payment-service] (pay-01) Cache miss ratio above threshold
+2026-09-29 16:05:13,948 INFO     [api-gateway] (gw-02) Email queued
+2026-09-29 16:06:02,350 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 16:07:32,846 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=80.09 ip=203.144.161.237
+2026-09-29 16:08:20,142 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=84.31 ip=10.2.170.37
+2026-09-29 16:09:29,955 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 16:10:21,672 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=223.79 ip=203.21.197.196
+2026-09-29 16:10:52,347 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 16:11:57,127 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=159.78 ip=10.166.87.1
+2026-09-29 16:13:17,240 INFO     [payment-service] (pay-02) Payment authorized
+2026-09-29 16:14:08,089 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=304 duration_ms=132.12 ip=10.92.73.38
+2026-09-29 16:15:15,428 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/health status=401 duration_ms=198.53 ip=203.59.3.24
+2026-09-29 16:16:03,342 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=90.64 ip=172.227.139.214
+2026-09-29 16:16:53,194 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=93.61 ip=203.169.127.194
+2026-09-29 16:17:31,008 WARNING  [api-gateway] (gw-02) Retrying upstream request
+2026-09-29 16:18:48,289 INFO     [api-gateway] (gw-02) User login succeeded
+2026-09-29 16:20:01,606 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=89.24 ip=203.33.71.228
+2026-09-29 16:20:36,857 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 16:21:31,004 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=98.14 ip=192.176.220.157
+2026-09-29 16:22:30,764 INFO     [order-service] (ord-02) User login succeeded
+2026-09-29 16:23:20,505 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=59.83 ip=172.73.13.240
+2026-09-29 16:24:23,522 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=167.97 ip=203.249.49.140
+2026-09-29 16:25:31,145 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 16:26:15,787 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=26.26 ip=203.53.13.94
+2026-09-29 16:27:29,508 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=73.13 ip=192.203.26.90
+2026-09-29 16:28:42,444 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=46.31 ip=172.117.32.132
+2026-09-29 16:29:29,778 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=27.8 ip=203.184.9.108
+2026-09-29 16:30:29,453 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=142.88 ip=203.109.24.230
+2026-09-29 16:30:57,807 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=48.8 ip=192.137.222.101
+2026-09-29 16:31:51,875 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=92.55 ip=203.99.235.129
+2026-09-29 16:33:02,465 INFO     [order-service] (ord-01) Cache warmed
+2026-09-29 16:33:56,814 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=304 duration_ms=37.7 ip=192.37.104.87
+2026-09-29 16:34:37,787 INFO     [auth-service] (auth-01) User login succeeded
+2026-09-29 16:35:42,262 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=404 duration_ms=51.56 ip=10.7.249.226
+2026-09-29 16:36:42,145 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=122.07 ip=10.108.100.214
+2026-09-29 16:38:22,975 WARNING  [auth-service] (auth-01) request completed method=POST path=/api/login status=404 duration_ms=58.27 ip=172.232.183.52
+2026-09-29 16:38:37,413 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products status=502 duration_ms=374.83 ip=192.37.104.87
+2026-09-29 16:40:04,330 INFO     [order-service] (ord-01) Payment authorized
+2026-09-29 16:40:54,539 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=202.61 ip=10.239.185.154
+2026-09-29 16:41:26,433 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 16:42:35,035 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=119.28 ip=203.169.127.194
+2026-09-29 16:43:49,117 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 16:44:09,781 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=304 duration_ms=99.89 ip=192.66.228.11
+2026-09-29 16:45:11,186 INFO     [api-gateway] (gw-01) Payment authorized
+2026-09-29 16:46:17,561 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=122.57 ip=192.217.165.88
+2026-09-29 16:47:20,614 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=93.34 ip=192.253.174.150
+2026-09-29 16:48:48,616 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/health status=404 duration_ms=119.44 ip=192.136.61.140
+2026-09-29 16:49:17,445 INFO     [order-service] (ord-03) Cache warmed
+2026-09-29 16:50:36,966 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 16:51:28,265 INFO     [payment-service] (pay-01) Order created
+2026-09-29 16:52:08,445 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=301.7 ip=203.99.235.129
+2026-09-29 16:53:18,178 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=65.83 ip=172.21.136.129
+2026-09-29 16:53:48,196 INFO     [payment-service] (pay-01) Email queued
+2026-09-29 16:55:00,113 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=141.07 ip=192.147.203.105
+2026-09-29 16:56:31,250 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=205.32 ip=203.4.148.153
+2026-09-29 16:57:14,854 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=116.63 ip=192.70.14.102
+2026-09-29 16:58:17,318 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=162.76 ip=10.162.64.164
+2026-09-29 16:59:22,827 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=105.39 ip=192.85.33.203
+2026-09-29 16:59:39,097 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 17:01:01,865 WARNING  [order-service] (ord-03) request completed method=GET path=/api/orders status=404 duration_ms=85.93 ip=203.93.207.28
+2026-09-29 17:01:47,369 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=156.73 ip=172.137.79.218
+2026-09-29 17:03:14,446 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=153.33 ip=10.136.79.209
+2026-09-29 17:03:28,111 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 17:04:50,917 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=143.19 ip=172.31.193.146
+2026-09-29 17:05:19,408 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=91.4 ip=172.1.209.62
+2026-09-29 17:06:56,883 INFO     [order-service] (ord-02) User login succeeded
+2026-09-29 17:07:38,427 INFO     [order-service] (ord-01) User login succeeded
+2026-09-29 17:08:53,168 INFO     [order-service] (ord-01) Cache warmed
+2026-09-29 17:09:59,805 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 17:10:11,229 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=58.88 ip=192.19.112.130
+2026-09-29 17:11:11,202 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=110.61 ip=192.20.90.70
+2026-09-29 17:12:39,278 ERROR    [order-service] (ord-01) Database connection timeout
+2026-09-29 17:13:47,237 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 17:14:22,905 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=75.65 ip=172.242.238.82
+2026-09-29 17:15:03,389 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=230.03 ip=10.254.83.20
+2026-09-29 17:16:05,144 WARNING  [auth-service] (auth-02) Slow query detected
+2026-09-29 17:17:25,268 WARNING  [auth-service] (auth-01) Slow query detected
+2026-09-29 17:18:33,670 ERROR    [order-service] (ord-02) request completed method=POST path=/api/orders status=504 duration_ms=151.98 ip=172.175.211.174
+2026-09-29 17:19:23,589 INFO     [payment-service] (pay-01) Email queued
+2026-09-29 17:20:04,066 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=123.63 ip=10.9.169.221
+2026-09-29 17:21:28,786 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 17:22:13,168 INFO     [notification-service] (notif-01) Order created
+2026-09-29 17:23:18,337 INFO     [auth-service] (auth-02) Order created
+2026-09-29 17:23:55,413 ERROR    [api-gateway] (gw-02) request completed method=GET path=/api/products status=500 duration_ms=160.7 ip=203.89.134.42
+2026-09-29 17:24:49,356 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=337.47 ip=192.74.201.252
+2026-09-29 17:25:37,775 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 17:27:17,947 WARNING  [payment-service] (pay-01) Slow query detected
+2026-09-29 17:27:55,922 DEBUG    [auth-service] (auth-01) Cache lookup completed
+2026-09-29 17:29:01,849 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=76.81 ip=172.153.79.200
+2026-09-29 17:29:45,423 ERROR    [payment-service] (pay-02) request completed method=POST path=/api/payments status=503 duration_ms=308.52 ip=172.55.228.180
+2026-09-29 17:30:57,255 INFO     [order-service] (ord-02) Cache warmed
+2026-09-29 17:31:26,712 INFO     [payment-service] (pay-02) Cache warmed
+2026-09-29 17:32:40,874 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=58.66 ip=172.21.136.129
+2026-09-29 17:34:03,418 WARNING  [auth-service] (auth-02) request completed method=POST path=/api/login status=401 duration_ms=109.49 ip=203.242.14.206
+2026-09-29 17:34:56,383 DEBUG    [order-service] (ord-02) Loaded configuration from environment
+2026-09-29 17:35:48,293 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=136.19 ip=172.181.209.136
+2026-09-29 17:36:45,453 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=48.56 ip=10.254.83.20
+2026-09-29 17:37:34,481 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=213.47 ip=192.177.105.44
+2026-09-29 17:37:59,573 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=97.87 ip=192.19.112.130
+2026-09-29 17:39:26,606 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=66.26 ip=10.7.249.226
+2026-09-29 17:39:55,270 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 17:40:48,832 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=192.61 ip=172.15.182.152
+2026-09-29 17:41:55,220 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=403 duration_ms=136.57 ip=192.37.104.87
+2026-09-29 17:43:32,478 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=60.58 ip=192.74.201.252
+2026-09-29 17:43:42,519 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=50.76 ip=192.212.89.20
+2026-09-29 17:44:37,696 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 17:45:54,484 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=56.29 ip=10.2.170.37
+2026-09-29 17:46:51,101 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=39.42 ip=192.19.112.130
+2026-09-29 17:48:02,476 INFO     [payment-service] (pay-02) Email queued
+2026-09-29 17:49:03,846 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=156.86 ip=192.136.61.140
+2026-09-29 17:49:39,146 INFO     [payment-service] (pay-02) Email queued
+2026-09-29 17:50:24,996 INFO     [auth-service] (auth-01) Email queued
+2026-09-29 17:51:58,761 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=57.19 ip=10.2.170.37
+2026-09-29 17:52:32,187 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 17:53:29,952 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=49.87 ip=10.136.81.9
+2026-09-29 17:54:54,706 INFO     [auth-service] (auth-01) Order created
+2026-09-29 17:55:30,102 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=73.64 ip=172.135.15.41
+2026-09-29 17:56:26,703 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 17:57:17,463 INFO     [order-service] (ord-03) User login succeeded
+2026-09-29 17:58:04,355 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=144.89 ip=203.158.16.170
+2026-09-29 17:59:32,271 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=270.4 ip=203.80.17.60
+2026-09-29 18:00:23,995 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=57.65 ip=192.19.209.243
+2026-09-29 18:01:41,942 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=105.76 ip=172.242.238.82
+2026-09-29 18:02:26,156 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=111.37 ip=172.21.136.129
+2026-09-29 18:02:57,095 WARNING  [payment-service] (pay-02) Slow query detected
+2026-09-29 18:04:17,386 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=403 duration_ms=89.5 ip=10.32.36.209
+2026-09-29 18:05:36,190 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=67.88 ip=192.203.26.90
+2026-09-29 18:06:03,854 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=72.1 ip=172.34.74.137
+2026-09-29 18:07:09,354 ERROR    [order-service] (ord-03) Upstream service unavailable
+2026-09-29 18:07:43,291 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=131.48 ip=10.92.73.38
+2026-09-29 18:09:19,522 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=169.77 ip=203.29.133.108
+2026-09-29 18:09:47,219 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=238.09 ip=172.232.183.52
+2026-09-29 18:10:44,572 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=113.98 ip=192.164.234.69
+2026-09-29 18:11:57,137 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=36.03 ip=10.108.100.214
+2026-09-29 18:12:58,234 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=51.9 ip=192.178.148.77
+2026-09-29 18:14:21,581 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=106.43 ip=172.131.122.254
+2026-09-29 18:15:04,719 INFO     [order-service] (ord-03) Order created
+2026-09-29 18:15:44,237 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 18:16:44,895 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=51.57 ip=192.56.72.172
+2026-09-29 18:17:59,187 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=52.3 ip=192.252.42.129
+2026-09-29 18:19:03,594 WARNING  [payment-service] (pay-01) Cache miss ratio above threshold
+2026-09-29 18:19:38,427 INFO     [auth-service] (auth-01) request completed method=POST path=/api/logout status=201 duration_ms=83.59 ip=192.217.165.88
+2026-09-29 18:20:45,981 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 18:21:09,903 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 18:22:26,013 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=154.01 ip=172.161.48.104
+2026-09-29 18:23:01,912 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=70.4 ip=203.95.205.161
+2026-09-29 18:24:15,435 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=304 duration_ms=93.78 ip=10.239.185.154
+2026-09-29 18:25:49,057 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=76.94 ip=192.51.23.15
+2026-09-29 18:26:17,255 INFO     [auth-service] (auth-02) Email queued
+2026-09-29 18:27:29,281 INFO     [auth-service] (auth-02) User login succeeded
+2026-09-29 18:27:55,768 INFO     [auth-service] (auth-01) Order created
+2026-09-29 18:29:05,635 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=55.59 ip=203.117.226.64
+2026-09-29 18:29:52,420 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=243.06 ip=192.225.121.175
+2026-09-29 18:30:53,249 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=404 duration_ms=71.5 ip=172.232.9.242
+2026-09-29 18:31:50,940 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=172.36 ip=203.29.133.108
+2026-09-29 18:33:09,520 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=114.54 ip=172.153.79.200
+2026-09-29 18:34:04,012 INFO     [api-gateway] (gw-02) Email queued
+2026-09-29 18:35:15,590 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 18:35:36,874 INFO     [payment-service] (pay-02) Cache warmed
+2026-09-29 18:37:07,937 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=71.15 ip=192.56.72.172
+2026-09-29 18:37:34,754 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=142.72 ip=10.42.50.197
+2026-09-29 18:38:29,688 WARNING  [notification-service] (notif-01) Slow query detected
+2026-09-29 18:40:02,383 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=242.71 ip=203.170.71.34
+2026-09-29 18:41:08,401 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=108.35 ip=192.232.20.107
+2026-09-29 18:41:57,585 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=32.28 ip=192.180.198.91
+2026-09-29 18:43:04,512 WARNING  [payment-service] (pay-02) Slow query detected
+2026-09-29 18:43:49,494 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=42.47 ip=192.150.99.131
+2026-09-29 18:44:45,419 WARNING  [auth-service] (auth-02) request completed method=POST path=/api/login status=404 duration_ms=77.09 ip=203.33.71.228
+2026-09-29 18:45:47,436 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=99.56 ip=203.16.65.69
+2026-09-29 18:46:29,350 INFO     [auth-service] (auth-01) request completed method=POST path=/api/logout status=201 duration_ms=152.77 ip=172.40.178.166
+2026-09-29 18:47:52,165 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=37.45 ip=203.33.71.228
+2026-09-29 18:48:13,189 INFO     [order-service] (ord-03) Cache warmed
+2026-09-29 18:49:27,464 INFO     [notification-service] (notif-01) Order created
+2026-09-29 18:50:36,099 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=39.59 ip=10.254.83.20
+2026-09-29 18:51:27,848 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=181.56 ip=172.55.228.180
+2026-09-29 18:52:26,755 INFO     [auth-service] (auth-02) User login succeeded
+2026-09-29 18:53:13,939 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=38.13 ip=10.169.246.68
+2026-09-29 18:53:52,045 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=167.3 ip=10.212.216.128
+2026-09-29 18:55:02,155 ERROR    [auth-service] (auth-02) request completed method=POST path=/api/login status=503 duration_ms=200.47 ip=203.249.49.140
+2026-09-29 18:56:06,590 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=101.77 ip=203.15.147.227
+2026-09-29 18:56:38,811 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=108.2 ip=192.119.146.3
+2026-09-29 18:58:27,353 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=38.18 ip=10.162.64.164
+2026-09-29 18:58:50,977 WARNING  [api-gateway] (gw-01) Disk usage above 80%
+2026-09-29 18:59:55,024 DEBUG    [payment-service] (pay-01) Loaded configuration from environment
+2026-09-29 19:00:40,501 INFO     [auth-service] (auth-01) Payment authorized
+2026-09-29 19:02:02,648 WARNING  [api-gateway] (gw-01) Retrying upstream request
+2026-09-29 19:02:52,929 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=108.19 ip=203.33.71.228
+2026-09-29 19:03:33,925 DEBUG    [api-gateway] (gw-02) Loaded configuration from environment
+2026-09-29 19:04:59,751 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=82.43 ip=10.108.100.214
+2026-09-29 19:05:39,252 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 19:06:42,481 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=214.59 ip=10.171.200.245
+2026-09-29 19:08:08,035 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=404 duration_ms=131.66 ip=10.22.106.171
+2026-09-29 19:08:18,758 INFO     [auth-service] (auth-02) Email queued
+2026-09-29 19:09:55,987 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products status=500 duration_ms=207.43 ip=203.32.155.207
+2026-09-29 19:10:50,911 WARNING  [notification-service] (notif-01) Cache miss ratio above threshold
+2026-09-29 19:11:15,313 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=53.6 ip=203.12.207.200
+2026-09-29 19:12:43,164 WARNING  [api-gateway] (gw-02) Disk usage above 80%
+2026-09-29 19:12:57,119 WARNING  [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=404 duration_ms=137.4 ip=192.19.209.243
+2026-09-29 19:14:16,786 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=89.33 ip=203.32.155.207
+2026-09-29 19:15:28,266 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 19:16:01,263 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=304 duration_ms=237.92 ip=203.190.52.183
+2026-09-29 19:16:51,687 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=99.7 ip=172.161.48.104
+2026-09-29 19:18:13,282 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 19:18:51,347 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 19:20:17,699 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=62.6 ip=172.227.139.214
+2026-09-29 19:21:16,976 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=109.0 ip=203.144.161.237
+2026-09-29 19:22:07,254 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 19:23:00,346 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=123.7 ip=10.162.64.164
+2026-09-29 19:23:32,806 INFO     [auth-service] (auth-01) request completed method=POST path=/api/logout status=201 duration_ms=75.68 ip=203.32.155.207
+2026-09-29 19:25:24,031 INFO     [order-service] (ord-02) Order created
+2026-09-29 19:25:59,399 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=401 duration_ms=78.57 ip=203.65.54.201
+2026-09-29 19:26:45,294 WARNING  [order-service] (ord-01) Slow query detected
+2026-09-29 19:28:13,894 WARNING  [auth-service] (auth-01) Disk usage above 80%
+2026-09-29 19:28:52,951 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 19:30:07,999 WARNING  [api-gateway] (gw-01) Retrying upstream request
+2026-09-29 19:30:34,289 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=105.24 ip=192.88.193.70
+2026-09-29 19:31:11,537 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=404 duration_ms=76.32 ip=203.209.144.66
+2026-09-29 19:32:22,217 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 19:33:13,337 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=66.57 ip=192.51.23.15
+2026-09-29 19:34:11,975 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=148.37 ip=10.32.36.209
+2026-09-29 19:35:40,160 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=40.67 ip=192.19.112.130
+2026-09-29 19:36:33,283 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 19:37:41,028 INFO     [auth-service] (auth-01) Order created
+2026-09-29 19:38:25,708 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=69.16 ip=10.92.73.38
+2026-09-29 19:38:55,018 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=191.68 ip=172.20.221.101
+2026-09-29 19:40:31,092 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=105.33 ip=172.232.9.242
+2026-09-29 19:40:58,235 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 19:42:21,328 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=67.83 ip=172.181.209.136
+2026-09-29 19:43:25,055 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=96.4 ip=10.10.149.179
+2026-09-29 19:43:55,631 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 19:45:03,587 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 19:46:16,361 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=84.51 ip=203.158.16.170
+2026-09-29 19:46:36,985 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=304 duration_ms=35.77 ip=192.51.23.15
+2026-09-29 19:47:37,638 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=187.19 ip=192.190.210.239
+2026-09-29 19:48:57,647 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=238.64 ip=10.162.156.242
+2026-09-29 19:50:02,298 INFO     [payment-service] (pay-02) Cache warmed
+2026-09-29 19:51:16,707 ERROR    [api-gateway] (gw-01) Payment gateway returned 502
+2026-09-29 19:51:23,119 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=86.47 ip=172.31.193.146
+2026-09-29 19:52:45,230 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=73.29 ip=192.9.23.106
+2026-09-29 19:53:22,472 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=380.39 ip=203.32.155.207
+2026-09-29 19:55:06,032 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=142.96 ip=192.37.104.87
+2026-09-29 19:55:57,848 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=28.64 ip=192.178.148.77
+2026-09-29 19:56:21,063 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=72.1 ip=203.190.52.183
+2026-09-29 19:57:58,676 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=148.68 ip=10.162.156.242
+2026-09-29 19:58:14,880 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=54.99 ip=172.83.244.128
+2026-09-29 19:59:46,578 INFO     [auth-service] (auth-02) User login succeeded
+2026-09-29 20:00:42,934 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=404 duration_ms=61.33 ip=192.119.146.3
+2026-09-29 20:01:49,069 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=161.86 ip=192.9.23.106
+2026-09-29 20:02:32,220 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=96.21 ip=192.180.198.91
+2026-09-29 20:03:20,263 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=65.22 ip=203.76.46.47
+2026-09-29 20:04:12,006 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=113.1 ip=172.160.181.112
+2026-09-29 20:05:22,205 WARNING  [api-gateway] (gw-01) Cache miss ratio above threshold
+2026-09-29 20:06:15,095 WARNING  [notification-service] (notif-01) Slow query detected
+2026-09-29 20:06:43,456 ERROR    [order-service] (ord-01) Payment gateway returned 502
+2026-09-29 20:07:40,754 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 20:08:37,461 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 20:10:11,373 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=124.27 ip=192.51.23.15
+2026-09-29 20:11:11,916 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products status=500 duration_ms=172.47 ip=203.193.85.14
+2026-09-29 20:11:50,064 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=270.45 ip=192.74.201.252
+2026-09-29 20:12:41,687 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=41.8 ip=192.150.99.131
+2026-09-29 20:13:33,788 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 20:14:54,508 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=206.76 ip=203.57.211.46
+2026-09-29 20:15:47,421 WARNING  [payment-service] (pay-01) Disk usage above 80%
+2026-09-29 20:17:11,062 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=83.33 ip=172.67.130.167
+2026-09-29 20:17:38,241 INFO     [api-gateway] (gw-02) Order created
+2026-09-29 20:19:05,454 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=41.87 ip=192.203.26.90
+2026-09-29 20:19:13,329 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=16.14 ip=172.15.182.152
+2026-09-29 20:20:38,139 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=53.33 ip=203.212.139.240
+2026-09-29 20:21:31,928 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 20:22:48,422 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=25.32 ip=203.197.156.146
+2026-09-29 20:23:29,595 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 20:24:38,521 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=93.95 ip=192.80.83.232
+2026-09-29 20:25:24,084 ERROR    [api-gateway] (gw-01) Database connection timeout
+2026-09-29 20:26:11,709 WARNING  [auth-service] (auth-02) Slow query detected
+2026-09-29 20:27:01,108 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/search status=404 duration_ms=56.15 ip=192.178.148.77
+2026-09-29 20:28:34,555 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=69.98 ip=172.181.209.136
+2026-09-29 20:28:56,807 WARNING  [auth-service] (auth-01) Disk usage above 80%
+2026-09-29 20:30:01,914 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 20:31:37,057 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=273.84 ip=203.242.14.206
+2026-09-29 20:31:49,462 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 20:33:31,608 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=150.93 ip=10.254.83.20
+2026-09-29 20:34:08,459 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=118.57 ip=203.202.152.110
+2026-09-29 20:34:42,117 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=49.85 ip=10.162.64.164
+2026-09-29 20:35:43,803 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=36.38 ip=203.190.52.183
+2026-09-29 20:36:44,467 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=99.94 ip=192.150.99.131
+2026-09-29 20:37:39,166 INFO     [api-gateway] (gw-02) Email queued
+2026-09-29 20:38:59,926 WARNING  [auth-service] (auth-02) Cache miss ratio above threshold
+2026-09-29 20:39:32,457 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 20:40:21,341 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 20:42:09,724 INFO     [auth-service] (auth-01) Cache warmed
+2026-09-29 20:42:15,393 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=19.38 ip=172.195.248.98
+2026-09-29 20:43:13,331 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=232.11 ip=192.212.89.20
+2026-09-29 20:45:00,918 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=273.11 ip=192.85.33.203
+2026-09-29 20:45:37,972 ERROR    [order-service] (ord-02) request completed method=GET path=/api/orders status=500 duration_ms=209.52 ip=172.154.48.126
+2026-09-29 20:46:36,777 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=133.63 ip=203.16.65.69
+2026-09-29 20:47:19,638 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=132.75 ip=192.136.61.140
+2026-09-29 20:48:13,229 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=34.97 ip=203.55.237.22
+2026-09-29 20:49:50,663 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=231.37 ip=172.117.32.132
+2026-09-29 20:50:32,589 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=115.48 ip=203.112.178.130
+2026-09-29 20:51:11,228 INFO     [order-service] (ord-01) Payment authorized
+2026-09-29 20:52:11,989 INFO     [api-gateway] (gw-02) User login succeeded
+2026-09-29 20:52:47,999 ERROR    [payment-service] (pay-02) Database connection timeout
+2026-09-29 20:53:55,505 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=304 duration_ms=91.13 ip=192.105.220.236
+2026-09-29 20:55:23,415 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=152.3 ip=10.84.74.216
+2026-09-29 20:55:51,956 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=177.91 ip=192.19.112.130
+2026-09-29 20:57:09,642 WARNING  [api-gateway] (gw-01) Slow query detected
+2026-09-29 20:57:59,949 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 20:58:56,680 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=59.25 ip=192.51.23.15
+2026-09-29 21:00:10,157 INFO     [order-service] (ord-01) Payment authorized
+2026-09-29 21:01:05,388 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 21:02:12,614 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=99.26 ip=172.47.133.72
+2026-09-29 21:02:58,108 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/health status=404 duration_ms=103.07 ip=172.135.15.41
+2026-09-29 21:03:28,276 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=136.36 ip=203.157.1.19
+2026-09-29 21:04:46,831 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=116.66 ip=203.15.147.227
+2026-09-29 21:05:16,154 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=160.26 ip=192.212.89.20
+2026-09-29 21:07:06,863 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=156.93 ip=203.212.139.240
+2026-09-29 21:07:21,373 INFO     [order-service] (ord-02) Cache warmed
+2026-09-29 21:09:00,730 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 21:09:24,080 INFO     [order-service] (ord-01) Order created
+2026-09-29 21:10:06,235 WARNING  [notification-service] (notif-01) Retrying upstream request
+2026-09-29 21:11:40,674 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=61.24 ip=203.242.14.206
+2026-09-29 21:12:54,705 WARNING  [notification-service] (notif-01) Disk usage above 80%
+2026-09-29 21:13:19,095 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=401 duration_ms=114.91 ip=192.68.136.223
+2026-09-29 21:14:00,341 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=67.05 ip=192.180.198.91
+2026-09-29 21:15:02,899 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=106.42 ip=192.181.207.141
+2026-09-29 21:16:42,315 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=29.32 ip=203.209.144.66
+2026-09-29 21:16:57,274 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=76.41 ip=10.176.30.205
+2026-09-29 21:18:29,951 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 21:19:26,251 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=64.99 ip=192.35.188.196
+2026-09-29 21:20:25,672 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=147.55 ip=192.121.8.8
+2026-09-29 21:21:27,793 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=84.42 ip=192.75.248.174
+2026-09-29 21:21:58,952 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=46.69 ip=203.32.155.207
+2026-09-29 21:22:50,816 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=162.73 ip=10.32.230.200
+2026-09-29 21:23:43,899 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=74.3 ip=172.20.221.101
+2026-09-29 21:24:50,487 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=117.86 ip=10.15.66.35
+2026-09-29 21:26:00,027 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=59.26 ip=203.112.178.130
+2026-09-29 21:26:47,492 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=89.31 ip=203.12.207.200
+2026-09-29 21:28:10,134 INFO     [auth-service] (auth-01) Email queued
+2026-09-29 21:28:59,126 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 21:29:27,110 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 21:30:14,060 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=20.16 ip=203.173.146.223
+2026-09-29 21:31:35,479 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 21:32:34,109 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=82.01 ip=203.67.121.97
+2026-09-29 21:33:23,408 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=211.39 ip=192.164.234.69
+2026-09-29 21:34:30,856 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=304 duration_ms=200.4 ip=10.176.30.205
+2026-09-29 21:35:36,640 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=56.19 ip=203.151.140.32
+2026-09-29 21:36:22,524 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=255.71 ip=192.181.207.141
+2026-09-29 21:37:52,836 WARNING  [auth-service] (auth-01) Cache miss ratio above threshold
+2026-09-29 21:38:16,776 DEBUG    [order-service] (ord-02) Loaded configuration from environment
+2026-09-29 21:39:47,959 ERROR    [auth-service] (auth-02) Payment gateway returned 502
+2026-09-29 21:40:26,164 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=75.66 ip=10.43.14.216
+2026-09-29 21:41:07,034 WARNING  [api-gateway] (gw-02) Disk usage above 80%
+2026-09-29 21:42:19,571 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=79.28 ip=172.131.122.254
+2026-09-29 21:43:11,683 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 21:43:55,309 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=84.97 ip=203.183.64.25
+2026-09-29 21:44:43,505 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=26.64 ip=192.232.20.107
+2026-09-29 21:46:02,162 INFO     [order-service] (ord-02) Cache warmed
+2026-09-29 21:46:51,869 ERROR    [auth-service] (auth-02) Upstream service unavailable
+2026-09-29 21:48:19,354 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 21:48:28,797 WARNING  [api-gateway] (gw-01) Cache miss ratio above threshold
+2026-09-29 21:50:16,848 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=71.87 ip=203.157.1.19
+2026-09-29 21:50:57,499 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=329.93 ip=192.97.243.212
+2026-09-29 21:51:33,904 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=59.69 ip=172.40.178.166
+2026-09-29 21:52:49,482 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=64.52 ip=10.7.249.226
+2026-09-29 21:54:08,236 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=206.07 ip=10.156.133.179
+2026-09-29 21:54:35,573 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=47.18 ip=203.15.147.227
+2026-09-29 21:55:17,334 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=115.9 ip=172.55.228.180
+2026-09-29 21:56:14,498 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=66.26 ip=192.19.112.130
+2026-09-29 21:57:42,118 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=137.48 ip=10.23.138.212
+2026-09-29 21:58:20,431 WARNING  [auth-service] (auth-02) Retrying upstream request
+2026-09-29 21:59:35,003 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=33.56 ip=192.178.148.77
+2026-09-29 22:00:37,641 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 22:01:20,408 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=45.88 ip=203.9.217.42
+2026-09-29 22:01:54,298 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=96.3 ip=192.178.148.77
+2026-09-29 22:03:42,134 INFO     [auth-service] (auth-01) request completed method=POST path=/api/logout status=201 duration_ms=223.42 ip=192.162.127.40
+2026-09-29 22:04:22,421 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=53.51 ip=192.155.216.82
+2026-09-29 22:05:15,198 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=95.43 ip=203.202.152.110
+2026-09-29 22:05:53,174 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=121.22 ip=10.40.214.146
+2026-09-29 22:07:28,691 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=131.54 ip=192.74.201.252
+2026-09-29 22:07:58,686 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=83.1 ip=203.93.207.28
+2026-09-29 22:09:21,474 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 22:10:09,560 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=404 duration_ms=36.71 ip=10.84.74.216
+2026-09-29 22:10:52,970 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 22:11:30,570 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=113.43 ip=10.180.78.128
+2026-09-29 22:13:19,336 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=178.99 ip=192.232.20.107
+2026-09-29 22:13:32,678 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=429 duration_ms=182.5 ip=203.87.225.188
+2026-09-29 22:14:51,667 INFO     [auth-service] (auth-02) Order created
+2026-09-29 22:16:11,073 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=295.91 ip=203.252.26.8
+2026-09-29 22:16:46,912 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=89.61 ip=203.169.127.194
+2026-09-29 22:17:15,948 INFO     [api-gateway] (gw-01) Payment authorized
+2026-09-29 22:18:49,260 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=116.8 ip=172.131.122.254
+2026-09-29 22:19:40,055 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=140.34 ip=172.84.201.219
+2026-09-29 22:20:12,963 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=135.23 ip=192.136.61.140
+2026-09-29 22:21:26,661 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=272.91 ip=10.192.140.55
+2026-09-29 22:22:07,237 WARNING  [notification-service] (notif-01) request completed method=POST path=/api/notifications status=429 duration_ms=107.0 ip=192.51.23.15
+2026-09-29 22:23:55,928 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=107.59 ip=172.84.201.219
+2026-09-29 22:24:44,421 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=117.28 ip=10.150.124.115
+2026-09-29 22:25:27,277 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=401 duration_ms=285.16 ip=203.55.237.22
+2026-09-29 22:26:01,673 WARNING  [notification-service] (notif-01) Cache miss ratio above threshold
+2026-09-29 22:27:40,589 WARNING  [payment-service] (pay-02) request completed method=POST path=/api/payments status=400 duration_ms=129.02 ip=192.177.105.44
+2026-09-29 22:28:37,112 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=120.18 ip=10.84.74.216
+2026-09-29 22:29:36,397 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=55.8 ip=172.37.188.202
+2026-09-29 22:29:53,004 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=65.01 ip=192.35.188.196
+2026-09-29 22:31:24,064 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=90.99 ip=172.117.32.132
+2026-09-29 22:32:22,163 INFO     [api-gateway] (gw-01) Email queued
+2026-09-29 22:32:37,879 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 22:33:42,081 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=57.95 ip=203.117.226.64
+2026-09-29 22:34:35,033 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=304 duration_ms=149.75 ip=192.166.105.234
+2026-09-29 22:36:23,916 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=32.7 ip=192.97.243.212
+2026-09-29 22:37:09,847 DEBUG    [api-gateway] (gw-02) Cache lookup completed
+2026-09-29 22:37:30,522 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=85.37 ip=10.169.246.68
+2026-09-29 22:38:33,039 WARNING  [order-service] (ord-03) Cache miss ratio above threshold
+2026-09-29 22:39:33,093 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=50.93 ip=203.80.17.60
+2026-09-29 22:40:56,072 INFO     [api-gateway] (gw-01) Cache warmed
+2026-09-29 22:41:26,176 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 22:42:59,157 INFO     [order-service] (ord-01) Payment authorized
+2026-09-29 22:44:08,380 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=253.61 ip=203.16.65.69
+2026-09-29 22:44:51,654 ERROR    [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=502 duration_ms=331.1 ip=10.10.149.179
+2026-09-29 22:45:49,949 ERROR    [payment-service] (pay-01) Unhandled exception in request handler
+2026-09-29 22:46:35,899 INFO     [order-service] (ord-01) request completed method=POST path=/api/orders status=201 duration_ms=53.21 ip=10.10.149.179
+2026-09-29 22:47:34,800 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=84.96 ip=172.118.250.148
+2026-09-29 22:48:40,321 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 22:49:30,624 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=33.86 ip=172.160.181.112
+2026-09-29 22:50:30,852 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=48.84 ip=203.99.235.129
+2026-09-29 22:51:15,162 ERROR    [notification-service] (notif-01) Upstream service unavailable
+2026-09-29 22:52:02,172 INFO     [order-service] (ord-03) Order created
+2026-09-29 22:53:05,157 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=93.54 ip=203.16.65.69
+2026-09-29 22:54:35,899 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=59.43 ip=203.209.144.66
+2026-09-29 22:55:21,724 INFO     [order-service] (ord-01) Email queued
+2026-09-29 22:55:48,382 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 22:57:18,365 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=304 duration_ms=93.81 ip=192.155.216.82
+2026-09-29 22:58:02,605 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=30.43 ip=172.33.238.18
+2026-09-29 22:58:56,707 INFO     [order-service] (ord-03) User login succeeded
+2026-09-29 23:00:10,051 INFO     [auth-service] (auth-02) Order created
+2026-09-29 23:01:15,011 INFO     [auth-service] (auth-01) Email queued
+2026-09-29 23:02:09,788 WARNING  [notification-service] (notif-01) Retrying upstream request
+2026-09-29 23:02:40,941 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=42.25 ip=192.20.90.70
+2026-09-29 23:03:40,295 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=304 duration_ms=99.92 ip=192.222.85.97
+2026-09-29 23:04:45,751 INFO     [auth-service] (auth-02) User login succeeded
+2026-09-29 23:05:58,951 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=46.46 ip=172.195.248.98
+2026-09-29 23:07:07,267 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=202.46 ip=192.180.198.91
+2026-09-29 23:07:26,611 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 23:08:49,082 DEBUG    [order-service] (ord-02) Cache lookup completed
+2026-09-29 23:09:33,803 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 23:10:38,791 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=34.53 ip=203.219.90.136
+2026-09-29 23:11:55,282 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=57.75 ip=203.193.85.14
+2026-09-29 23:12:13,639 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=81.84 ip=203.67.121.97
+2026-09-29 23:13:05,851 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 23:14:19,552 INFO     [order-service] (ord-03) Order created
+2026-09-29 23:15:11,559 INFO     [auth-service] (auth-01) Email queued
+2026-09-29 23:16:13,677 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 23:17:13,748 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=179.89 ip=172.161.48.104
+2026-09-29 23:18:26,638 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=304 duration_ms=107.97 ip=203.242.14.206
+2026-09-29 23:19:38,233 WARNING  [payment-service] (pay-01) Cache miss ratio above threshold
+2026-09-29 23:19:41,168 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 23:21:25,401 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=144.59 ip=172.37.188.202
+2026-09-29 23:22:11,450 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=33.45 ip=10.176.30.205
+2026-09-29 23:23:21,592 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=40.76 ip=203.169.127.194
+2026-09-29 23:24:26,017 INFO     [auth-service] (auth-02) Cache warmed
+2026-09-29 23:25:07,761 WARNING  [notification-service] (notif-01) Cache miss ratio above threshold
+2026-09-29 23:26:07,233 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=138.88 ip=172.40.178.166
+2026-09-29 23:27:10,350 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=146.74 ip=203.22.36.81
+2026-09-29 23:28:06,502 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=41.25 ip=172.33.238.18
+2026-09-29 23:29:10,511 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=58.33 ip=192.106.195.240
+2026-09-29 23:29:52,735 ERROR    [auth-service] (auth-01) Payment gateway returned 502
+2026-09-29 23:30:19,428 INFO     [order-service] (ord-01) User login succeeded
+2026-09-29 23:31:18,064 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=120.42 ip=172.31.193.146
+2026-09-29 23:32:39,472 INFO     [auth-service] (auth-01) User login succeeded
+2026-09-29 23:33:26,760 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=64.03 ip=172.153.79.200
+2026-09-29 23:34:43,388 WARNING  [notification-service] (notif-01) Cache miss ratio above threshold
+2026-09-29 23:35:36,452 INFO     [payment-service] (pay-01) User login succeeded
+2026-09-29 23:36:20,336 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 23:37:43,864 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=55.28 ip=203.29.133.108
+2026-09-29 23:38:05,728 INFO     [notification-service] (notif-01) Email queued
+2026-09-29 23:39:43,909 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=359.11 ip=172.232.183.52
+2026-09-29 23:40:33,200 INFO     [auth-service] (auth-01) request completed method=POST path=/api/login status=200 duration_ms=178.1 ip=172.153.79.200
+2026-09-29 23:41:16,667 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=39.74 ip=172.137.79.218
+2026-09-29 23:41:47,660 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=173.62 ip=203.190.52.183
+2026-09-29 23:43:22,378 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=81.75 ip=10.84.74.216
+2026-09-29 23:44:14,808 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=84.85 ip=172.67.130.167
+2026-09-29 23:44:51,217 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=304 duration_ms=89.72 ip=192.232.20.107
+2026-09-29 23:45:58,240 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=100.4 ip=203.67.121.97
+2026-09-29 23:46:42,704 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=53.13 ip=10.150.124.115
+2026-09-29 23:47:39,349 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=197.49 ip=192.177.105.44
+2026-09-29 23:49:09,496 WARNING  [auth-service] (auth-01) Cache miss ratio above threshold
+2026-09-29 23:49:57,006 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=57.78 ip=172.227.139.214
+2026-09-29 23:50:49,736 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=143.07 ip=172.153.79.200
+2026-09-29 23:51:50,579 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=76.22 ip=10.9.169.221
+2026-09-29 23:52:48,004 DEBUG    [api-gateway] (gw-01) Cache lookup completed
+2026-09-29 23:53:26,099 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=112.42 ip=203.4.148.153
+2026-09-29 23:55:03,589 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=34.14 ip=192.181.207.141
+2026-09-29 23:55:59,658 INFO     [payment-service] (pay-01) Email queued
+2026-09-29 23:56:33,512 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=59.36 ip=203.170.71.34
+2026-09-29 23:57:38,323 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=255.31 ip=203.202.152.110
+2026-09-29 23:58:12,471 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=223.99 ip=10.156.133.179
+2026-09-29 23:59:25,758 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=74.25 ip=203.156.240.152

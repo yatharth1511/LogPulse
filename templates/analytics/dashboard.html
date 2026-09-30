@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% load static humanize %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<div class="page-head">
+  <h1>Dashboard</h1>
+  <form method="get" class="inline">
+    <label for="range">Time range</label>
+    <select id="range" name="range" onchange="this.form.submit()">
+      {% for value, label in range_choices %}
+        <option value="{{ value }}" {% if value == selected_range %}selected{% endif %}>{{ label }}</option>
+      {% endfor %}
+    </select>
+  </form>
+</div>
+
+{% if not data.summary.total_logs %}
+  <div class="card empty">No logs in this range yet. Run
+    <code>python manage.py generate_logs --count 10000 &amp;&amp; python manage.py process_logs sample_logs/generated.log</code>
+    or upload a file on the <a href="{% url 'ingestion:pipelines' %}">Pipelines</a> page.</div>
+{% endif %}
+
+<section class="kpis">
+  <div class="kpi"><span>Total logs</span><strong>{{ data.summary.total_logs|intcomma }}</strong></div>
+  <div class="kpi error"><span>Errors</span><strong>{{ data.summary.error_count|intcomma }}</strong></div>
+  <div class="kpi warn"><span>Warnings</span><strong>{{ data.summary.warning_count|intcomma }}</strong></div>
+  <div class="kpi"><span>Error rate</span><strong>{{ data.summary.error_rate }}%</strong></div>
+  <div class="kpi"><span>Avg response time</span>
+    <strong>{% if data.summary.avg_response_time_ms is not None %}{{ data.summary.avg_response_time_ms }} ms{% else %}–{% endif %}</strong></div>
+  <div class="kpi"><span>Requests / minute</span><strong>{{ data.requests.avg_per_minute }}</strong>
+    <small>peak {{ data.requests.peak_per_minute }}</small></div>
+</section>
+
+<section class="grid">
+  <div class="card wide"><h2>Logs over time <small>(per {{ chart_data.bucket }})</small></h2><canvas id="timeChart" height="110"></canvas></div>
+  <div class="card"><h2>Logs by service</h2><canvas id="serviceChart" height="200"></canvas></div>
+  <div class="card"><h2>HTTP status distribution</h2><canvas id="statusChart" height="200"></canvas></div>
+</section>
+
+<section class="grid two">
+  <div class="card">
+    <h2>Most accessed endpoints</h2>
+    <table><thead><tr><th>Endpoint</th><th class="num">Hits</th><th class="num">Avg ms</th></tr></thead><tbody>
+    {% for row in data.top_endpoints %}
+      <tr><td><code>{{ row.endpoint }}</code></td><td class="num">{{ row.hits|intcomma }}</td>
+          <td class="num">{{ row.avg_response_ms|floatformat:1|default:"–" }}</td></tr>
+    {% empty %}<tr><td colspan="3" class="muted">No HTTP requests.</td></tr>{% endfor %}
+    </tbody></table>
+  </div>
+  <div class="card">
+    <h2>Most common errors</h2>
+    <table><thead><tr><th>Message</th><th>Service</th><th class="num">Count</th></tr></thead><tbody>
+    {% for row in data.most_common_errors %}
+      <tr><td>{{ row.message|truncatechars:60 }}</td><td>{{ row.service }}</td><td class="num">{{ row.occurrences|intcomma }}</td></tr>
+    {% empty %}<tr><td colspan="3" class="muted">No errors.</td></tr>{% endfor %}
+    </tbody></table>
+  </div>
+</section>
+
+<section class="grid two">
+  <div class="card">
+    <h2>Top errors per service <small>(window function: ROW_NUMBER)</small></h2>
+    <table><thead><tr><th>Service</th><th>#</th><th>Message</th><th class="num">Count</th></tr></thead><tbody>
+    {% for row in data.top_errors_per_service %}
+      <tr><td>{{ row.service }}</td><td>{{ row.rank_in_service }}</td><td>{{ row.message|truncatechars:50 }}</td>
+          <td class="num">{{ row.occurrences }}</td></tr>
+    {% empty %}<tr><td colspan="4" class="muted">No errors.</td></tr>{% endfor %}
+    </tbody></table>
+  </div>
+  <div class="card">
+    <h2>Request rate, last minutes <small>(window functions: moving AVG, LAG)</small></h2>
+    <table><thead><tr><th>Minute (UTC)</th><th class="num">Req</th><th class="num">5-min avg</th><th class="num">Δ prev</th><th class="num">5xx</th></tr></thead><tbody>
+    {% for row in data.request_rate_trend %}
+      <tr><td>{{ row.minute|slice:"11:16" }}</td><td class="num">{{ row.requests }}</td><td class="num">{{ row.moving_avg_5m }}</td>
+          <td class="num">{{ row.change_vs_prev_minute|default_if_none:"–" }}</td><td class="num">{{ row.server_errors }}</td></tr>
+    {% empty %}<tr><td colspan="5" class="muted">No HTTP requests.</td></tr>{% endfor %}
+    </tbody></table>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Recent errors</h2>
+  <table><thead><tr><th>Time (UTC)</th><th>Level</th><th>Service</th><th>Message</th></tr></thead><tbody>
+  {% for e in recent_errors %}
+    <tr><td>{{ e.timestamp|date:"Y-m-d H:i:s" }}</td><td><span class="badge {{ e.level|lower }}">{{ e.level }}</span></td>
+        <td>{{ e.service.name }}</td><td><a href="{{ e.get_absolute_url }}">{{ e.message|truncatechars:90 }}</a></td></tr>
+  {% empty %}<tr><td colspan="4" class="muted">No errors in this range.</td></tr>{% endfor %}
+  </tbody></table>
+</section>
+
+{{ chart_data|json_script:"chart-data" }}
+{% endblock %}
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script src="{% static 'js/dashboard.js' %}"></script>
+{% endblock %}

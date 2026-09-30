@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Pipelines{% endblock %}
+{% block content %}
+<h1>Pipeline runs</h1>
+<form method="post" enctype="multipart/form-data" class="card filters">
+  {% csrf_token %}
+  <label>Log file (.log, .jsonl, .gz)<input type="file" name="file" required></label>
+  <label>Default service<input type="text" name="service" placeholder="optional"></label>
+  <label>Default host<input type="text" name="host" placeholder="optional"></label>
+  <div class="actions"><button type="submit">Upload &amp; process</button></div>
+</form>
+
+<div class="card table-wrap">
+<table>
+  <thead><tr><th>#</th><th>Source</th><th>Status</th><th>Started (UTC)</th><th class="num">Duration</th>
+    <th class="num">Processed</th><th class="num">Loaded</th><th class="num">Rejected</th><th class="num">Duplicates</th><th>Reject reasons</th></tr></thead>
+  <tbody>
+  {% for run in page_obj %}
+    <tr>
+      <td>{{ run.pk }}</td><td>{{ run.source_file }}</td>
+      <td><span class="badge run-{{ run.status|lower }}">{{ run.get_status_display }}</span></td>
+      <td class="nowrap">{{ run.started_at|date:"Y-m-d H:i:s" }}</td>
+      <td class="num">{% if run.duration_seconds is not None %}{{ run.duration_seconds }}s{% else %}–{% endif %}</td>
+      <td class="num">{{ run.records_processed }}</td><td class="num">{{ run.records_loaded }}</td>
+      <td class="num">{{ run.records_rejected }}</td><td class="num">{{ run.records_duplicate }}</td>
+      <td class="muted">{% for reason, n in run.reject_reasons.items %}{{ reason }}={{ n }}{% if not forloop.last %}, {% endif %}{% endfor %}</td>
+    </tr>
+  {% empty %}<tr><td colspan="10" class="muted">No pipeline runs yet.</td></tr>{% endfor %}
+  </tbody>
+</table>
+</div>
+{% include "partials/pagination.html" %}
+{% endblock %}

@@ -1,0 +1,1000 @@
+{"timestamp":"2026-09-29T00:00:45.826Z","level":"INFO","service":"auth-service","host":"auth-02","message":"Order created"}
+2026-09-29 00:01:34,055 INFO     [payment-service] (pay-02) Cache warmed
+{"timestamp":"2026-09-29T00:03:19.976Z","level":"INFO","service":"order-service","host":"ord-02","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":30.63,"ip":"10.154.246.218"}
+{"timestamp":"2026-09-29T00:03:19.976Z","level":"INFO","service":"order-service","host":"ord-02","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":30.63,"ip":"10.154.246.218"}
+2026-09-29 00:05:55,835 WARNING  [api-gateway] (gw-02) Slow query detected
+2026-09-29 00:08:23,960 INFO     [order-service] (ord-03) Email queued
+{"timestamp":"2026-09-29T00:08:57.553Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/logout 201","method":"POST","path":"/api/logout","status":201,"response_time_ms":37.36,"ip":"172.84.201.219"}
+2026-09-29 00:10:05,060 INFO     [notification-service] (notif-01) User login succeeded
+{"timestamp":"2026-09-29T00:12:01.385Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":205.97,"ip":"10.162.156.242"}
+{"timestamp":"2026-09-29T00:14:00.117Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":42.66,"ip":"192.56.72.172"}
+192.66.228.11 - - [29/Sep/2026:00:14:45 +0000] "GET /api/health HTTP/1.1" 304 26410 "-" "Mozilla/5.0 (iPhone)" rt=0.038
+203.55.237.22 - - [29/Sep/2026:00:17:05 +0000] "GET /api/products/101 HTTP/1.1" 200 29183 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.107
+172.153.79.200 - - [29/Sep/2026:00:18:05 +0000] "POST /api/login HTTP/1.1" 200 27149 "-" "curl/8.5.0" rt=0.037
+2026-09-29 00:19:21,307 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=68.29 ip=10.180.78.128
+2026-09-29 00:19:21,307 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=68.29 ip=10.180.78.128
+{"timestamp":"2026-09-29T00:22:34.038Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Payment authorized"}
+{"timestamp":"2026-09-29T00:24:04.971Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":102.82,"ip":"203.21.197.196"}
+10.10.149.179 - - [29/Sep/2026:00:25:11 +0000] "GET /api/products/101 HTTP/1.1" 200 21011 "-" "python-requests/2.32" rt=0.163
+{"timestamp": "2026-09-29T00:27:02.946Z", "level": "INFO", "message": 
+192.70.14.102 - - [29/Sep/2026:00:27:34 +0000] "GET /api/products HTTP/1.1" 200 9887 "-" "python-requests/2.32" rt=0.062
+{"timestamp":"2026-09-29T00:29:21.956Z","level":"INFO","service":"auth-service","host":"auth-02","message":"Payment authorized"}
+2026-09-29 00:30:55,524 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=89.45 ip=192.228.36.21
+{"timestamp":"2026-09-29T00:31:56.500Z","level":"INFO","service":"auth-service","host":"auth-02","message":"Order created"}
+{"timestamp":"2026-09-29T00:33:32.651Z","level":"INFO","service":"order-service","host":"ord-01","message":"Order created"}
+2026-09-29 00:34:34,279 INFO     [payment-service] (pay-02) Email queued
+2026-13-45 99:99:99,000 ERROR   [order-service] (ord-01) impossible timestamp
+172.15.182.152 - - [29/Sep/2026:00:37:44 +0000] "POST /api/orders HTTP/1.1" 502 10744 "-" "Mozilla/5.0 (iPhone)" rt=0.178
+192.175.108.23 - - [29/Sep/2026:00:40:08 +0000] "GET /api/products/102 HTTP/1.1" 200 35489 "-" "python-requests/2.32" rt=0.032
+{"timestamp":"2026-09-29T00:41:32.973Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Email queued"}
+172.37.188.202 - - [29/Sep/2026:00:42:39 +0000] "POST /api/orders HTTP/1.1" 201 25598 "-" "Mozilla/5.0 (iPhone)" rt=0.124
+2026-09-29 00:44:02,042 ERROR    [api-gateway] (gw-02) Database connection timeout
+203.184.9.108 - - [29/Sep/2026:00:44:48 +0000] "GET /api/orders HTTP/1.1" 200 21880 "-" "curl/8.5.0" rt=0.059
+192.119.146.3 - - [29/Sep/2026:00:47:04 +0000] "GET /api/products HTTP/1.1" 200 21711 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.043
+{"timestamp":"2026-09-29T00:48:10.664Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":86.87,"ip":"172.84.201.219"}
+192.164.234.69 - - [29/Sep/2026:00:49:21 +0000] "GET /api/orders HTTP/1.1" 304 44310 "-" "curl/8.5.0" rt=0.053
+172.216.87.161 - - [29/Sep/2026:00:50:46 +0000] "GET /api/products HTTP/1.1" 200 13365 "-" "Mozilla/5.0 (iPhone)" rt=0.278
+203.190.52.183 - - [29/Sep/2026:00:52:15 +0000] "POST /api/notifications HTTP/1.1" 201 24529 "-" "python-requests/2.32" rt=0.271
+203.190.52.183 - - [29/Sep/2026:00:52:15 +0000] "POST /api/notifications HTTP/1.1" 201 24529 "-" "python-requests/2.32" rt=0.271
+203.190.52.183 - - [29/Sep/2026:00:52:15 +0000] "POST /api/notifications HTTP/1.1" 201 24529 "-" "python-requests/2.32" rt=0.271
+10.154.246.218 - - [29/Sep/2026:00:56:10 +0000] "GET /static/app.js HTTP/1.1" 200 35909 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.088
+2026-13-45 99:99:99,000 ERROR   [order-service] (ord-01) impossible timestamp
+{"timestamp": "2026-09-29T00:59:10.251Z", "level": "LOUD", "message": "unknown level"}
+{"timestamp":"2026-09-29T01:00:49.931Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":79.8,"ip":"192.225.121.175"}
+2026-09-29 01:02:29,638 INFO     [order-service] (ord-02) Email queued
+2026-09-29 01:03:37,143 INFO     [api-gateway] (gw-01) User login succeeded
+{"timestamp":"2026-09-29T01:05:32.131Z","level":"INFO","service":"order-service","host":"ord-03","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":83.26,"ip":"172.231.227.107"}
+{"timestamp":"2026-09-29T01:06:28.576Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":61.77,"ip":"203.249.49.140"}
+{"timestamp":"2026-09-29T01:06:28.576Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":61.77,"ip":"203.249.49.140"}
+{"timestamp":"2026-09-29T01:09:08.886Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Payment authorized"}
+{"timestamp":"2026-09-29T01:11:43.792Z","level":"ERROR","service":"auth-service","host":"auth-02","message":"Failed to publish message to queue"}
+172.1.209.62 - - [29/Sep/2026:01:13:16 +0000] "GET /api/health HTTP/1.1" 401 29227 "-" "python-requests/2.32" rt=0.280
+999.1.1.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 200 12 "-" "curl/8"
+2026-09-29 01:15:18,839 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=400 duration_ms=109.65 ip=172.50.153.5
+2026-09-29 01:16:53,301 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=112.9 ip=172.117.32.132
+2026-09-29 01:16:53,301 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=112.9 ip=172.117.32.132
+2026-09-29 01:20:03,349 WARNING  [payment-service] (pay-01) Disk usage above 80%
+{"timestamp":"2026-09-29T01:21:29.520Z","level":"INFO","service":"order-service","host":"ord-01","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":61.97,"ip":"10.166.87.1"}
+2026-09-29 01:22:26,320 ERROR    [auth-service] (auth-01) Database connection timeout
+{"timestamp":"2026-09-29T01:24:44.735Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/login 304","method":"POST","path":"/api/login","status":304,"response_time_ms":47.5,"ip":"192.203.26.90"}
+2026-09-29 01:25:50,190 WARNING  [auth-service] (auth-02) Retrying upstream request
+192.222.85.97 - - [29/Sep/2026:01:27:16 +0000] "POST /api/orders HTTP/1.1" 400 28630 "-" "Mozilla/5.0 (iPhone)" rt=0.246
+2026-09-29 01:28:25,326 INFO     [payment-service] (pay-02) Order created
+2026-09-29 01:28:25,326 INFO     [payment-service] (pay-02) Order created
+2026-09-29 01:31:24,300 INFO     [order-service] (ord-02) Payment authorized
+2026-09-29 01:33:22,868 WARNING  [order-service] (ord-01) Retrying upstream request
+172.161.48.104 - - [29/Sep/2026:01:34:20 +0000] "GET /static/app.js HTTP/1.1" 404 210 "-" "python-requests/2.32" rt=0.097
+{"timestamp":"2026-09-29T01:35:08.327Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":150.9,"ip":"172.40.178.166"}
+10.32.36.209 - - [29/Sep/2026:01:36:37 +0000] "GET /api/products/102 HTTP/1.1" 200 47766 "-" "curl/8.5.0" rt=0.183
+192.212.89.20 - - [29/Sep/2026:01:38:39 +0000] "GET /api/search HTTP/1.1" 200 20674 "-" "curl/8.5.0" rt=0.230
+{"timestamp":"2026-09-29T01:39:38.966Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":58.1,"ip":"10.10.149.179"}
+{"timestamp":"2026-09-29T01:41:53.559Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Payment authorized"}
+{"timestamp":"2026-09-29T01:42:28.482Z","level":"INFO","service":"auth-service","host":"auth-02","message":"Payment authorized"}
+this is not a log line
+{"level": "INFO", "service": "auth-service", "message": "missing timestamp"}
+2026-09-29 01:47:13,491 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=56.72 ip=203.99.235.129
+172.184.105.132 - - [29/Sep/2026:01:49:01 +0000] "GET /api/health HTTP/1.1" 200 28103 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.189
+{"timestamp":"2026-09-29T01:50:10.159Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":98.0,"ip":"203.241.142.224"}
+203.173.146.223 - - [29/Sep/2026:01:51:15 +0000] "POST /api/logout HTTP/1.1" 201 26483 "-" "python-requests/2.32" rt=0.165
+{"timestamp":"2026-09-29T01:53:31.017Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":177.27,"ip":"203.65.54.201"}
+203.41.150.110 - - [29/Sep/2026:01:54:20 +0000] "GET /api/products HTTP/1.1" 200 6109 "-" "curl/8.5.0" rt=0.034
+203.28.171.66 - - [29/Sep/2026:01:56:01 +0000] "POST /api/logout HTTP/1.1" 201 9045 "-" "python-requests/2.32" rt=0.065
+{"timestamp":"2026-09-29T01:57:29.804Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Cache warmed"}
+{"timestamp":"2026-09-29T01:59:30.078Z","level":"INFO","service":"order-service","host":"ord-03","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":132.83,"ip":"10.52.248.97"}
+{"timestamp":"2026-09-29T02:00:13.227Z","level":"INFO","service":"order-service","host":"ord-01","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":82.18,"ip":"172.1.209.62"}
+{"timestamp":"2026-09-29T02:01:22.549Z","level":"INFO","service":"order-service","host":"ord-01","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":73.78,"ip":"172.102.74.236"}
+203.15.147.227 - - [29/Sep/2026:02:02:37 +0000] "GET /api/products HTTP/1.1" 200 44405 "-" "Mozilla/5.0 (iPhone)" rt=0.055
+{"timestamp":"2026-09-29T02:04:03.848Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 304","method":"GET","path":"/api/products","status":304,"response_time_ms":83.08,"ip":"192.19.112.130"}
+192.90.233.254 - - [29/Sep/2026:02:05:49 +0000] "GET /api/products/102 HTTP/1.1" 200 15834 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.091
+{"timestamp":"2026-09-29T02:07:56.969Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":95.3,"ip":"203.28.171.66"}
+172.181.209.136 - - [29/Sep/2026:02:09:12 +0000] "GET /api/orders HTTP/1.1" 200 15421 "-" "python-requests/2.32" rt=0.116
+{"timestamp":"2026-09-29T02:10:28.592Z","level":"WARNING","service":"api-gateway","host":"gw-01","message":"GET /api/products 401","method":"GET","path":"/api/products","status":401,"response_time_ms":80.16,"ip":"192.136.127.168"}
+{"timestamp":"2026-09-29T02:12:00.046Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":37.92,"ip":"10.162.156.242"}
+{"timestamp": "yesterday-ish", "level": "INFO", "message": "bad timestamp"}
+{"timestamp":"2026-09-29T02:15:13.436Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":60.88,"ip":"172.213.223.197"}
+{"timestamp":"2026-09-29T02:15:13.436Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":60.88,"ip":"172.213.223.197"}
+{"timestamp":"2026-09-29T02:15:13.436Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":60.88,"ip":"172.213.223.197"}
+999.1.1.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 200 12 "-" "curl/8"
+{"level": "INFO", "service": "auth-service", "message": "missing timestamp"}
+{"timestamp":"2026-09-29T02:21:31.490Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":65.43,"ip":"192.166.105.234"}
+10.156.133.179 - - [29/Sep/2026:02:23:13 +0000] "POST /api/logout HTTP/1.1" 201 33732 "-" "python-requests/2.32" rt=0.062
+2026-09-29 02:25:13,035 INFO     [order-service] (ord-03) Email queued
+2026-09-29 02:25:27,724 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=145.22 ip=203.212.139.240
+2026-09-29 02:25:27,724 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=304 duration_ms=145.22 ip=203.212.139.240
+10.44.75.235 - - [29/Sep/2026:02:28:21 +0000] "POST /api/payments HTTP/1.1" 201 19855 "-" "python-requests/2.32" rt=0.079
+{"timestamp":"2026-09-29T02:31:04.937Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":163.41,"ip":"203.212.139.240"}
+10.218.103.26 - - [29/Sep/2026:02:31:59 +0000] "GET /api/products/102 HTTP/1.1" 401 24244 "-" "python-requests/2.32" rt=0.149
+{"timestamp":"2026-09-29T02:33:11.087Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":74.67,"ip":"203.87.225.188"}
+{"timestamp":"2026-09-29T02:34:32.223Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"User login succeeded"}
+192.35.188.196 - - [29/Sep/2026:02:36:34 +0000] "GET /api/products HTTP/1.1" 200 2001 "-" "Mozilla/5.0 (iPhone)" rt=0.075
+{"timestamp":"2026-09-29T02:38:01.284Z","level":"WARNING","service":"order-service","host":"ord-03","message":"Disk usage above 80%"}
+2026-09-29 02:39:29,486 INFO     [order-service] (ord-03) Payment authorized
+2026-09-29 02:40:10,514 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=78.37 ip=203.252.26.8
+2026-09-29 02:41:49,948 ERROR    [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=500 duration_ms=182.88 ip=203.93.207.28
+{"timestamp":"2026-09-29T02:43:23.180Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Payment authorized"}
+2026-09-29 02:45:17,615 INFO     [payment-service] (pay-02) User login succeeded
+{"timestamp":"2026-09-29T02:46:09.440Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"Order created"}
+2026-09-29 02:47:18,914 WARNING  [notification-service] (notif-01) Disk usage above 80%
+{"timestamp":"2026-09-29T02:48:54.946Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":165.1,"ip":"172.154.167.248"}
+{"timestamp":"2026-09-29T02:50:53.117Z","level":"INFO","service":"payment-service","host":"pay-02","message":"Email queued"}
+2026-09-29 02:51:46,636 WARNING  [api-gateway] (gw-02) Retrying upstream request
+172.73.13.240 - - [29/Sep/2026:02:53:19 +0000] "GET /api/health HTTP/1.1" 200 47107 "-" "Mozilla/5.0 (iPhone)" rt=0.129
+2026-09-29 02:54:40,270 WARNING  [api-gateway] (gw-01) Retrying upstream request
+203.219.90.136 - - [29/Sep/2026:02:57:06 +0000] "GET /api/search HTTP/1.1" 200 17096 "-" "curl/8.5.0" rt=0.077
+2026-09-29 02:57:26,757 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=333.29 ip=192.155.216.82
+2026-09-29 02:58:37,527 INFO     [notification-service] (notif-01) Email queued
+{"timestamp":"2026-09-29T03:01:19.967Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":181.07,"ip":"10.61.125.66"}
+10.0.0.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 999 12 "-" "curl/8"
+{"timestamp":"2026-09-29T03:03:55.242Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"Email queued"}
+{"timestamp":"2026-09-29T03:05:41.027Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":104.99,"ip":"10.61.125.66"}
+{"timestamp":"2026-09-29T03:06:45.442Z","level":"WARNING","service":"payment-service","host":"pay-01","message":"Slow query detected"}
+{"timestamp":"2026-09-29T03:06:45.442Z","level":"WARNING","service":"payment-service","host":"pay-01","message":"Slow query detected"}
+192.132.73.92 - - [29/Sep/2026:03:08:38 +0000] "GET /static/app.js HTTP/1.1" 200 6747 "-" "python-requests/2.32" rt=0.057
+2026-09-29 03:11:08,386 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=183.93 ip=203.16.65.69
+2026-09-29 03:11:08,386 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=183.93 ip=203.16.65.69
+{"timestamp":"2026-09-29T03:14:08.735Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"User login succeeded"}
+172.154.48.126 - - [29/Sep/2026:03:14:52 +0000] "GET /api/products HTTP/1.1" 200 32422 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.076
+172.40.178.166 - - [29/Sep/2026:03:17:04 +0000] "GET /api/search HTTP/1.1" 401 9030 "-" "Mozilla/5.0 (iPhone)" rt=0.086
+203.53.13.94 - - [29/Sep/2026:03:18:19 +0000] "GET /api/products HTTP/1.1" 200 28934 "-" "curl/8.5.0" rt=0.058
+2026-09-29 03:20:00,487 WARNING  [payment-service] (pay-02) Retrying upstream request
+{"timestamp":"2026-09-29T03:20:22.891Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Cache warmed"}
+192.253.174.150 - - [29/Sep/2026:03:22:44 +0000] "POST /api/login HTTP/1.1" 200 45845 "-" "python-requests/2.32" rt=0.189
+192.68.136.223 - - [29/Sep/2026:03:24:07 +0000] "GET /api/health HTTP/1.1" 200 8613 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.036
+203.169.127.194 - - [29/Sep/2026:03:25:42 +0000] "GET /api/products HTTP/1.1" 200 1164 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.060
+172.153.79.200 - - [29/Sep/2026:03:27:14 +0000] "GET /api/products/102 HTTP/1.1" 200 29304 "-" "curl/8.5.0" rt=0.098
+{"timestamp":"2026-09-29T03:27:25.562Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":196.88,"ip":"192.97.51.102"}
+{"timestamp":"2026-09-29T03:29:06.387Z","level":"INFO","service":"auth-service","host":"auth-01","message":"Order created"}
+{"timestamp":"2026-09-29T03:31:19.959Z","level":"INFO","service":"order-service","host":"ord-01","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":89.94,"ip":"172.232.183.52"}
+203.16.65.69 - - [29/Sep/2026:03:32:59 +0000] "POST /api/orders HTTP/1.1" 201 30196 "-" "curl/8.5.0" rt=0.067
+999.1.1.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 200 12 "-" "curl/8"
+{"timestamp": "yesterday-ish", "level": "INFO", "message": "bad timestamp"}
+{"timestamp":"2026-09-29T03:37:19.944Z","level":"INFO","service":"order-service","host":"ord-03","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":186.04,"ip":"172.184.105.132"}
+2026-09-29 03:38:39,087 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=200 duration_ms=80.72 ip=10.156.133.179
+{"timestamp":"2026-09-29T03:39:05.169Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"Email queued"}
+{"timestamp":"2026-09-29T03:40:33.200Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":168.08,"ip":"203.95.205.161"}
+2026-09-29 03:42:15,001 INFO     [order-service] (ord-02) Payment authorized
+203.159.4.234 - - [29/Sep/2026:03:44:36 +0000] "GET /api/health HTTP/1.1" 200 45094 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.063
+{"timestamp":"2026-09-29T03:45:01.226Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":106.06,"ip":"172.154.48.126"}
+{"timestamp":"2026-09-29T03:47:22.337Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":26.51,"ip":"203.109.24.230"}
+2026-09-29 03:48:22,883 INFO     [payment-service] (pay-01) Cache warmed
+2026-09-29 03:50:17,959 INFO     [auth-service] (auth-02) Order created
+2026-09-29 03:50:42,527 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 03:53:10,219 INFO     [notification-service] (notif-01) Cache warmed
+{"timestamp": "2026-09-29T03:53:53.792Z", "level": "INFO", "message": 
+203.87.225.188 - - [29/Sep/2026:03:56:01 +0000] "GET /static/app.js HTTP/1.1" 200 32890 "-" "Mozilla/5.0 (iPhone)" rt=0.066
+{"timestamp":"2026-09-29T03:56:38.410Z","level":"INFO","service":"payment-service","host":"pay-01","message":"POST /api/payments 201","method":"POST","path":"/api/payments","status":201,"response_time_ms":36.13,"ip":"192.97.51.102"}
+{"timestamp":"2026-09-29T03:57:44.712Z","level":"INFO","service":"auth-service","host":"auth-01","message":"User login succeeded"}
+172.153.79.200 - - [29/Sep/2026:03:59:27 +0000] "POST /api/login HTTP/1.1" 200 39591 "-" "Mozilla/5.0 (iPhone)" rt=0.109
+2026-09-29 04:01:18,719 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=52.86 ip=10.176.30.205
+2026-09-29 04:02:16,031 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=239.74 ip=203.156.240.152
+{"timestamp":"2026-09-29T04:03:49.978Z","level":"INFO","service":"payment-service","host":"pay-02","message":"Email queued"}
+2026-09-29 04:05:17,168 INFO     [auth-service] (auth-02) Payment authorized
+10.254.83.20 - - [29/Sep/2026:04:07:34 +0000] "POST /api/orders HTTP/1.1" 201 42333 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.094
+2026-09-29 04:08:43,997 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/health status=401 duration_ms=41.03 ip=203.76.46.47
+2026-09-29 04:09:46,453 INFO     [order-service] (ord-03) Cache warmed
+{"timestamp":"2026-09-29T04:10:44.689Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Cache warmed"}
+203.252.26.8 - - [29/Sep/2026:04:12:51 +0000] "GET /api/health HTTP/1.1" 404 9662 "-" "curl/8.5.0" rt=0.066
+10.52.248.97 - - [29/Sep/2026:04:13:50 +0000] "GET /api/orders HTTP/1.1" 200 7491 "-" "python-requests/2.32" rt=0.023
+{"timestamp":"2026-09-29T04:15:43.892Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":297.64,"ip":"203.59.3.24"}
+2026-09-29 04:16:55,128 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=89.19 ip=172.31.193.146
+{"timestamp":"2026-09-29T04:19:05.750Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":93.59,"ip":"172.135.15.41"}
+203.89.104.78 - - [29/Sep/2026:04:19:40 +0000] "POST /api/orders HTTP/1.1" 201 18300 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.172
+2026-09-29 04:21:00,606 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=78.55 ip=10.200.233.23
+2026-09-29 04:23:01,593 INFO     [api-gateway] (gw-01) Cache warmed
+{"timestamp":"2026-09-29T04:24:20.664Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":316.36,"ip":"10.156.133.179"}
+{"timestamp": "2026-09-29T04:25:25.416Z", "level": "LOUD", "message": "unknown level"}
+10.10.149.179 - - [29/Sep/2026:04:27:10 +0000] "GET /api/products/101 HTTP/1.1" 200 31829 "-" "Mozilla/5.0 (iPhone)" rt=0.168
+999.1.1.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 200 12 "-" "curl/8"
+{"timestamp":"2026-09-29T04:30:06.917Z","level":"ERROR","service":"order-service","host":"ord-03","message":"Database connection timeout"}
+2026-09-29 04:30:59,646 INFO     [auth-service] (auth-02) Cache warmed
+{"timestamp":"2026-09-29T04:32:20.930Z","level":"WARNING","service":"api-gateway","host":"gw-02","message":"Retrying upstream request"}
+172.131.122.254 - - [29/Sep/2026:04:34:33 +0000] "GET /api/products/101 HTTP/1.1" 404 3486 "-" "Mozilla/5.0 (iPhone)" rt=0.137
+203.57.211.46 - - [29/Sep/2026:04:35:21 +0000] "GET /api/products/101 HTTP/1.1" 200 19820 "-" "curl/8.5.0" rt=0.058
+2026-09-29 04:36:37,035 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=324.76 ip=10.192.140.55
+2026-09-29 04:38:57,517 INFO     [order-service] (ord-02) Email queued
+172.31.193.146 - - [29/Sep/2026:04:39:32 +0000] "GET /api/orders HTTP/1.1" 200 5119 "-" "curl/8.5.0" rt=0.083
+{"timestamp":"2026-09-29T04:40:56.900Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":74.27,"ip":"172.160.181.112"}
+2026-09-29 04:42:20,745 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=98.0 ip=203.183.64.25
+{"timestamp":"2026-09-29T04:43:41.870Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Cache warmed"}
+172.242.238.82 - - [29/Sep/2026:04:45:54 +0000] "GET /api/products HTTP/1.1" 200 32686 "-" "python-requests/2.32" rt=0.246
+{"timestamp":"2026-09-29T04:46:47.332Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"Order created"}
+{"timestamp":"2026-09-29T04:46:47.332Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"Order created"}
+{"timestamp":"2026-09-29T04:50:10.089Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"Email queued"}
+{"timestamp":"2026-09-29T04:52:02.579Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":76.05,"ip":"10.150.124.115"}
+203.212.139.240 - - [29/Sep/2026:04:53:35 +0000] "GET /api/products HTTP/1.1" 200 18381 "-" "python-requests/2.32" rt=0.353
+203.107.21.111 - - [29/Sep/2026:04:54:01 +0000] "GET /api/products HTTP/1.1" 200 14541 "-" "python-requests/2.32" rt=0.168
+10.0.0.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 999 12 "-" "curl/8"
+{"timestamp": "2026-09-29T04:57:36.904Z", "level": "LOUD", "message": "unknown level"}
+2026-09-29 04:58:51,868 INFO     [api-gateway] (gw-01) Email queued
+{"timestamp":"2026-09-29T05:00:50.062Z","level":"WARNING","service":"notification-service","host":"notif-01","message":"POST /api/notifications 401","method":"POST","path":"/api/notifications","status":401,"response_time_ms":71.07,"ip":"203.183.64.25"}
+2026-13-45 99:99:99,000 ERROR   [order-service] (ord-01) impossible timestamp
+2026-09-29 05:02:58,780 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products/102 status=400 duration_ms=113.65 ip=203.159.4.234
+192.225.121.175 - - [29/Sep/2026:05:04:49 +0000] "GET /static/app.js HTTP/1.1" 200 6685 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.045
+{"timestamp":"2026-09-29T05:05:45.268Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":133.54,"ip":"192.85.79.155"}
+{"timestamp":"2026-09-29T05:07:45.867Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"User login succeeded"}
+192.147.203.105 - - [29/Sep/2026:05:08:29 +0000] "POST /api/login HTTP/1.1" 200 21915 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.097
+2026-09-29 05:09:39,420 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=200 duration_ms=90.99 ip=192.98.84.160
+{"timestamp":"2026-09-29T05:12:10.035Z","level":"WARNING","service":"auth-service","host":"auth-01","message":"Cache miss ratio above threshold"}
+{"timestamp":"2026-09-29T05:13:12.185Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":41.67,"ip":"192.155.216.82"}
+172.161.48.104 - - [29/Sep/2026:05:15:16 +0000] "GET /static/app.js HTTP/1.1" 200 2273 "-" "Mozilla/5.0 (iPhone)" rt=0.064
+{"timestamp":"2026-09-29T05:16:34.385Z","level":"INFO","service":"auth-service","host":"auth-01","message":"Order created"}
+2026-09-29 05:16:56,480 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=81.61 ip=192.155.216.82
+{"timestamp":"2026-09-29T05:18:55.560Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":109.5,"ip":"192.212.89.20"}
+{"timestamp": "2026-09-29T05:19:48.610Z", "level": "LOUD", "message": "unknown level"}
+2026-09-29 05:22:07,914 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=73.56 ip=172.37.188.202
+2026-09-29 05:23:07,652 INFO     [payment-service] (pay-01) User login succeeded
+{"timestamp":"2026-09-29T05:24:58.958Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/logout 201","method":"POST","path":"/api/logout","status":201,"response_time_ms":165.01,"ip":"192.186.218.76"}
+{"timestamp":"2026-09-29T05:26:04.284Z","level":"INFO","service":"payment-service","host":"pay-01","message":"Email queued"}
+{"timestamp":"2026-09-29T05:27:27.678Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":120.5,"ip":"10.254.83.20"}
+203.95.205.161 - - [29/Sep/2026:05:29:33 +0000] "GET /static/app.js HTTP/1.1" 200 1999 "-" "curl/8.5.0" rt=0.057
+{"timestamp":"2026-09-29T05:30:33.046Z","level":"ERROR","service":"api-gateway","host":"gw-01","message":"Upstream service unavailable"}
+{"timestamp":"2026-09-29T05:31:22.330Z","level":"INFO","service":"order-service","host":"ord-01","message":"Order created"}
+172.137.79.218 - - [29/Sep/2026:05:32:41 +0000] "GET /api/products HTTP/1.1" 200 43333 "-" "curl/8.5.0" rt=0.021
+{"timestamp":"2026-09-29T05:35:25.523Z","level":"WARNING","service":"notification-service","host":"notif-01","message":"Retrying upstream request"}
+{"timestamp":"2026-09-29T05:35:25.523Z","level":"WARNING","service":"notification-service","host":"notif-01","message":"Retrying upstream request"}
+2026-09-29 05:37:57,776 WARNING  [api-gateway] (gw-02) Slow query detected
+2026-09-29 05:39:46,127 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=66.88 ip=192.222.85.97
+192.176.220.157 - - [29/Sep/2026:05:39:55 +0000] "GET /api/products HTTP/1.1" 404 33162 "-" "python-requests/2.32" rt=0.140
+{"timestamp":"2026-09-29T05:42:02.282Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":41.85,"ip":"10.23.138.212"}
+{"timestamp":"2026-09-29T05:43:47.731Z","level":"INFO","service":"auth-service","host":"auth-01","message":"Payment authorized"}
+10.32.230.200 - - [29/Sep/2026:05:44:15 +0000] "GET /api/products/101 HTTP/1.1" 200 8486 "-" "python-requests/2.32" rt=0.061
+{"timestamp":"2026-09-29T05:45:40.927Z","level":"INFO","service":"order-service","host":"ord-01","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":164.57,"ip":"192.212.89.20"}
+2026-09-29 05:47:40,279 INFO     [api-gateway] (gw-01) Order created
+2026-09-29 05:48:59,141 INFO     [auth-service] (auth-01) request completed method=POST path=/api/logout status=201 duration_ms=34.11 ip=192.119.146.3
+{"timestamp":"2026-09-29T05:51:12.931Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Payment authorized"}
+{"timestamp":"2026-09-29T05:52:08.717Z","level":"INFO","service":"order-service","host":"ord-02","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":130.01,"ip":"10.43.14.216"}
+2026-09-29 05:53:16,357 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=99.0 ip=203.99.235.129
+{"timestamp":"2026-09-29T05:54:38.929Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":178.13,"ip":"172.67.130.167"}
+{"timestamp": "2026-09-29T05:55:52.533Z", "level": "INFO", "message": 
+2026-09-29 05:57:10,609 INFO     [order-service] (ord-02) request completed method=GET path=/api/orders status=200 duration_ms=62.14 ip=10.42.50.197
+{"timestamp":"2026-09-29T05:59:05.357Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":117.63,"ip":"172.232.183.52"}
+{"timestamp":"2026-09-29T06:00:51.875Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":167.58,"ip":"10.176.30.205"}
+10.7.249.226 - - [29/Sep/2026:06:02:04 +0000] "GET /api/products HTTP/1.1" 200 42305 "-" "curl/8.5.0" rt=0.105
+{"timestamp":"2026-09-29T06:03:50.274Z","level":"WARNING","service":"notification-service","host":"notif-01","message":"POST /api/notifications 403","method":"POST","path":"/api/notifications","status":403,"response_time_ms":100.77,"ip":"192.85.33.203"}
+192.74.201.252 - - [29/Sep/2026:06:04:53 +0000] "GET /api/products HTTP/1.1" 200 28785 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.207
+999.1.1.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 200 12 "-" "curl/8"
+2026-09-29 06:08:12,365 WARNING  [order-service] (ord-01) Disk usage above 80%
+2026-09-29 06:09:40,437 INFO     [order-service] (ord-01) Order created
+2026-09-29 06:09:40,437 INFO     [order-service] (ord-01) Order created
+2026-09-29 06:09:40,437 INFO     [order-service] (ord-01) Order created
+2026-09-29 06:13:26,954 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=504 duration_ms=76.54 ip=203.41.150.110
+10.177.97.165 - - [29/Sep/2026:06:14:25 +0000] "GET /api/health HTTP/1.1" 200 8050 "-" "python-requests/2.32" rt=0.080
+{"timestamp":"2026-09-29T06:15:56.437Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":80.85,"ip":"10.192.140.55"}
+2026-09-29 06:18:04,943 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=304 duration_ms=86.14 ip=203.193.85.14
+10.101.90.156 - - [29/Sep/2026:06:18:58 +0000] "POST /api/logout HTTP/1.1" 201 7025 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.105
+2026-09-29 06:20:53,235 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=38.74 ip=10.212.216.128
+2026-09-29 06:22:34,117 INFO     [auth-service] (auth-01) Order created
+{"timestamp": "2026-09-29T06:23:34.403Z", "level": "LOUD", "message": "unknown level"}
+{"timestamp": "2026-09-29T06:25:35.966Z", "level": "LOUD", "message": "unknown level"}
+{"timestamp":"2026-09-29T06:26:58.510Z","level":"INFO","service":"order-service","host":"ord-01","message":"Cache warmed"}
+192.25.178.164 - - [29/Sep/2026:06:28:18 +0000] "GET /api/health HTTP/1.1" 200 28968 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.086
+172.242.238.82 - - [29/Sep/2026:06:29:17 +0000] "GET /api/products HTTP/1.1" 200 8588 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.116
+2026-09-29 06:30:53,766 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=110.51 ip=192.19.209.243
+192.252.161.64 - - [29/Sep/2026:06:33:02 +0000] "GET /api/health HTTP/1.1" 403 40721 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.097
+2026-09-29 06:33:19,904 INFO     [notification-service] (notif-01) Email queued
+192.222.85.97 - - [29/Sep/2026:06:34:47 +0000] "GET /api/health HTTP/1.1" 200 5661 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.238
+2026-09-29 06:36:42,785 INFO     [notification-service] (notif-01) Order created
+2026-09-29 06:38:45,951 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=94.06 ip=203.243.23.201
+172.242.238.82 - - [29/Sep/2026:06:39:39 +0000] "POST /api/logout HTTP/1.1" 201 12175 "-" "Mozilla/5.0 (iPhone)" rt=0.116
+2026-09-29 06:40:18,458 WARNING  [notification-service] (notif-01) Slow query detected
+{"timestamp":"2026-09-29T06:42:24.984Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Order created"}
+2026-09-29 06:43:25,805 INFO     [payment-service] (pay-02) Cache warmed
+192.66.228.11 - - [29/Sep/2026:06:45:54 +0000] "GET /api/products/102 HTTP/1.1" 200 30067 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.174
+{"timestamp":"2026-09-29T06:46:29.426Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":61.13,"ip":"192.106.195.240"}
+203.159.4.234 - - [29/Sep/2026:06:48:32 +0000] "GET /api/health HTTP/1.1" 429 1926 "-" "Mozilla/5.0 (iPhone)" rt=0.075
+2026-09-29 06:49:13,534 INFO     [auth-service] (auth-01) Order created
+2026-09-29 06:50:58,715 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=99.64 ip=203.33.71.228
+{"timestamp":"2026-09-29T06:52:54.551Z","level":"INFO","service":"payment-service","host":"pay-02","message":"POST /api/payments 201","method":"POST","path":"/api/payments","status":201,"response_time_ms":107.35,"ip":"172.20.221.101"}
+2026-09-29 06:53:37,259 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=112.51 ip=192.88.193.70
+{"timestamp":"2026-09-29T06:55:56.136Z","level":"ERROR","service":"api-gateway","host":"gw-02","message":"GET /api/health 503","method":"GET","path":"/api/health","status":503,"response_time_ms":129.71,"ip":"10.162.64.164"}
+2026-09-29 06:56:38,672 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products/102 status=200 duration_ms=117.99 ip=192.252.42.129
+{"timestamp":"2026-09-29T06:57:37.837Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":114.02,"ip":"192.51.23.15"}
+2026-09-29 06:59:12,946 WARNING  [payment-service] (pay-01) Cache miss ratio above threshold
+172.242.238.82 - - [29/Sep/2026:07:00:28 +0000] "POST /api/login HTTP/1.1" 200 18883 "-" "python-requests/2.32" rt=0.166
+2026-09-29 07:01:55,166 INFO     [auth-service] (auth-02) Order created
+2026-09-29 07:04:22,318 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=40.66 ip=192.19.112.130
+2026-09-29 07:04:22,318 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=40.66 ip=192.19.112.130
+2026-09-29 07:06:30,019 INFO     [api-gateway] (gw-01) User login succeeded
+2026-09-29 07:08:42,001 INFO     [api-gateway] (gw-02) Order created
+203.252.26.8 - - [29/Sep/2026:07:10:14 +0000] "GET /static/app.js HTTP/1.1" 200 44157 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.357
+{"timestamp":"2026-09-29T07:11:39.131Z","level":"INFO","service":"notification-service","host":"notif-01","message":"POST /api/notifications 201","method":"POST","path":"/api/notifications","status":201,"response_time_ms":84.63,"ip":"203.190.52.183"}
+{"timestamp":"2026-09-29T07:11:39.131Z","level":"INFO","service":"notification-service","host":"notif-01","message":"POST /api/notifications 201","method":"POST","path":"/api/notifications","status":201,"response_time_ms":84.63,"ip":"203.190.52.183"}
+172.154.48.126 - - [29/Sep/2026:07:13:53 +0000] "GET /static/app.js HTTP/1.1" 200 34177 "-" "python-requests/2.32" rt=0.250
+{"timestamp":"2026-09-29T07:16:07.480Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":58.65,"ip":"203.193.85.14"}
+{"timestamp":"2026-09-29T07:16:07.480Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":58.65,"ip":"203.193.85.14"}
+2026-09-29 07:17:54,528 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=41.77 ip=172.216.87.161
+2026-09-29 07:17:54,528 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=41.77 ip=172.216.87.161
+{"timestamp":"2026-09-29T07:21:43.142Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":74.52,"ip":"10.180.78.128"}
+2026-09-29 07:23:28,541 INFO     [notification-service] (notif-01) Payment authorized
+{"timestamp":"2026-09-29T07:23:58.487Z","level":"ERROR","service":"api-gateway","host":"gw-02","message":"Unhandled exception in request handler"}
+203.53.13.94 - - [29/Sep/2026:07:26:19 +0000] "GET /api/products/101 HTTP/1.1" 200 44253 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.033
+2026-09-29 07:26:54,201 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=16.65 ip=172.16.157.162
+{"timestamp":"2026-09-29T07:29:01.770Z","level":"INFO","service":"order-service","host":"ord-01","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":33.12,"ip":"192.150.99.131"}
+192.253.174.150 - - [29/Sep/2026:07:30:06 +0000] "GET /api/products HTTP/1.1" 200 39346 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.085
+192.66.228.11 - - [29/Sep/2026:07:31:16 +0000] "GET /api/health HTTP/1.1" 200 18330 "-" "python-requests/2.32" rt=0.047
+{"timestamp":"2026-09-29T07:32:21.605Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":49.77,"ip":"203.249.49.140"}
+2026-09-29 07:34:55,354 INFO     [api-gateway] (gw-02) User login succeeded
+{"timestamp": "2026-09-29T07:35:33.722Z", "level": "INFO", "message": 
+2026-09-29 07:37:49,924 INFO     [payment-service] (pay-01) Email queued
+{"timestamp":"2026-09-29T07:38:01.701Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":339.64,"ip":"203.107.21.111"}
+{"timestamp":"2026-09-29T07:40:40.886Z","level":"INFO","service":"auth-service","host":"auth-01","message":"Email queued"}
+2026-09-29 07:41:44,598 INFO     [payment-service] (pay-02) Email queued
+2026-09-29 07:42:24,207 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=125.44 ip=203.246.245.132
+203.117.226.64 - - [29/Sep/2026:07:43:47 +0000] "GET /api/search HTTP/1.1" 200 28930 "-" "curl/8.5.0" rt=0.078
+{"timestamp":"2026-09-29T07:45:16.723Z","level":"WARNING","service":"api-gateway","host":"gw-01","message":"GET /api/health 429","method":"GET","path":"/api/health","status":429,"response_time_ms":73.6,"ip":"172.175.211.174"}
+2026-09-29 07:46:52,995 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=127.58 ip=192.164.234.69
+2026-09-29 07:48:41,223 WARNING  [order-service] (ord-02) request completed method=GET path=/api/orders status=429 duration_ms=65.02 ip=10.7.249.226
+10.61.125.66 - - [29/Sep/2026:07:49:34 +0000] "GET /api/products/102 HTTP/1.1" 200 44944 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.205
+2026-09-29 07:51:37,319 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 07:52:47,125 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=50.37 ip=10.192.140.55
+192.225.121.175 - - [29/Sep/2026:07:55:08 +0000] "GET /api/search HTTP/1.1" 304 4676 "-" "Mozilla/5.0 (iPhone)" rt=0.317
+{"timestamp":"2026-09-29T07:55:29.799Z","level":"INFO","service":"order-service","host":"ord-02","message":"User login succeeded"}
+{"timestamp":"2026-09-29T07:57:29.251Z","level":"DEBUG","service":"payment-service","host":"pay-01","message":"Cache lookup completed"}
+{"timestamp":"2026-09-29T07:58:17.555Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":293.68,"ip":"203.169.127.194"}
+2026-09-29 07:59:55,690 INFO     [order-service] (ord-03) Email queued
+{"timestamp":"2026-09-29T08:01:53.828Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Order created"}
+{"timestamp":"2026-09-29T08:03:38.097Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":162.07,"ip":"203.76.46.47"}
+2026-09-29 08:04:15,112 INFO     [order-service] (ord-02) Payment authorized
+2026-09-29 08:05:56,706 INFO     [auth-service] (auth-01) Cache warmed
+2026-09-29 08:07:45,031 WARNING  [api-gateway] (gw-02) Retrying upstream request
+{"timestamp":"2026-09-29T08:09:31.287Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"User login succeeded"}
+{"timestamp":"2026-09-29T08:10:23.158Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":83.69,"ip":"203.95.205.161"}
+{"timestamp":"2026-09-29T08:11:20.154Z","level":"ERROR","service":"order-service","host":"ord-01","message":"Failed to publish message to queue"}
+203.80.144.152 - - [29/Sep/2026:08:13:08 +0000] "GET /static/app.js HTTP/1.1" 200 46670 "-" "python-requests/2.32" rt=0.232
+{"timestamp":"2026-09-29T08:14:40.745Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":101.16,"ip":"10.2.170.37"}
+172.21.136.129 - - [29/Sep/2026:08:16:33 +0000] "GET /api/products HTTP/1.1" 200 47195 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.063
+{"timestamp":"2026-09-29T08:17:45.798Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/login 304","method":"POST","path":"/api/login","status":304,"response_time_ms":124.42,"ip":"10.2.170.37"}
+2026-09-29 08:18:44,122 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=42.56 ip=192.212.89.20
+2026-09-29 08:20:55,639 WARNING  [notification-service] (notif-01) Cache miss ratio above threshold
+192.186.218.76 - - [29/Sep/2026:08:22:04 +0000] "GET /api/products HTTP/1.1" 200 28769 "-" "curl/8.5.0" rt=0.064
+2026-09-29 08:22:56,320 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 08:25:09,579 INFO     [payment-service] (pay-02) Order created
+2026-09-29 08:25:09,579 INFO     [payment-service] (pay-02) Order created
+{"timestamp":"2026-09-29T08:27:21.927Z","level":"INFO","service":"order-service","host":"ord-01","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":172.29,"ip":"203.183.64.25"}
+2026-09-29 08:28:28,212 DEBUG    [order-service] (ord-03) Cache lookup completed
+10.0.0.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 999 12 "-" "curl/8"
+{"timestamp":"2026-09-29T08:32:35.353Z","level":"WARNING","service":"order-service","host":"ord-03","message":"Slow query detected"}
+172.216.87.161 - - [29/Sep/2026:08:32:51 +0000] "GET /api/health HTTP/1.1" 304 11159 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.095
+203.119.251.43 - - [29/Sep/2026:08:34:59 +0000] "GET /api/search HTTP/1.1" 200 35524 "-" "python-requests/2.32" rt=0.174
+{"timestamp":"2026-09-29T08:36:16.055Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":99.33,"ip":"10.176.30.205"}
+{"timestamp":"2026-09-29T08:38:07.111Z","level":"ERROR","service":"api-gateway","host":"gw-01","message":"GET /api/health 504","method":"GET","path":"/api/health","status":504,"response_time_ms":241.3,"ip":"10.22.106.171"}
+2026-09-29 08:38:42,776 WARNING  [api-gateway] (gw-01) Cache miss ratio above threshold
+2026-09-29 08:41:13,640 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products status=403 duration_ms=42.01 ip=10.52.248.97
+172.20.221.101 - - [29/Sep/2026:08:42:10 +0000] "GET /api/products HTTP/1.1" 200 14376 "-" "Mozilla/5.0 (iPhone)" rt=0.119
+2026-09-29 08:42:44,739 INFO     [auth-service] (auth-02) Email queued
+203.184.9.108 - - [29/Sep/2026:08:45:19 +0000] "GET /api/products/102 HTTP/1.1" 200 35004 "-" "Mozilla/5.0 (iPhone)" rt=0.055
+192.35.188.196 - - [29/Sep/2026:08:46:48 +0000] "GET /api/products HTTP/1.1" 200 47240 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.134
+{"timestamp": "2026-09-29T08:48:10.794Z", "level": "INFO", "message": 
+192.178.148.77 - - [29/Sep/2026:08:49:23 +0000] "GET /api/products/101 HTTP/1.1" 200 3929 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.106
+203.59.3.24 - - [29/Sep/2026:08:51:19 +0000] "GET /api/products HTTP/1.1" 200 20840 "-" "Mozilla/5.0 (iPhone)" rt=0.079
+999.1.1.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 200 12 "-" "curl/8"
+{"timestamp":"2026-09-29T08:53:05.565Z","level":"INFO","service":"payment-service","host":"pay-02","message":"POST /api/payments 201","method":"POST","path":"/api/payments","status":201,"response_time_ms":116.9,"ip":"10.111.189.138"}
+2026-09-29 08:54:34,173 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=131.88 ip=172.153.79.200
+{"timestamp":"2026-09-29T08:55:41.120Z","level":"INFO","service":"order-service","host":"ord-01","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":137.17,"ip":"172.40.178.166"}
+{"timestamp":"2026-09-29T08:55:41.120Z","level":"INFO","service":"order-service","host":"ord-01","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":137.17,"ip":"172.40.178.166"}
+2026-09-29 08:59:09,605 INFO     [order-service] (ord-02) Payment authorized
+{"timestamp":"2026-09-29T09:01:19.619Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/logout 201","method":"POST","path":"/api/logout","status":201,"response_time_ms":29.2,"ip":"203.29.133.108"}
+{"timestamp":"2026-09-29T09:02:18.504Z","level":"INFO","service":"payment-service","host":"pay-01","message":"POST /api/payments 201","method":"POST","path":"/api/payments","status":201,"response_time_ms":49.39,"ip":"203.209.144.66"}
+2026-09-29 09:03:58,304 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=81.15 ip=192.19.112.130
+2026-09-29 09:03:58,304 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=81.15 ip=192.19.112.130
+{"timestamp":"2026-09-29T09:06:24.274Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":46.54,"ip":"203.173.146.223"}
+{"timestamp":"2026-09-29T09:07:59.691Z","level":"INFO","service":"order-service","host":"ord-01","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":173.05,"ip":"172.118.250.148"}
+2026-13-45 99:99:99,000 ERROR   [order-service] (ord-01) impossible timestamp
+{"timestamp":"2026-09-29T09:07:59.691Z","level":"INFO","service":"order-service","host":"ord-01","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":173.05,"ip":"172.118.250.148"}
+203.241.142.224 - - [29/Sep/2026:09:11:51 +0000] "GET /api/products HTTP/1.1" 304 6670 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.237
+{"timestamp":"2026-09-29T09:13:28.599Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":78.08,"ip":"172.131.122.254"}
+2026-09-29 09:15:21,371 INFO     [auth-service] (auth-02) Email queued
+2026-09-29 09:17:08,559 INFO     [api-gateway] (gw-02) User login succeeded
+2026-09-29 09:18:08,752 DEBUG    [order-service] (ord-01) Cache lookup completed
+2026-13-45 99:99:99,000 ERROR   [order-service] (ord-01) impossible timestamp
+2026-09-29 09:20:26,064 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 09:21:57,144 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=46.84 ip=203.157.1.19
+{"timestamp":"2026-09-29T09:23:50.795Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":59.13,"ip":"10.32.230.200"}
+2026-09-29 09:25:52,111 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=88.75 ip=192.252.161.64
+203.53.13.94 - - [29/Sep/2026:09:26:20 +0000] "GET /api/products HTTP/1.1" 200 45579 "-" "Mozilla/5.0 (iPhone)" rt=0.111
+172.118.250.148 - - [29/Sep/2026:09:28:30 +0000] "GET /static/app.js HTTP/1.1" 200 20075 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.050
+2026-09-29 09:29:36,222 CRITICAL [order-service] (ord-03) Database primary unreachable
+2026-09-29 09:30:16,767 ERROR    [payment-service] (pay-01) Upstream service unavailable
+{"timestamp":"2026-09-29T09:33:00.302Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Payment authorized"}
+203.53.13.94 - - [29/Sep/2026:09:33:27 +0000] "GET /api/health HTTP/1.1" 304 2410 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.185
+{"timestamp":"2026-09-29T09:35:36.316Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":77.27,"ip":"172.117.32.132"}
+2026-09-29 09:36:22,960 INFO     [api-gateway] (gw-02) Payment authorized
+{"timestamp":"2026-09-29T09:38:14.060Z","level":"ERROR","service":"payment-service","host":"pay-02","message":"Unhandled exception in request handler"}
+999.1.1.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 200 12 "-" "curl/8"
+{"timestamp":"2026-09-29T09:41:32.096Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":91.21,"ip":"203.28.171.66"}
+172.31.193.146 - - [29/Sep/2026:09:42:16 +0000] "POST /api/login HTTP/1.1" 200 46057 "-" "Mozilla/5.0 (iPhone)" rt=0.148
+{"timestamp":"2026-09-29T09:43:28.262Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Cache warmed"}
+2026-09-29 09:45:41,288 WARNING  [auth-service] (auth-02) Slow query detected
+203.173.146.223 - - [29/Sep/2026:09:47:03 +0000] "GET /api/products HTTP/1.1" 200 34903 "-" "curl/8.5.0" rt=0.124
+192.180.198.91 - - [29/Sep/2026:09:48:17 +0000] "GET /api/products HTTP/1.1" 200 15707 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.091
+172.31.193.146 - - [29/Sep/2026:09:49:43 +0000] "GET /api/products HTTP/1.1" 200 35490 "-" "curl/8.5.0" rt=0.100
+203.9.217.42 - - [29/Sep/2026:09:50:23 +0000] "POST /api/logout HTTP/1.1" 201 14902 "-" "curl/8.5.0" rt=0.055
+2026-09-29 09:52:10,608 WARNING  [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=400 duration_ms=178.89 ip=192.85.33.203
+192.97.243.212 - - [29/Sep/2026:09:54:01 +0000] "GET /api/orders HTTP/1.1" 200 14599 "-" "python-requests/2.32" rt=0.054
+2026-09-29 09:54:52,386 INFO     [api-gateway] (gw-01) Payment authorized
+172.164.149.93 - - [29/Sep/2026:09:57:23 +0000] "GET /api/products/101 HTTP/1.1" 200 36360 "-" "Mozilla/5.0 (iPhone)" rt=0.085
+172.164.149.93 - - [29/Sep/2026:09:57:23 +0000] "GET /api/products/101 HTTP/1.1" 200 36360 "-" "Mozilla/5.0 (iPhone)" rt=0.085
+2026-09-29 09:59:07,003 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=97.26 ip=192.217.165.88
+203.159.4.234 - - [29/Sep/2026:10:01:22 +0000] "POST /api/login HTTP/1.1" 200 45986 "-" "curl/8.5.0" rt=0.106
+192.177.105.44 - - [29/Sep/2026:10:02:52 +0000] "GET /static/app.js HTTP/1.1" 200 38781 "-" "python-requests/2.32" rt=0.057
+2026-09-29 10:04:06,396 DEBUG    [payment-service] (pay-02) Loaded configuration from environment
+203.159.4.234 - - [29/Sep/2026:10:05:04 +0000] "POST /api/notifications HTTP/1.1" 503 32622 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.258
+{"timestamp":"2026-09-29T10:06:47.790Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":117.07,"ip":"192.85.33.203"}
+192.90.233.254 - - [29/Sep/2026:10:09:05 +0000] "GET /static/app.js HTTP/1.1" 304 12388 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.117
+{"timestamp":"2026-09-29T10:10:21.805Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":23.97,"ip":"10.10.149.179"}
+2026-09-29 10:11:13,896 INFO     [payment-service] (pay-01) Payment authorized
+{"timestamp":"2026-09-29T10:12:24.168Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Payment authorized"}
+{"timestamp":"2026-09-29T10:13:38.970Z","level":"INFO","service":"payment-service","host":"pay-02","message":"User login succeeded"}
+{"timestamp":"2026-09-29T10:15:08.500Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":69.52,"ip":"10.192.140.55"}
+10.136.81.9 - - [29/Sep/2026:10:16:21 +0000] "GET /static/app.js HTTP/1.1" 200 35607 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.165
+{"timestamp":"2026-09-29T10:18:59.430Z","level":"WARNING","service":"payment-service","host":"pay-02","message":"Retrying upstream request"}
+2026-09-29 10:20:11,765 INFO     [auth-service] (auth-02) Cache warmed
+192.19.112.130 - - [29/Sep/2026:10:21:01 +0000] "POST /api/notifications HTTP/1.1" 201 9733 "-" "Mozilla/5.0 (iPhone)" rt=0.057
+2026-09-29 10:23:24,217 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=119.22 ip=172.195.248.98
+{"timestamp":"2026-09-29T10:24:15.384Z","level":"WARNING","service":"order-service","host":"ord-02","message":"Retrying upstream request"}
+203.212.139.240 - - [29/Sep/2026:10:25:48 +0000] "POST /api/payments HTTP/1.1" 201 20951 "-" "python-requests/2.32" rt=0.032
+2026-09-29 10:27:40,709 INFO     [order-service] (ord-02) Order created
+2026-09-29 10:28:37,357 INFO     [order-service] (ord-01) Order created
+2026-09-29 10:30:12,270 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=347.63 ip=203.249.49.140
+192.97.243.212 - - [29/Sep/2026:10:31:52 +0000] "GET /api/products/101 HTTP/1.1" 200 36350 "-" "python-requests/2.32" rt=0.060
+10.166.87.1 - - [29/Sep/2026:10:32:17 +0000] "GET /api/products/101 HTTP/1.1" 200 3293 "-" "Mozilla/5.0 (iPhone)" rt=0.077
+{"timestamp":"2026-09-29T10:33:59.230Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":79.06,"ip":"10.169.246.68"}
+{"timestamp":"2026-09-29T10:36:06.570Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":68.93,"ip":"192.97.51.102"}
+2026-09-29 10:37:48,605 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=82.46 ip=10.52.248.97
+2026-09-29 10:39:10,166 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=81.09 ip=172.117.32.132
+{"timestamp": "2026-09-29T10:39:39.474Z", "level": "LOUD", "message": "unknown level"}
+2026-09-29 10:42:09,882 WARNING  [notification-service] (notif-01) Slow query detected
+2026-09-29 10:42:26,983 INFO     [notification-service] (notif-01) Cache warmed
+2026-09-29 10:44:38,639 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=67.22 ip=172.232.9.242
+192.98.84.160 - - [29/Sep/2026:10:45:16 +0000] "GET /api/products HTTP/1.1" 304 17494 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.128
+{"timestamp":"2026-09-29T10:47:39.379Z","level":"INFO","service":"order-service","host":"ord-03","message":"Payment authorized"}
+{"timestamp":"2026-09-29T10:49:00.597Z","level":"INFO","service":"payment-service","host":"pay-02","message":"Cache warmed"}
+2026-09-29 10:50:39,406 INFO     [auth-service] (auth-01) Order created
+2026-09-29 10:50:39,406 INFO     [auth-service] (auth-01) Order created
+{"timestamp":"2026-09-29T10:52:25.852Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":72.09,"ip":"10.43.14.216"}
+{"timestamp":"2026-09-29T10:54:35.476Z","level":"INFO","service":"order-service","host":"ord-03","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":68.94,"ip":"172.55.228.180"}
+2026-09-29 10:56:13,347 INFO     [api-gateway] (gw-01) Payment authorized
+{"timestamp":"2026-09-29T10:56:39.274Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":194.34,"ip":"10.192.140.55"}
+2026-09-29 10:58:45,879 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products status=200 duration_ms=34.59 ip=172.50.153.5
+{"timestamp":"2026-09-29T11:00:15.876Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":227.51,"ip":"192.228.36.21"}
+{"timestamp":"2026-09-29T11:01:23.068Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":86.28,"ip":"192.166.105.234"}
+{"timestamp":"2026-09-29T11:03:21.596Z","level":"INFO","service":"order-service","host":"ord-03","message":"Payment authorized"}
+2026-09-29 11:03:58,200 INFO     [order-service] (ord-03) Order created
+2026-09-29 11:03:58,200 INFO     [order-service] (ord-03) Order created
+{"timestamp":"2026-09-29T11:07:33.369Z","level":"INFO","service":"order-service","host":"ord-03","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":124.13,"ip":"172.135.15.41"}
+10.156.133.179 - - [29/Sep/2026:11:08:47 +0000] "POST /api/logout HTTP/1.1" 201 16247 "-" "curl/8.5.0" rt=0.316
+2026-09-29 11:10:40,416 INFO     [api-gateway] (gw-02) Order created
+203.193.85.14 - - [29/Sep/2026:11:12:04 +0000] "GET /api/health HTTP/1.1" 200 28683 "-" "Mozilla/5.0 (iPhone)" rt=0.131
+{"timestamp":"2026-09-29T11:13:04.199Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"User login succeeded"}
+2026-09-29 11:14:01,531 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 11:14:01,531 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 11:17:46,765 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=200 duration_ms=77.52 ip=10.171.200.245
+2026-09-29 11:19:03,635 WARNING  [auth-service] (auth-01) Slow query detected
+172.101.177.241 - - [29/Sep/2026:11:20:00 +0000] "GET /api/products/102 HTTP/1.1" 200 16285 "-" "python-requests/2.32" rt=0.134
+2026-09-29 11:21:52,552 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=52.72 ip=192.180.198.91
+{"timestamp":"2026-09-29T11:22:54.070Z","level":"WARNING","service":"api-gateway","host":"gw-01","message":"GET /api/products 404","method":"GET","path":"/api/products","status":404,"response_time_ms":50.52,"ip":"10.192.140.55"}
+2026-09-29 11:24:06,641 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=75.61 ip=192.66.228.11
+2026-09-29 11:26:41,835 WARNING  [auth-service] (auth-01) Disk usage above 80%
+{"timestamp":"2026-09-29T11:28:08.308Z","level":"WARNING","service":"order-service","host":"ord-01","message":"Slow query detected"}
+203.107.21.111 - - [29/Sep/2026:11:29:43 +0000] "POST /api/orders HTTP/1.1" 201 5935 "-" "python-requests/2.32" rt=0.185
+10.32.230.200 - - [29/Sep/2026:11:31:01 +0000] "GET /static/app.js HTTP/1.1" 400 30897 "-" "curl/8.5.0" rt=0.096
+10.52.248.97 - - [29/Sep/2026:11:32:21 +0000] "GET /api/health HTTP/1.1" 404 12261 "-" "python-requests/2.32" rt=0.061
+{"timestamp":"2026-09-29T11:33:14.890Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Order created"}
+10.0.0.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 999 12 "-" "curl/8"
+{"timestamp":"2026-09-29T11:35:56.165Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":130.96,"ip":"203.249.49.140"}
+192.25.178.164 - - [29/Sep/2026:11:37:42 +0000] "GET /api/products/101 HTTP/1.1" 200 47093 "-" "Mozilla/5.0 (iPhone)" rt=0.131
+192.203.26.90 - - [29/Sep/2026:11:39:30 +0000] "GET /api/products HTTP/1.1" 400 6515 "-" "python-requests/2.32" rt=0.106
+203.112.178.130 - - [29/Sep/2026:11:41:04 +0000] "POST /api/notifications HTTP/1.1" 201 29013 "-" "python-requests/2.32" rt=0.266
+{"timestamp":"2026-09-29T11:41:59.792Z","level":"ERROR","service":"order-service","host":"ord-03","message":"POST /api/orders 502","method":"POST","path":"/api/orders","status":502,"response_time_ms":393.32,"ip":"203.29.133.108"}
+{"timestamp":"2026-09-29T11:41:59.792Z","level":"ERROR","service":"order-service","host":"ord-03","message":"POST /api/orders 502","method":"POST","path":"/api/orders","status":502,"response_time_ms":393.32,"ip":"203.29.133.108"}
+{"timestamp":"2026-09-29T11:44:10.009Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":50.89,"ip":"203.193.85.14"}
+203.158.16.170 - - [29/Sep/2026:11:45:41 +0000] "POST /api/notifications HTTP/1.1" 429 177 "-" "Mozilla/5.0 (iPhone)" rt=0.029
+2026-09-29 11:47:27,089 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=77.39 ip=203.219.90.136
+203.57.211.46 - - [29/Sep/2026:11:49:10 +0000] "GET /api/products/102 HTTP/1.1" 200 5762 "-" "curl/8.5.0" rt=0.146
+{"level": "INFO", "service": "auth-service", "message": "missing timestamp"}
+2026-09-29 11:52:30,863 ERROR    [auth-service] (auth-01) Payment gateway returned 502
+{"timestamp":"2026-09-29T11:53:00.897Z","level":"INFO","service":"auth-service","host":"auth-01","message":"User login succeeded"}
+{"timestamp":"2026-09-29T11:55:28.068Z","level":"WARNING","service":"api-gateway","host":"gw-02","message":"Disk usage above 80%"}
+{"timestamp":"2026-09-29T11:55:47.035Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":65.33,"ip":"203.93.207.28"}
+{"timestamp": "2026-09-29T11:57:32.737Z", "level": "LOUD", "message": "unknown level"}
+2026-09-29 11:59:29,818 INFO     [payment-service] (pay-02) Order created
+{"timestamp":"2026-09-29T12:01:22.354Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Email queued"}
+{"timestamp":"2026-09-29T12:02:24.128Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/logout 201","method":"POST","path":"/api/logout","status":201,"response_time_ms":83.78,"ip":"10.44.75.235"}
+2026-09-29 12:04:11,063 INFO     [payment-service] (pay-01) User login succeeded
+{"timestamp":"2026-09-29T12:05:27.605Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":72.15,"ip":"192.19.209.243"}
+2026-09-29 12:06:52,540 INFO     [api-gateway] (gw-01) User login succeeded
+192.25.178.164 - - [29/Sep/2026:12:08:04 +0000] "GET /api/search HTTP/1.1" 200 26273 "-" "Mozilla/5.0 (iPhone)" rt=0.024
+192.222.85.97 - - [29/Sep/2026:12:09:58 +0000] "POST /api/orders HTTP/1.1" 201 8454 "-" "python-requests/2.32" rt=0.053
+{"timestamp":"2026-09-29T12:11:25.352Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Email queued"}
+10.200.233.23 - - [29/Sep/2026:12:11:59 +0000] "POST /api/orders HTTP/1.1" 201 22606 "-" "Mozilla/5.0 (iPhone)" rt=0.049
+10.2.170.37 - - [29/Sep/2026:12:13:57 +0000] "POST /api/login HTTP/1.1" 200 21018 "-" "Mozilla/5.0 (iPhone)" rt=0.149
+192.85.79.155 - - [29/Sep/2026:12:14:56 +0000] "GET /api/orders HTTP/1.1" 200 7761 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.030
+{"timestamp":"2026-09-29T12:15:57.513Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":32.69,"ip":"192.68.136.223"}
+{"timestamp": "2026-09-29T12:17:36.591Z", "level": "LOUD", "message": "unknown level"}
+{"timestamp":"2026-09-29T12:19:12.483Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":44.51,"ip":"10.23.138.212"}
+{"timestamp":"2026-09-29T12:20:14.566Z","level":"WARNING","service":"order-service","host":"ord-02","message":"POST /api/orders 429","method":"POST","path":"/api/orders","status":429,"response_time_ms":105.63,"ip":"10.9.169.221"}
+{"timestamp":"2026-09-29T12:22:43.781Z","level":"INFO","service":"payment-service","host":"pay-01","message":"POST /api/payments 201","method":"POST","path":"/api/payments","status":201,"response_time_ms":114.81,"ip":"192.88.193.70"}
+{"timestamp":"2026-09-29T12:23:10.812Z","level":"INFO","service":"notification-service","host":"notif-01","message":"User login succeeded"}
+2026-09-29 12:25:37,975 WARNING  [auth-service] (auth-02) Cache miss ratio above threshold
+192.105.220.236 - - [29/Sep/2026:12:27:13 +0000] "POST /api/orders HTTP/1.1" 201 5658 "-" "curl/8.5.0" rt=0.152
+2026-09-29 12:28:21,745 INFO     [payment-service] (pay-01) Payment authorized
+{"timestamp":"2026-09-29T12:29:45.879Z","level":"WARNING","service":"order-service","host":"ord-03","message":"Disk usage above 80%"}
+{"timestamp":"2026-09-29T12:30:48.218Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/logout 201","method":"POST","path":"/api/logout","status":201,"response_time_ms":121.99,"ip":"172.15.182.152"}
+172.242.238.82 - - [29/Sep/2026:12:32:45 +0000] "GET /api/products HTTP/1.1" 200 6035 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.114
+10.162.156.242 - - [29/Sep/2026:12:33:42 +0000] "GET /api/health HTTP/1.1" 200 33581 "-" "curl/8.5.0" rt=0.182
+2026-09-29 12:34:51,753 INFO     [order-service] (ord-03) Order created
+{"timestamp":"2026-09-29T12:37:00.903Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":86.42,"ip":"172.33.238.18"}
+2026-09-29 12:38:12,470 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=404 duration_ms=99.42 ip=172.102.74.236
+{"timestamp":"2026-09-29T12:39:54.005Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Payment authorized"}
+203.193.85.14 - - [29/Sep/2026:12:40:54 +0000] "POST /api/login HTTP/1.1" 500 17115 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.482
+203.193.85.14 - - [29/Sep/2026:12:40:54 +0000] "POST /api/login HTTP/1.1" 500 17115 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.482
+2026-09-29 12:44:06,872 INFO     [order-service] (ord-03) Email queued
+{"timestamp":"2026-09-29T12:45:24.079Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/logout 201","method":"POST","path":"/api/logout","status":201,"response_time_ms":112.7,"ip":"203.117.226.64"}
+192.180.198.91 - - [29/Sep/2026:12:46:05 +0000] "GET /api/products/102 HTTP/1.1" 200 8947 "-" "python-requests/2.32" rt=0.079
+this is not a log line
+{"timestamp":"2026-09-29T12:49:09.605Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":127.12,"ip":"203.157.1.19"}
+172.50.153.5 - - [29/Sep/2026:12:50:33 +0000] "GET /static/app.js HTTP/1.1" 200 47691 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.032
+{"timestamp":"2026-09-29T12:52:44.993Z","level":"WARNING","service":"auth-service","host":"auth-02","message":"Slow query detected"}
+{"level": "INFO", "service": "auth-service", "message": "missing timestamp"}
+2026-09-29 12:55:10,551 INFO     [order-service] (ord-02) Email queued
+{"timestamp":"2026-09-29T12:57:03.115Z","level":"INFO","service":"payment-service","host":"pay-01","message":"User login succeeded"}
+{"timestamp":"2026-09-29T12:58:27.299Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":26.25,"ip":"172.137.79.218"}
+172.47.133.72 - - [29/Sep/2026:12:59:52 +0000] "GET /api/products/101 HTTP/1.1" 200 1992 "-" "python-requests/2.32" rt=0.114
+{"timestamp":"2026-09-29T13:01:25.206Z","level":"INFO","service":"payment-service","host":"pay-01","message":"Cache warmed"}
+2026-09-29 13:02:53,313 INFO     [order-service] (ord-01) Cache warmed
+203.67.121.97 - - [29/Sep/2026:13:03:34 +0000] "POST /api/orders HTTP/1.1" 201 10460 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.064
+203.93.207.28 - - [29/Sep/2026:13:05:45 +0000] "GET /static/app.js HTTP/1.1" 304 42529 "-" "curl/8.5.0" rt=0.084
+203.9.217.42 - - [29/Sep/2026:13:07:30 +0000] "GET /api/health HTTP/1.1" 200 24792 "-" "Mozilla/5.0 (iPhone)" rt=0.030
+2026-09-29 13:08:49,476 INFO     [api-gateway] (gw-02) Cache warmed
+{"timestamp":"2026-09-29T13:09:33.371Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":73.69,"ip":"203.99.235.129"}
+2026-09-29 13:10:54,724 WARNING  [order-service] (ord-01) Retrying upstream request
+2026-09-29 13:10:54,724 WARNING  [order-service] (ord-01) Retrying upstream request
+{"timestamp":"2026-09-29T13:14:38.644Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/search 304","method":"GET","path":"/api/search","status":304,"response_time_ms":243.37,"ip":"172.101.177.241"}
+{"timestamp":"2026-09-29T13:15:15.208Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"Payment authorized"}
+192.75.248.174 - - [29/Sep/2026:13:16:33 +0000] "GET /api/orders HTTP/1.1" 200 9384 "-" "Mozilla/5.0 (iPhone)" rt=0.080
+2026-09-29 13:18:53,221 DEBUG    [order-service] (ord-01) Cache lookup completed
+203.204.141.135 - - [29/Sep/2026:13:19:26 +0000] "GET /api/health HTTP/1.1" 200 24285 "-" "Mozilla/5.0 (iPhone)" rt=0.041
+{"timestamp":"2026-09-29T13:21:23.599Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":79.99,"ip":"172.31.193.146"}
+{"timestamp":"2026-09-29T13:22:32.271Z","level":"ERROR","service":"api-gateway","host":"gw-01","message":"GET /api/health 500","method":"GET","path":"/api/health","status":500,"response_time_ms":264.26,"ip":"192.232.20.107"}
+203.246.245.132 - - [29/Sep/2026:13:23:54 +0000] "GET /api/products/101 HTTP/1.1" 200 20890 "-" "python-requests/2.32" rt=0.184
+10.150.124.115 - - [29/Sep/2026:13:25:34 +0000] "POST /api/notifications HTTP/1.1" 201 3850 "-" "python-requests/2.32" rt=0.080
+203.156.240.152 - - [29/Sep/2026:13:27:32 +0000] "GET /api/health HTTP/1.1" 400 13755 "-" "python-requests/2.32" rt=0.035
+2026-09-29 13:28:08,907 INFO     [auth-service] (auth-02) Email queued
+{"timestamp":"2026-09-29T13:29:29.556Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":93.32,"ip":"10.162.156.242"}
+2026-09-29 13:30:43,628 INFO     [order-service] (ord-03) request completed method=GET path=/api/orders status=304 duration_ms=148.63 ip=10.231.125.102
+2026-09-29 13:32:24,745 INFO     [order-service] (ord-02) request completed method=POST path=/api/orders status=201 duration_ms=69.09 ip=192.97.243.212
+203.28.171.66 - - [29/Sep/2026:13:33:40 +0000] "POST /api/orders HTTP/1.1" 201 1418 "-" "python-requests/2.32" rt=0.081
+{"timestamp":"2026-09-29T13:35:35.906Z","level":"INFO","service":"payment-service","host":"pay-02","message":"Cache warmed"}
+192.97.51.102 - - [29/Sep/2026:13:37:01 +0000] "POST /api/orders HTTP/1.1" 201 4489 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.154
+{"timestamp":"2026-09-29T13:39:04.052Z","level":"DEBUG","service":"notification-service","host":"notif-01","message":"Loaded configuration from environment"}
+{"timestamp":"2026-09-29T13:39:21.536Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":64.44,"ip":"10.150.124.115"}
+2026-09-29 13:41:10,738 WARNING  [payment-service] (pay-02) Cache miss ratio above threshold
+2026-09-29 13:42:40,646 INFO     [notification-service] (notif-01) Order created
+203.9.217.42 - - [29/Sep/2026:13:44:23 +0000] "GET /api/products HTTP/1.1" 200 45957 "-" "curl/8.5.0" rt=0.041
+192.176.220.157 - - [29/Sep/2026:13:46:19 +0000] "GET /api/health HTTP/1.1" 400 33740 "-" "Mozilla/5.0 (iPhone)" rt=0.111
+2026-09-29 13:47:25,447 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=86.21 ip=192.37.104.87
+203.243.23.201 - - [29/Sep/2026:13:48:04 +0000] "GET /api/search HTTP/1.1" 200 34624 "-" "Mozilla/5.0 (iPhone)" rt=0.177
+2026-09-29 13:50:29,622 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=70.8 ip=192.136.61.140
+2026-09-29 13:52:03,223 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=57.54 ip=192.186.218.76
+10.162.64.164 - - [29/Sep/2026:13:52:35 +0000] "GET /api/health HTTP/1.1" 502 31926 "-" "Mozilla/5.0 (iPhone)" rt=0.302
+{"timestamp": "2026-09-29T13:54:29.322Z", "level": "LOUD", "message": "unknown level"}
+203.22.36.81 - - [29/Sep/2026:13:55:44 +0000] "GET /static/app.js HTTP/1.1" 200 3726 "-" "curl/8.5.0" rt=0.077
+{"timestamp":"2026-09-29T13:57:45.996Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/102 304","method":"GET","path":"/api/products/102","status":304,"response_time_ms":83.8,"ip":"192.252.161.64"}
+203.184.9.108 - - [29/Sep/2026:13:59:10 +0000] "GET /api/products/101 HTTP/1.1" 200 14481 "-" "python-requests/2.32" rt=0.086
+2026-09-29 14:00:33,850 INFO     [payment-service] (pay-02) Payment authorized
+192.56.72.172 - - [29/Sep/2026:14:01:29 +0000] "GET /api/products HTTP/1.1" 200 27318 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.067
+192.80.83.232 - - [29/Sep/2026:14:03:04 +0000] "GET /api/products/101 HTTP/1.1" 200 30597 "-" "python-requests/2.32" rt=0.059
+2026-09-29 14:03:51,859 ERROR    [order-service] (ord-01) Unhandled exception in request handler
+{"timestamp":"2026-09-29T14:06:05.675Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":158.02,"ip":"10.254.83.20"}
+192.162.127.40 - - [29/Sep/2026:14:06:48 +0000] "GET /api/products/101 HTTP/1.1" 200 27935 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.060
+203.41.150.110 - - [29/Sep/2026:14:08:42 +0000] "GET /static/app.js HTTP/1.1" 200 44868 "-" "curl/8.5.0" rt=0.074
+{"timestamp":"2026-09-29T14:10:12.809Z","level":"DEBUG","service":"notification-service","host":"notif-01","message":"Cache lookup completed"}
+2026-09-29 14:12:14,854 INFO     [notification-service] (notif-01) Payment authorized
+{"timestamp":"2026-09-29T14:13:29.829Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":98.34,"ip":"203.241.142.224"}
+203.76.46.47 - - [29/Sep/2026:14:14:17 +0000] "GET /api/health HTTP/1.1" 200 6634 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.058
+2026-09-29 14:15:23,402 INFO     [order-service] (ord-02) User login succeeded
+2026-09-29 14:17:54,922 WARNING  [notification-service] (notif-01) Retrying upstream request
+192.252.42.129 - - [29/Sep/2026:14:18:36 +0000] "GET /api/products HTTP/1.1" 304 15591 "-" "curl/8.5.0" rt=0.137
+172.231.227.107 - - [29/Sep/2026:14:20:52 +0000] "GET /api/health HTTP/1.1" 200 3215 "-" "Mozilla/5.0 (iPhone)" rt=0.193
+10.43.14.216 - - [29/Sep/2026:14:22:21 +0000] "GET /api/products HTTP/1.1" 200 45119 "-" "curl/8.5.0" rt=0.131
+2026-09-29 14:22:37,159 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=396.36 ip=192.90.233.254
+203.197.156.146 - - [29/Sep/2026:14:25:16 +0000] "POST /api/orders HTTP/1.1" 201 4836 "-" "Mozilla/5.0 (iPhone)" rt=0.095
+2026-09-29 14:26:32,947 INFO     [notification-service] (notif-01) Email queued
+10.42.50.197 - - [29/Sep/2026:14:28:12 +0000] "POST /api/login HTTP/1.1" 200 4120 "-" "python-requests/2.32" rt=0.059
+203.243.23.201 - - [29/Sep/2026:14:28:55 +0000] "GET /static/app.js HTTP/1.1" 200 26501 "-" "Mozilla/5.0 (iPhone)" rt=0.051
+2026-09-29 14:31:03,652 INFO     [notification-service] (notif-01) User login succeeded
+2026-09-29 14:31:20,847 INFO     [notification-service] (notif-01) Payment authorized
+{"timestamp":"2026-09-29T14:33:26.850Z","level":"ERROR","service":"api-gateway","host":"gw-01","message":"Unhandled exception in request handler"}
+{"timestamp":"2026-09-29T14:34:55.304Z","level":"ERROR","service":"payment-service","host":"pay-02","message":"POST /api/payments 500","method":"POST","path":"/api/payments","status":500,"response_time_ms":205.09,"ip":"172.133.159.64"}
+203.209.144.66 - - [29/Sep/2026:14:35:31 +0000] "POST /api/logout HTTP/1.1" 201 42652 "-" "Mozilla/5.0 (iPhone)" rt=0.058
+172.131.122.254 - - [29/Sep/2026:14:37:46 +0000] "GET /api/products/102 HTTP/1.1" 200 43978 "-" "Mozilla/5.0 (iPhone)" rt=0.113
+2026-09-29 14:38:58,273 INFO     [notification-service] (notif-01) Order created
+2026-09-29 14:41:06,211 DEBUG    [payment-service] (pay-02) Loaded configuration from environment
+203.119.251.43 - - [29/Sep/2026:14:42:26 +0000] "POST /api/notifications HTTP/1.1" 201 47152 "-" "Mozilla/5.0 (iPhone)" rt=0.008
+2026-09-29 14:44:07,934 WARNING  [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=404 duration_ms=110.01 ip=172.184.105.132
+10.15.66.35 - - [29/Sep/2026:14:44:37 +0000] "GET /api/orders HTTP/1.1" 200 7655 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.090
+{"timestamp":"2026-09-29T14:46:53.611Z","level":"INFO","service":"order-service","host":"ord-02","message":"User login succeeded"}
+{"timestamp":"2026-09-29T14:48:12.757Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Payment authorized"}
+2026-09-29 14:48:41,060 INFO     [api-gateway] (gw-01) Cache warmed
+this is not a log line
+{"timestamp":"2026-09-29T14:52:24.994Z","level":"INFO","service":"notification-service","host":"notif-01","message":"User login succeeded"}
+2026-09-29 14:53:26,510 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=77.51 ip=10.136.79.209
+203.55.237.22 - - [29/Sep/2026:14:54:16 +0000] "POST /api/login HTTP/1.1" 200 32932 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.082
+10.92.73.38 - - [29/Sep/2026:14:56:10 +0000] "GET /api/health HTTP/1.1" 304 32379 "-" "Mozilla/5.0 (iPhone)" rt=0.136
+2026-09-29 14:57:45,159 INFO     [auth-service] (auth-01) Order created
+{"timestamp":"2026-09-29T14:59:42.272Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 304","method":"GET","path":"/api/products","status":304,"response_time_ms":78.32,"ip":"172.131.122.254"}
+{"timestamp": "2026-09-29T15:00:14.448Z", "level": "INFO", "message": 
+2026-09-29 15:01:29,828 ERROR    [api-gateway] (gw-01) request completed method=GET path=/api/products/101 status=500 duration_ms=425.7 ip=10.180.18.152
+2026-09-29 15:03:55,190 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=304 duration_ms=44.53 ip=203.89.134.42
+{"timestamp":"2026-09-29T15:04:36.530Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":51.84,"ip":"203.209.144.66"}
+192.9.23.106 - - [29/Sep/2026:15:07:05 +0000] "GET /api/health HTTP/1.1" 200 30927 "-" "python-requests/2.32" rt=0.195
+192.136.61.140 - - [29/Sep/2026:15:07:24 +0000] "GET /api/products/101 HTTP/1.1" 502 17392 "-" "curl/8.5.0" rt=0.538
+203.65.54.201 - - [29/Sep/2026:15:09:34 +0000] "GET /api/products/102 HTTP/1.1" 200 43546 "-" "python-requests/2.32" rt=0.045
+{"timestamp":"2026-09-29T15:10:20.395Z","level":"INFO","service":"auth-service","host":"auth-01","message":"Payment authorized"}
+2026-09-29 15:12:33,172 INFO     [order-service] (ord-01) User login succeeded
+{"timestamp":"2026-09-29T15:13:16.534Z","level":"INFO","service":"payment-service","host":"pay-02","message":"Order created"}
+{"timestamp":"2026-09-29T15:14:39.301Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":53.42,"ip":"10.52.248.97"}
+2026-09-29 15:15:49,694 CRITICAL [auth-service] (auth-01) Database primary unreachable
+2026-09-29 15:17:36,959 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=304 duration_ms=149.08 ip=192.25.178.164
+2026-09-29 15:19:32,418 INFO     [notification-service] (notif-01) Order created
+2026-09-29 15:20:53,302 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=75.39 ip=10.9.169.221
+2026-09-29 15:20:53,302 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=75.39 ip=10.9.169.221
+172.101.177.241 - - [29/Sep/2026:15:23:46 +0000] "GET /api/products HTTP/1.1" 403 24603 "-" "python-requests/2.32" rt=0.040
+172.101.177.241 - - [29/Sep/2026:15:23:46 +0000] "GET /api/products HTTP/1.1" 403 24603 "-" "python-requests/2.32" rt=0.040
+203.32.155.207 - - [29/Sep/2026:15:26:47 +0000] "POST /api/orders HTTP/1.1" 404 28134 "-" "Mozilla/5.0 (iPhone)" rt=0.024
+203.28.171.66 - - [29/Sep/2026:15:27:31 +0000] "GET /api/products HTTP/1.1" 200 4954 "-" "Mozilla/5.0 (iPhone)" rt=0.161
+{"timestamp":"2026-09-29T15:28:47.017Z","level":"WARNING","service":"auth-service","host":"auth-02","message":"Disk usage above 80%"}
+10.101.90.156 - - [29/Sep/2026:15:30:56 +0000] "GET /api/products/101 HTTP/1.1" 200 10745 "-" "Mozilla/5.0 (iPhone)" rt=0.054
+172.160.181.112 - - [29/Sep/2026:15:31:51 +0000] "GET /api/health HTTP/1.1" 200 15932 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.107
+2026-09-29 15:33:15,329 INFO     [order-service] (ord-03) request completed method=POST path=/api/orders status=201 duration_ms=57.21 ip=203.158.16.170
+{"timestamp":"2026-09-29T15:35:13.683Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Email queued"}
+2026-09-29 15:37:22,797 INFO     [order-service] (ord-01) Cache warmed
+2026-09-29 15:38:46,369 INFO     [api-gateway] (gw-01) Email queued
+192.252.161.64 - - [29/Sep/2026:15:39:45 +0000] "GET /api/health HTTP/1.1" 200 15223 "-" "curl/8.5.0" rt=0.075
+10.9.169.221 - - [29/Sep/2026:15:40:25 +0000] "POST /api/orders HTTP/1.1" 201 15171 "-" "Mozilla/5.0 (iPhone)" rt=0.223
+{"timestamp":"2026-09-29T15:42:11.005Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":90.66,"ip":"203.109.24.230"}
+2026-09-29 15:44:00,044 INFO     [auth-service] (auth-02) Email queued
+2026-09-29 15:45:41,576 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=97.07 ip=192.68.136.223
+2026-09-29 15:46:45,844 INFO     [payment-service] (pay-02) Email queued
+{"timestamp":"2026-09-29T15:47:43.223Z","level":"WARNING","service":"payment-service","host":"pay-02","message":"Slow query detected"}
+{"timestamp":"2026-09-29T15:49:11.848Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":162.13,"ip":"203.183.64.25"}
+203.93.207.28 - - [29/Sep/2026:15:50:57 +0000] "POST /api/orders HTTP/1.1" 201 20238 "-" "Mozilla/5.0 (iPhone)" rt=0.049
+{"timestamp": "2026-09-29T15:51:51.853Z", "level": "INFO", "message": 
+{"timestamp":"2026-09-29T15:53:18.960Z","level":"INFO","service":"order-service","host":"ord-03","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":94.35,"ip":"192.175.108.23"}
+2026-09-29 15:54:50,525 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=304 duration_ms=50.25 ip=10.61.125.66
+2026-09-29 15:56:34,685 INFO     [api-gateway] (gw-02) Payment authorized
+{"timestamp":"2026-09-29T15:58:20.546Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 304","method":"GET","path":"/api/products","status":304,"response_time_ms":70.18,"ip":"172.131.122.254"}
+192.35.188.196 - - [29/Sep/2026:15:59:48 +0000] "GET /api/products/102 HTTP/1.1" 200 45387 "-" "curl/8.5.0" rt=0.253
+203.204.141.135 - - [29/Sep/2026:16:00:45 +0000] "GET /api/search HTTP/1.1" 404 45356 "-" "python-requests/2.32" rt=0.142
+2026-09-29 16:03:03,260 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=92.78 ip=192.186.218.76
+{"timestamp":"2026-09-29T16:03:28.887Z","level":"INFO","service":"order-service","host":"ord-01","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":139.53,"ip":"203.57.211.46"}
+2026-09-29 16:05:28,434 INFO     [api-gateway] (gw-01) User login succeeded
+{"timestamp":"2026-09-29T16:07:27.222Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":117.19,"ip":"192.137.222.101"}
+{"timestamp":"2026-09-29T16:08:50.464Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":58.87,"ip":"10.180.78.128"}
+2026-09-29 16:09:38,570 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/search status=200 duration_ms=74.09 ip=192.132.73.92
+2026-09-29 16:10:53,165 WARNING  [api-gateway] (gw-01) Cache miss ratio above threshold
+2026-09-29 16:12:08,735 ERROR    [payment-service] (pay-01) Failed to publish message to queue
+203.158.16.170 - - [29/Sep/2026:16:14:36 +0000] "GET /api/products/101 HTTP/1.1" 304 9557 "-" "python-requests/2.32" rt=0.088
+2026-09-29 16:15:24,144 INFO     [payment-service] (pay-02) Email queued
+{"timestamp":"2026-09-29T16:17:12.055Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":82.71,"ip":"172.135.15.41"}
+2026-09-29 16:18:58,173 INFO     [auth-service] (auth-01) Order created
+2026-09-29 16:20:29,785 INFO     [auth-service] (auth-02) Payment authorized
+2026-09-29 16:20:47,303 DEBUG    [payment-service] (pay-02) Loaded configuration from environment
+172.8.9.225 - - [29/Sep/2026:16:22:18 +0000] "POST /api/login HTTP/1.1" 500 42532 "-" "python-requests/2.32" rt=0.678
+{"timestamp":"2026-09-29T16:24:05.941Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":51.82,"ip":"192.232.20.107"}
+203.4.148.153 - - [29/Sep/2026:16:25:55 +0000] "POST /api/payments HTTP/1.1" 403 1139 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.166
+2026-09-29 16:27:31,468 WARNING  [order-service] (ord-03) request completed method=POST path=/api/orders status=401 duration_ms=83.3 ip=192.137.222.101
+2026-09-29 16:29:14,514 WARNING  [payment-service] (pay-02) Cache miss ratio above threshold
+192.150.99.131 - - [29/Sep/2026:16:30:01 +0000] "GET /api/products HTTP/1.1" 200 8616 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.083
+{"timestamp":"2026-09-29T16:31:32.089Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":167.83,"ip":"172.83.244.128"}
+192.155.216.82 - - [29/Sep/2026:16:32:20 +0000] "GET /api/products HTTP/1.1" 200 11609 "-" "python-requests/2.32" rt=0.031
+{"timestamp":"2026-09-29T16:34:38.316Z","level":"ERROR","service":"payment-service","host":"pay-01","message":"Failed to publish message to queue"}
+{"timestamp":"2026-09-29T16:34:38.316Z","level":"ERROR","service":"payment-service","host":"pay-01","message":"Failed to publish message to queue"}
+10.15.66.35 - - [29/Sep/2026:16:37:54 +0000] "GET /api/orders HTTP/1.1" 200 41345 "-" "curl/8.5.0" rt=0.039
+203.252.26.8 - - [29/Sep/2026:16:38:58 +0000] "GET /static/app.js HTTP/1.1" 304 17680 "-" "curl/8.5.0" rt=0.113
+{"timestamp":"2026-09-29T16:39:41.292Z","level":"INFO","service":"auth-service","host":"auth-01","message":"Order created"}
+2026-09-29 16:42:10,577 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=285.79 ip=203.184.9.108
+{"timestamp":"2026-09-29T16:42:23.594Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":81.91,"ip":"192.232.20.107"}
+{"timestamp":"2026-09-29T16:43:49.951Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/102 304","method":"GET","path":"/api/products/102","status":304,"response_time_ms":82.74,"ip":"172.135.15.41"}
+10.22.106.171 - - [29/Sep/2026:16:46:24 +0000] "GET /api/health HTTP/1.1" 304 41845 "-" "python-requests/2.32" rt=0.041
+{"timestamp":"2026-09-29T16:46:52.970Z","level":"INFO","service":"auth-service","host":"auth-01","message":"Cache warmed"}
+2026-09-29 16:49:09,098 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=183.55 ip=10.43.14.216
+2026-09-29 16:49:46,403 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=68.12 ip=192.90.233.254
+2026-09-29 16:51:16,948 INFO     [order-service] (ord-03) Cache warmed
+2026-09-29 16:53:19,096 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=67.01 ip=192.56.72.172
+2026-09-29 16:54:43,475 INFO     [api-gateway] (gw-01) Payment authorized
+{"timestamp":"2026-09-29T16:55:20.779Z","level":"INFO","service":"auth-service","host":"auth-02","message":"Order created"}
+2026-09-29 16:56:49,239 INFO     [order-service] (ord-01) User login succeeded
+{"timestamp":"2026-09-29T16:58:41.768Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":100.22,"ip":"10.101.90.156"}
+172.40.178.166 - - [29/Sep/2026:17:00:00 +0000] "GET /api/products/101 HTTP/1.1" 200 1937 "-" "Mozilla/5.0 (iPhone)" rt=0.120
+172.40.178.166 - - [29/Sep/2026:17:00:00 +0000] "GET /api/products/101 HTTP/1.1" 200 1937 "-" "Mozilla/5.0 (iPhone)" rt=0.120
+192.121.8.8 - - [29/Sep/2026:17:03:18 +0000] "GET /api/products HTTP/1.1" 200 1782 "-" "python-requests/2.32" rt=0.146
+203.170.71.34 - - [29/Sep/2026:17:04:34 +0000] "GET /api/health HTTP/1.1" 200 11493 "-" "curl/8.5.0" rt=0.111
+this is not a log line
+2026-13-45 99:99:99,000 ERROR   [order-service] (ord-01) impossible timestamp
+2026-09-29 17:09:05,095 INFO     [notification-service] (notif-01) User login succeeded
+{"timestamp":"2026-09-29T17:09:41.889Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":80.14,"ip":"203.157.1.19"}
+2026-09-29 17:11:09,312 WARNING  [api-gateway] (gw-01) Cache miss ratio above threshold
+2026-09-29 17:13:50,188 INFO     [auth-service] (auth-02) request completed method=POST path=/api/login status=200 duration_ms=41.22 ip=192.19.209.243
+172.37.188.202 - - [29/Sep/2026:17:14:54 +0000] "GET /api/products HTTP/1.1" 200 7026 "-" "curl/8.5.0" rt=0.077
+172.37.188.202 - - [29/Sep/2026:17:14:54 +0000] "GET /api/products HTTP/1.1" 200 7026 "-" "curl/8.5.0" rt=0.077
+this is not a log line
+{"timestamp": "2026-09-29T17:19:22.913Z", "level": "LOUD", "message": "unknown level"}
+{"timestamp":"2026-09-29T17:20:39.694Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":143.8,"ip":"10.52.248.97"}
+203.159.4.234 - - [29/Sep/2026:17:21:38 +0000] "GET /api/products HTTP/1.1" 200 18868 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.068
+999.1.1.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 200 12 "-" "curl/8"
+203.159.4.234 - - [29/Sep/2026:17:21:38 +0000] "GET /api/products HTTP/1.1" 200 18868 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.068
+2026-09-29 17:25:44,859 INFO     [notification-service] (notif-01) Order created
+2026-09-29 17:28:02,956 WARNING  [order-service] (ord-03) Retrying upstream request
+203.12.207.200 - - [29/Sep/2026:17:28:23 +0000] "POST /api/login HTTP/1.1" 200 33025 "-" "python-requests/2.32" rt=0.054
+2026-09-29 17:30:16,244 INFO     [payment-service] (pay-01) Email queued
+203.76.46.47 - - [29/Sep/2026:17:31:16 +0000] "POST /api/notifications HTTP/1.1" 201 30105 "-" "curl/8.5.0" rt=0.028
+2026-09-29 17:33:10,347 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/health status=200 duration_ms=211.3 ip=172.34.74.137
+{"level": "INFO", "service": "auth-service", "message": "missing timestamp"}
+{"timestamp":"2026-09-29T17:35:40.433Z","level":"WARNING","service":"api-gateway","host":"gw-01","message":"GET /static/app.js 403","method":"GET","path":"/static/app.js","status":403,"response_time_ms":57.06,"ip":"203.67.121.97"}
+{"timestamp":"2026-09-29T17:37:45.413Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":52.22,"ip":"203.243.23.201"}
+{"timestamp":"2026-09-29T17:39:26.733Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":163.3,"ip":"192.105.220.236"}
+{"timestamp":"2026-09-29T17:40:10.584Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":233.06,"ip":"172.137.79.218"}
+{"timestamp":"2026-09-29T17:42:04.324Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":58.67,"ip":"10.162.64.164"}
+192.88.193.70 - - [29/Sep/2026:17:43:24 +0000] "POST /api/payments HTTP/1.1" 201 25612 "-" "Mozilla/5.0 (iPhone)" rt=0.167
+{"timestamp":"2026-09-29T17:44:13.939Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":20.8,"ip":"192.147.203.105"}
+203.209.144.66 - - [29/Sep/2026:17:46:49 +0000] "GET /api/orders HTTP/1.1" 304 18333 "-" "python-requests/2.32" rt=0.126
+10.0.0.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 999 12 "-" "curl/8"
+203.109.24.230 - - [29/Sep/2026:17:49:46 +0000] "GET /api/orders HTTP/1.1" 200 2206 "-" "curl/8.5.0" rt=0.137
+203.109.24.230 - - [29/Sep/2026:17:49:46 +0000] "GET /api/orders HTTP/1.1" 200 2206 "-" "curl/8.5.0" rt=0.137
+192.164.234.69 - - [29/Sep/2026:17:52:05 +0000] "POST /api/login HTTP/1.1" 200 22532 "-" "Mozilla/5.0 (iPhone)" rt=0.238
+{"timestamp":"2026-09-29T17:53:23.382Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":46.96,"ip":"172.232.183.52"}
+2026-09-29 17:55:04,460 INFO     [api-gateway] (gw-02) User login succeeded
+{"timestamp":"2026-09-29T17:55:58.682Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":63.13,"ip":"172.15.182.152"}
+{"timestamp":"2026-09-29T17:58:16.000Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Email queued"}
+192.136.61.140 - - [29/Sep/2026:17:58:56 +0000] "GET /api/products HTTP/1.1" 200 11680 "-" "python-requests/2.32" rt=0.077
+203.93.207.28 - - [29/Sep/2026:18:00:52 +0000] "GET /api/products/101 HTTP/1.1" 200 27295 "-" "Mozilla/5.0 (iPhone)" rt=0.109
+{"timestamp":"2026-09-29T18:02:51.054Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"Cache warmed"}
+{"timestamp":"2026-09-29T18:04:09.280Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":29.99,"ip":"203.184.9.108"}
+172.67.130.167 - - [29/Sep/2026:18:04:47 +0000] "GET /api/products/101 HTTP/1.1" 200 21320 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.084
+2026-09-29 18:05:58,607 WARNING  [order-service] (ord-03) request completed method=POST path=/api/orders status=429 duration_ms=25.79 ip=10.180.18.152
+this is not a log line
+{"timestamp":"2026-09-29T18:08:55.959Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Order created"}
+2026-09-29 18:11:12,355 INFO     [payment-service] (pay-02) Email queued
+{"timestamp": "2026-09-29T18:12:52.453Z", "level": "INFO", "message": 
+{"timestamp":"2026-09-29T18:13:59.648Z","level":"INFO","service":"order-service","host":"ord-02","message":"Payment authorized"}
+2026-09-29 18:14:46,577 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=39.59 ip=192.164.234.69
+2026-09-29 18:16:21,346 INFO     [notification-service] (notif-01) request completed method=POST path=/api/notifications status=201 duration_ms=101.67 ip=192.222.85.97
+2026-09-29 18:17:56,134 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=41.65 ip=192.175.108.23
+2026-09-29 18:17:56,134 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=41.65 ip=192.175.108.23
+2026-09-29 18:21:24,040 INFO     [payment-service] (pay-02) request completed method=POST path=/api/payments status=201 duration_ms=59.13 ip=192.150.99.131
+192.51.23.15 - - [29/Sep/2026:18:22:05 +0000] "GET /static/app.js HTTP/1.1" 200 43015 "-" "curl/8.5.0" rt=0.231
+10.32.230.200 - - [29/Sep/2026:18:23:32 +0000] "POST /api/payments HTTP/1.1" 201 39126 "-" "curl/8.5.0" rt=0.160
+{"timestamp":"2026-09-29T18:25:44.678Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Order created"}
+10.254.83.20 - - [29/Sep/2026:18:26:07 +0000] "GET /api/health HTTP/1.1" 304 45957 "-" "Mozilla/5.0 (iPhone)" rt=0.173
+2026-09-29 18:28:06,565 INFO     [order-service] (ord-02) Order created
+2026-09-29 18:29:01,763 WARNING  [auth-service] (auth-02) Disk usage above 80%
+2026-09-29 18:31:25,707 INFO     [payment-service] (pay-01) request completed method=POST path=/api/payments status=201 duration_ms=128.28 ip=203.107.21.111
+{"timestamp":"2026-09-29T18:31:43.017Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Cache warmed"}
+this is not a log line
+2026-09-29 18:35:52,985 DEBUG    [order-service] (ord-02) Loaded configuration from environment
+192.121.8.8 - - [29/Sep/2026:18:37:11 +0000] "GET /api/products HTTP/1.1" 200 5338 "-" "python-requests/2.32" rt=0.114
+{"timestamp":"2026-09-29T18:38:07.744Z","level":"INFO","service":"payment-service","host":"pay-01","message":"Order created"}
+203.243.23.201 - - [29/Sep/2026:18:39:58 +0000] "GET /api/orders HTTP/1.1" 200 21188 "-" "Mozilla/5.0 (iPhone)" rt=0.086
+999.1.1.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 200 12 "-" "curl/8"
+2026-09-29 18:42:30,709 INFO     [order-service] (ord-01) request completed method=GET path=/api/orders status=200 duration_ms=174.13 ip=192.25.178.164
+172.16.157.162 - - [29/Sep/2026:18:43:42 +0000] "GET /api/search HTTP/1.1" 200 18423 "-" "Mozilla/5.0 (iPhone)" rt=0.110
+172.16.157.162 - - [29/Sep/2026:18:43:42 +0000] "GET /api/search HTTP/1.1" 200 18423 "-" "Mozilla/5.0 (iPhone)" rt=0.110
+{"timestamp":"2026-09-29T18:47:29.910Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":64.95,"ip":"192.106.195.240"}
+{"timestamp":"2026-09-29T18:48:15.593Z","level":"INFO","service":"auth-service","host":"auth-01","message":"User login succeeded"}
+2026-09-29 18:49:35,909 WARNING  [api-gateway] (gw-01) Retrying upstream request
+2026-09-29 18:51:03,165 WARNING  [auth-service] (auth-01) Disk usage above 80%
+2026-09-29 18:51:03,165 WARNING  [auth-service] (auth-01) Disk usage above 80%
+172.15.182.152 - - [29/Sep/2026:18:54:25 +0000] "GET /api/orders HTTP/1.1" 200 35472 "-" "python-requests/2.32" rt=0.122
+{"timestamp":"2026-09-29T18:55:11.306Z","level":"INFO","service":"order-service","host":"ord-03","message":"Cache warmed"}
+{"timestamp":"2026-09-29T18:56:14.715Z","level":"WARNING","service":"auth-service","host":"auth-02","message":"Slow query detected"}
+{"timestamp":"2026-09-29T18:56:14.715Z","level":"WARNING","service":"auth-service","host":"auth-02","message":"Slow query detected"}
+192.119.146.3 - - [29/Sep/2026:18:59:10 +0000] "GET /api/health HTTP/1.1" 200 35335 "-" "python-requests/2.32" rt=0.057
+{"timestamp":"2026-09-29T19:01:21.984Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":118.64,"ip":"172.118.250.148"}
+{"timestamp":"2026-09-29T19:01:21.984Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":118.64,"ip":"172.118.250.148"}
+this is not a log line
+10.177.247.158 - - [29/Sep/2026:19:05:19 +0000] "GET /api/search HTTP/1.1" 200 34937 "-" "curl/8.5.0" rt=0.254
+{"timestamp":"2026-09-29T19:06:40.144Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":47.78,"ip":"192.106.195.240"}
+2026-09-29 19:09:05,940 INFO     [order-service] (ord-02) Order created
+192.186.218.76 - - [29/Sep/2026:19:10:03 +0000] "GET /static/app.js HTTP/1.1" 200 29740 "-" "Mozilla/5.0 (iPhone)" rt=0.095
+{"timestamp":"2026-09-29T19:11:03.541Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":118.81,"ip":"203.255.71.98"}
+2026-09-29 19:12:36,300 INFO     [order-service] (ord-01) Cache warmed
+{"timestamp":"2026-09-29T19:14:03.445Z","level":"WARNING","service":"auth-service","host":"auth-02","message":"Slow query detected"}
+172.232.9.242 - - [29/Sep/2026:19:14:53 +0000] "GET /api/search HTTP/1.1" 200 36327 "-" "python-requests/2.32" rt=0.376
+172.131.122.254 - - [29/Sep/2026:19:16:57 +0000] "GET /api/products HTTP/1.1" 503 10793 "-" "Mozilla/5.0 (iPhone)" rt=0.410
+2026-09-29 19:18:50,756 INFO     [order-service] (ord-01) Payment authorized
+2026-09-29 19:19:44,542 WARNING  [auth-service] (auth-02) Retrying upstream request
+2026-09-29 19:20:54,464 WARNING  [api-gateway] (gw-02) Cache miss ratio above threshold
+203.21.197.196 - - [29/Sep/2026:19:22:32 +0000] "GET /api/products/102 HTTP/1.1" 200 47859 "-" "curl/8.5.0" rt=0.049
+203.209.144.66 - - [29/Sep/2026:19:24:53 +0000] "GET /api/products HTTP/1.1" 200 10722 "-" "Mozilla/5.0 (iPhone)" rt=0.209
+{"level": "INFO", "service": "auth-service", "message": "missing timestamp"}
+{"timestamp":"2026-09-29T19:27:21.693Z","level":"INFO","service":"order-service","host":"ord-01","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":134.41,"ip":"203.246.245.132"}
+{"timestamp":"2026-09-29T19:28:38.505Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":42.2,"ip":"203.158.16.170"}
+2026-09-29 19:30:01,309 INFO     [api-gateway] (gw-02) request completed method=GET path=/static/app.js status=200 duration_ms=121.87 ip=192.137.222.101
+{"timestamp":"2026-09-29T19:31:09.884Z","level":"DEBUG","service":"notification-service","host":"notif-01","message":"Loaded configuration from environment"}
+2026-09-29 19:33:21,166 INFO     [auth-service] (auth-02) Email queued
+2026-09-29 19:33:21,166 INFO     [auth-service] (auth-02) Email queued
+2026-09-29 19:35:30,812 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=87.11 ip=172.154.167.248
+{"timestamp":"2026-09-29T19:37:23.064Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":174.07,"ip":"172.195.248.98"}
+{"timestamp":"2026-09-29T19:38:43.303Z","level":"WARNING","service":"auth-service","host":"auth-02","message":"POST /api/login 401","method":"POST","path":"/api/login","status":401,"response_time_ms":46.55,"ip":"192.181.207.141"}
+2026-09-29 19:40:34,032 ERROR    [order-service] (ord-03) Upstream service unavailable
+{"timestamp":"2026-09-29T19:42:02.938Z","level":"INFO","service":"payment-service","host":"pay-02","message":"POST /api/payments 201","method":"POST","path":"/api/payments","status":201,"response_time_ms":115.9,"ip":"172.47.133.72"}
+2026-09-29 19:43:21,285 INFO     [notification-service] (notif-01) Payment authorized
+{"timestamp":"2026-09-29T19:44:55.610Z","level":"ERROR","service":"api-gateway","host":"gw-01","message":"GET /api/search 502","method":"GET","path":"/api/search","status":502,"response_time_ms":486.46,"ip":"192.228.36.21"}
+{"timestamp":"2026-09-29T19:45:06.678Z","level":"INFO","service":"order-service","host":"ord-01","message":"Order created"}
+172.153.79.200 - - [29/Sep/2026:19:47:49 +0000] "GET /api/products HTTP/1.1" 200 25431 "-" "curl/8.5.0" rt=0.057
+{"timestamp":"2026-09-29T19:48:10.876Z","level":"WARNING","service":"api-gateway","host":"gw-01","message":"GET /static/app.js 400","method":"GET","path":"/static/app.js","status":400,"response_time_ms":15.04,"ip":"172.160.181.112"}
+{"timestamp":"2026-09-29T19:49:58.395Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Cache warmed"}
+2026-09-29 19:51:44,397 INFO     [auth-service] (auth-02) request completed method=POST path=/api/logout status=201 duration_ms=110.33 ip=203.15.147.227
+10.162.156.242 - - [29/Sep/2026:19:53:22 +0000] "GET /api/products HTTP/1.1" 304 6276 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.270
+{"timestamp":"2026-09-29T19:54:04.135Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 304","method":"GET","path":"/api/health","status":304,"response_time_ms":205.94,"ip":"192.150.99.131"}
+2026-09-29 19:55:11,818 INFO     [auth-service] (auth-01) request completed method=POST path=/api/logout status=201 duration_ms=84.89 ip=203.173.146.223
+192.9.23.106 - - [29/Sep/2026:19:57:17 +0000] "GET /api/products HTTP/1.1" 401 17533 "-" "curl/8.5.0" rt=0.053
+{"timestamp":"2026-09-29T19:58:44.268Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Payment authorized"}
+{"timestamp":"2026-09-29T20:00:02.610Z","level":"INFO","service":"order-service","host":"ord-02","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":29.91,"ip":"172.213.223.197"}
+2026-09-29 20:01:44,746 WARNING  [api-gateway] (gw-01) Slow query detected
+2026-09-29 20:02:30,930 DEBUG    [order-service] (ord-03) Cache lookup completed
+2026-09-29 20:03:59,218 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=135.0 ip=203.93.207.28
+2026-09-29 20:05:16,742 INFO     [api-gateway] (gw-02) Payment authorized
+{"timestamp":"2026-09-29T20:07:46.561Z","level":"INFO","service":"order-service","host":"ord-02","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":84.07,"ip":"192.74.201.252"}
+{"timestamp":"2026-09-29T20:08:47.272Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":142.07,"ip":"10.136.81.9"}
+2026-09-29 20:09:47,742 INFO     [auth-service] (auth-02) User login succeeded
+{"timestamp":"2026-09-29T20:11:50.176Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Cache warmed"}
+10.156.133.179 - - [29/Sep/2026:20:13:41 +0000] "GET /api/products HTTP/1.1" 200 29390 "-" "python-requests/2.32" rt=0.070
+{"timestamp":"2026-09-29T20:14:05.906Z","level":"INFO","service":"order-service","host":"ord-02","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":116.38,"ip":"10.9.169.221"}
+{"timestamp":"2026-09-29T20:16:29.411Z","level":"INFO","service":"notification-service","host":"notif-01","message":"User login succeeded"}
+{"timestamp":"2026-09-29T20:18:08.186Z","level":"INFO","service":"auth-service","host":"auth-02","message":"User login succeeded"}
+{"timestamp":"2026-09-29T20:19:03.794Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":91.1,"ip":"192.212.89.20"}
+192.150.99.131 - - [29/Sep/2026:20:20:41 +0000] "GET /api/products HTTP/1.1" 200 29997 "-" "python-requests/2.32" rt=0.115
+{"timestamp":"2026-09-29T20:21:56.959Z","level":"ERROR","service":"auth-service","host":"auth-02","message":"Upstream service unavailable"}
+{"timestamp":"2026-09-29T20:21:56.959Z","level":"ERROR","service":"auth-service","host":"auth-02","message":"Upstream service unavailable"}
+2026-09-29 20:24:18,851 INFO     [auth-service] (auth-02) Payment authorized
+172.137.79.218 - - [29/Sep/2026:20:26:22 +0000] "GET /api/search HTTP/1.1" 200 45653 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.366
+10.192.140.55 - - [29/Sep/2026:20:27:43 +0000] "GET /api/search HTTP/1.1" 404 9115 "-" "python-requests/2.32" rt=0.343
+{"timestamp": "yesterday-ish", "level": "INFO", "message": "bad timestamp"}
+{"timestamp":"2026-09-29T20:30:49.195Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":49.61,"ip":"172.137.79.218"}
+2026-09-29 20:31:51,792 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=68.94 ip=203.209.144.66
+2026-09-29 20:33:00,970 INFO     [payment-service] (pay-01) Payment authorized
+2026-09-29 20:34:28,833 DEBUG    [order-service] (ord-03) Loaded configuration from environment
+2026-09-29 20:34:28,833 DEBUG    [order-service] (ord-03) Loaded configuration from environment
+2026-09-29 20:37:53,885 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/search status=200 duration_ms=89.94 ip=192.228.36.21
+{"timestamp": "2026-09-29T20:38:52.811Z", "level": "LOUD", "message": "unknown level"}
+{"timestamp":"2026-09-29T20:40:20.506Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":182.03,"ip":"172.31.193.146"}
+{"timestamp":"2026-09-29T20:40:20.506Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":182.03,"ip":"172.31.193.146"}
+2026-09-29 20:44:02,401 INFO     [order-service] (ord-02) Email queued
+172.216.87.161 - - [29/Sep/2026:20:44:33 +0000] "GET /api/products/101 HTTP/1.1" 200 12591 "-" "curl/8.5.0" rt=0.123
+192.180.198.91 - - [29/Sep/2026:20:46:33 +0000] "GET /api/products HTTP/1.1" 200 5048 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.068
+172.242.238.82 - - [29/Sep/2026:20:47:24 +0000] "POST /api/orders HTTP/1.1" 201 30632 "-" "curl/8.5.0" rt=0.065
+{"timestamp":"2026-09-29T20:48:40.000Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Email queued"}
+203.242.14.206 - - [29/Sep/2026:20:50:42 +0000] "GET /api/products/101 HTTP/1.1" 304 26806 "-" "Mozilla/5.0 (iPhone)" rt=0.114
+203.242.14.206 - - [29/Sep/2026:20:50:42 +0000] "GET /api/products/101 HTTP/1.1" 304 26806 "-" "Mozilla/5.0 (iPhone)" rt=0.114
+192.97.243.212 - - [29/Sep/2026:20:53:03 +0000] "GET /api/products HTTP/1.1" 200 45025 "-" "python-requests/2.32" rt=0.107
+172.131.122.254 - - [29/Sep/2026:20:55:39 +0000] "GET /api/orders HTTP/1.1" 200 38818 "-" "Mozilla/5.0 (iPhone)" rt=0.039
+{"timestamp":"2026-09-29T20:55:57.633Z","level":"INFO","service":"notification-service","host":"notif-01","message":"Payment authorized"}
+192.105.220.236 - - [29/Sep/2026:20:57:22 +0000] "GET /api/products/102 HTTP/1.1" 403 24985 "-" "python-requests/2.32" rt=0.114
+{"timestamp":"2026-09-29T20:59:28.187Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":165.58,"ip":"203.80.17.60"}
+203.53.13.94 - - [29/Sep/2026:21:01:19 +0000] "GET /api/orders HTTP/1.1" 200 10029 "-" "curl/8.5.0" rt=0.159
+2026-09-29 21:01:48,681 INFO     [auth-service] (auth-02) Email queued
+192.80.83.232 - - [29/Sep/2026:21:03:16 +0000] "GET /api/orders HTTP/1.1" 200 32490 "-" "curl/8.5.0" rt=0.075
+{"timestamp":"2026-09-29T21:04:18.743Z","level":"WARNING","service":"auth-service","host":"auth-02","message":"Retrying upstream request"}
+2026-09-29 21:06:32,067 WARNING  [payment-service] (pay-01) request completed method=POST path=/api/payments status=403 duration_ms=148.79 ip=192.88.193.70
+203.76.46.47 - - [29/Sep/2026:21:08:12 +0000] "GET /api/health HTTP/1.1" 200 12293 "-" "python-requests/2.32" rt=0.104
+172.213.223.197 - - [29/Sep/2026:21:09:06 +0000] "GET /api/products/102 HTTP/1.1" 200 23534 "-" "curl/8.5.0" rt=0.133
+{"timestamp":"2026-09-29T21:11:04.230Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":122.93,"ip":"192.85.33.203"}
+{"timestamp":"2026-09-29T21:12:35.186Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"User login succeeded"}
+2026-09-29 21:14:21,468 ERROR    [api-gateway] (gw-02) Payment gateway returned 502
+{"timestamp":"2026-09-29T21:15:26.344Z","level":"WARNING","service":"order-service","host":"ord-01","message":"POST /api/orders 401","method":"POST","path":"/api/orders","status":401,"response_time_ms":97.84,"ip":"192.68.136.223"}
+{"timestamp":"2026-09-29T21:16:47.748Z","level":"INFO","service":"order-service","host":"ord-01","message":"Order created"}
+2026-09-29 21:18:07,913 WARNING  [notification-service] (notif-01) Retrying upstream request
+{"timestamp":"2026-09-29T21:19:53.378Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":44.02,"ip":"203.16.65.69"}
+{"timestamp":"2026-09-29T21:20:58.138Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":77.12,"ip":"192.155.216.82"}
+2026-09-29 21:22:59,709 INFO     [payment-service] (pay-02) Payment authorized
+2026-09-29 21:23:27,862 DEBUG    [order-service] (ord-01) Loaded configuration from environment
+2026-09-29 21:25:30,897 ERROR    [api-gateway] (gw-02) Upstream service unavailable
+2026-09-29 21:27:10,245 WARNING  [notification-service] (notif-01) Slow query detected
+{"timestamp":"2026-09-29T21:27:22.821Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":91.19,"ip":"203.33.131.220"}
+192.56.72.172 - - [29/Sep/2026:21:29:28 +0000] "GET /api/products/101 HTTP/1.1" 200 17433 "-" "python-requests/2.32" rt=0.121
+{"timestamp":"2026-09-29T21:30:16.398Z","level":"INFO","service":"auth-service","host":"auth-02","message":"Payment authorized"}
+2026-13-45 99:99:99,000 ERROR   [order-service] (ord-01) impossible timestamp
+{"timestamp":"2026-09-29T21:33:08.804Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":72.22,"ip":"192.228.36.21"}
+192.150.99.131 - - [29/Sep/2026:21:34:46 +0000] "GET /api/health HTTP/1.1" 200 39990 "-" "python-requests/2.32" rt=0.048
+{"timestamp":"2026-09-29T21:36:37.358Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":96.85,"ip":"203.184.9.108"}
+203.209.144.66 - - [29/Sep/2026:21:38:41 +0000] "GET /api/products HTTP/1.1" 200 42600 "-" "Mozilla/5.0 (iPhone)" rt=0.094
+2026-09-29 21:39:40,439 INFO     [payment-service] (pay-01) User login succeeded
+10.0.0.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 999 12 "-" "curl/8"
+203.65.54.201 - - [29/Sep/2026:21:41:53 +0000] "GET /api/products/102 HTTP/1.1" 200 16326 "-" "python-requests/2.32" rt=0.051
+{"timestamp":"2026-09-29T21:44:25.434Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /static/app.js 200","method":"GET","path":"/static/app.js","status":200,"response_time_ms":30.41,"ip":"203.28.171.66"}
+{"timestamp":"2026-09-29T21:45:11.634Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/logout 201","method":"POST","path":"/api/logout","status":201,"response_time_ms":74.84,"ip":"203.151.140.32"}
+2026-09-29 21:46:23,679 WARNING  [auth-service] (auth-02) Cache miss ratio above threshold
+2026-09-29 21:47:45,270 WARNING  [payment-service] (pay-01) Disk usage above 80%
+192.35.188.196 - - [29/Sep/2026:21:50:11 +0000] "GET /static/app.js HTTP/1.1" 200 23368 "-" "python-requests/2.32" rt=0.185
+{"timestamp":"2026-09-29T21:50:32.080Z","level":"WARNING","service":"api-gateway","host":"gw-02","message":"Slow query detected"}
+10.176.30.205 - - [29/Sep/2026:21:51:58 +0000] "GET /api/health HTTP/1.1" 200 9232 "-" "Mozilla/5.0 (iPhone)" rt=0.117
+203.202.152.110 - - [29/Sep/2026:21:53:50 +0000] "GET /api/products HTTP/1.1" 200 14133 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.046
+192.56.72.172 - - [29/Sep/2026:21:55:55 +0000] "GET /api/products/101 HTTP/1.1" 200 28226 "-" "curl/8.5.0" rt=0.082
+2026-09-29 21:56:53,314 INFO     [api-gateway] (gw-01) request completed method=GET path=/static/app.js status=200 duration_ms=139.68 ip=192.119.146.3
+203.59.3.24 - - [29/Sep/2026:21:58:34 +0000] "GET /api/health HTTP/1.1" 200 35547 "-" "python-requests/2.32" rt=0.103
+{"timestamp":"2026-09-29T21:59:31.229Z","level":"INFO","service":"payment-service","host":"pay-01","message":"POST /api/payments 201","method":"POST","path":"/api/payments","status":201,"response_time_ms":76.2,"ip":"192.252.42.129"}
+{"timestamp":"2026-09-29T22:01:03.436Z","level":"INFO","service":"payment-service","host":"pay-02","message":"Cache warmed"}
+{"timestamp":"2026-09-29T22:03:11.904Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":96.03,"ip":"203.41.150.110"}
+{"timestamp":"2026-09-29T22:03:29.809Z","level":"WARNING","service":"order-service","host":"ord-03","message":"Retrying upstream request"}
+2026-09-29 22:05:45,231 INFO     [api-gateway] (gw-02) Payment authorized
+10.32.230.200 - - [29/Sep/2026:22:06:21 +0000] "GET /api/orders HTTP/1.1" 304 33684 "-" "Mozilla/5.0 (iPhone)" rt=0.038
+10.177.247.158 - - [29/Sep/2026:22:08:36 +0000] "POST /api/login HTTP/1.1" 200 10906 "-" "Mozilla/5.0 (iPhone)" rt=0.051
+{"timestamp":"2026-09-29T22:10:04.480Z","level":"INFO","service":"payment-service","host":"pay-02","message":"Order created"}
+2026-09-29 22:11:28,920 ERROR    [notification-service] (notif-01) Payment gateway returned 502
+{"timestamp":"2026-09-29T22:12:54.117Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":81.82,"ip":"203.95.205.161"}
+{"timestamp":"2026-09-29T22:13:42.797Z","level":"INFO","service":"notification-service","host":"notif-01","message":"User login succeeded"}
+2026-09-29 22:14:52,977 INFO     [api-gateway] (gw-01) Payment authorized
+{"timestamp":"2026-09-29T22:17:11.720Z","level":"INFO","service":"payment-service","host":"pay-02","message":"Order created"}
+172.1.209.62 - - [29/Sep/2026:22:17:52 +0000] "GET /api/orders HTTP/1.1" 200 22958 "-" "python-requests/2.32" rt=0.124
+2026-13-45 99:99:99,000 ERROR   [order-service] (ord-01) impossible timestamp
+2026-09-29 22:21:43,506 INFO     [auth-service] (auth-02) User login succeeded
+2026-09-29 22:21:43,506 INFO     [auth-service] (auth-02) User login succeeded
+10.32.230.200 - - [29/Sep/2026:22:24:27 +0000] "POST /api/orders HTTP/1.1" 201 27763 "-" "Mozilla/5.0 (iPhone)" rt=0.073
+10.177.247.158 - - [29/Sep/2026:22:26:17 +0000] "GET /api/products HTTP/1.1" 304 46854 "-" "curl/8.5.0" rt=0.079
+{"timestamp":"2026-09-29T22:27:45.696Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products/102 200","method":"GET","path":"/api/products/102","status":200,"response_time_ms":160.86,"ip":"10.43.14.216"}
+2026-09-29 22:28:11,857 INFO     [payment-service] (pay-02) Order created
+{"timestamp":"2026-09-29T22:30:19.445Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":191.41,"ip":"203.57.211.46"}
+{"timestamp":"2026-09-29T22:30:19.445Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":191.41,"ip":"203.57.211.46"}
+{"timestamp":"2026-09-29T22:32:10.902Z","level":"WARNING","service":"notification-service","host":"notif-01","message":"Retrying upstream request"}
+{"timestamp":"2026-09-29T22:34:03.197Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"User login succeeded"}
+2026-09-29 22:36:22,653 INFO     [api-gateway] (gw-01) request completed method=GET path=/api/products status=200 duration_ms=102.44 ip=10.180.18.152
+2026-09-29 22:37:31,847 INFO     [order-service] (ord-02) Cache warmed
+203.243.23.201 - - [29/Sep/2026:22:38:44 +0000] "POST /api/payments HTTP/1.1" 201 13890 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.218
+203.243.23.201 - - [29/Sep/2026:22:38:44 +0000] "POST /api/payments HTTP/1.1" 201 13890 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.218
+{"timestamp":"2026-09-29T22:40:49.576Z","level":"ERROR","service":"api-gateway","host":"gw-02","message":"GET /api/products/102 503","method":"GET","path":"/api/products/102","status":503,"response_time_ms":849.59,"ip":"10.156.133.179"}
+{"timestamp":"2026-09-29T22:43:34.140Z","level":"INFO","service":"api-gateway","host":"gw-02","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":96.72,"ip":"192.98.176.28"}
+192.66.228.11 - - [29/Sep/2026:22:44:39 +0000] "GET /api/orders HTTP/1.1" 401 22288 "-" "python-requests/2.32" rt=0.072
+2026-09-29 22:45:45,942 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/health status=200 duration_ms=119.15 ip=10.231.125.102
+2026-09-29 22:46:39,899 INFO     [notification-service] (notif-01) Payment authorized
+2026-09-29 22:49:13,611 INFO     [notification-service] (notif-01) Email queued
+192.74.201.252 - - [29/Sep/2026:22:50:51 +0000] "GET /api/health HTTP/1.1" 200 17514 "-" "curl/8.5.0" rt=0.082
+{"timestamp":"2026-09-29T22:51:41.591Z","level":"INFO","service":"auth-service","host":"auth-02","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":112.7,"ip":"203.21.197.196"}
+{"timestamp":"2026-09-29T22:53:19.759Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/health 200","method":"GET","path":"/api/health","status":200,"response_time_ms":98.84,"ip":"10.200.233.23"}
+{"timestamp":"2026-09-29T22:53:57.512Z","level":"INFO","service":"order-service","host":"ord-03","message":"GET /api/orders 200","method":"GET","path":"/api/orders","status":200,"response_time_ms":114.99,"ip":"172.15.182.152"}
+10.212.216.128 - - [29/Sep/2026:22:56:00 +0000] "GET /api/products/101 HTTP/1.1" 200 43954 "-" "python-requests/2.32" rt=0.099
+203.202.152.110 - - [29/Sep/2026:22:56:43 +0000] "GET /api/products/101 HTTP/1.1" 200 18830 "-" "curl/8.5.0" rt=0.055
+2026-09-29 22:58:15,779 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=73.82 ip=10.32.230.200
+2026-09-29 22:59:48,709 WARNING  [api-gateway] (gw-01) Retrying upstream request
+172.20.221.101 - - [29/Sep/2026:23:01:15 +0000] "GET /api/products/101 HTTP/1.1" 200 26675 "-" "Mozilla/5.0 (iPhone)" rt=0.041
+{"timestamp":"2026-09-29T23:03:03.914Z","level":"INFO","service":"order-service","host":"ord-01","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":69.56,"ip":"192.176.220.157"}
+2026-09-29 23:03:56,406 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=400 duration_ms=94.58 ip=192.98.176.28
+2026-09-29 23:03:56,406 WARNING  [api-gateway] (gw-02) request completed method=GET path=/api/products status=400 duration_ms=94.58 ip=192.98.176.28
+{"timestamp":"2026-09-29T23:08:04.621Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products 200","method":"GET","path":"/api/products","status":200,"response_time_ms":61.5,"ip":"10.40.214.146"}
+2026-09-29 23:09:01,647 ERROR    [payment-service] (pay-01) Upstream service unavailable
+2026-09-29 23:10:23,500 INFO     [api-gateway] (gw-02) Cache warmed
+172.153.79.200 - - [29/Sep/2026:23:11:45 +0000] "POST /api/orders HTTP/1.1" 201 4978 "-" "Mozilla/5.0 (iPhone)" rt=0.075
+2026-09-29 23:12:55,213 INFO     [order-service] (ord-02) Cache warmed
+{"timestamp":"2026-09-29T23:14:34.934Z","level":"INFO","service":"auth-service","host":"auth-01","message":"Email queued"}
+2026-09-29 23:16:22,090 INFO     [auth-service] (auth-01) Payment authorized
+{"timestamp":"2026-09-29T23:18:01.770Z","level":"INFO","service":"notification-service","host":"notif-01","message":"POST /api/notifications 201","method":"POST","path":"/api/notifications","status":201,"response_time_ms":82.44,"ip":"172.37.188.202"}
+192.68.136.223 - - [29/Sep/2026:23:18:14 +0000] "GET /api/search HTTP/1.1" 200 34188 "-" "Mozilla/5.0 (iPhone)" rt=0.115
+2026-09-29 23:20:12,870 INFO     [api-gateway] (gw-02) Cache warmed
+10.111.189.138 - - [29/Sep/2026:23:22:11 +0000] "GET /api/products/101 HTTP/1.1" 200 28015 "-" "Mozilla/5.0 (iPhone)" rt=0.049
+{"timestamp":"2026-09-29T23:22:55.890Z","level":"INFO","service":"auth-service","host":"auth-02","message":"Cache warmed"}
+2026-09-29 23:24:31,964 INFO     [order-service] (ord-03) Cache warmed
+172.73.13.240 - - [29/Sep/2026:23:25:29 +0000] "GET /api/products HTTP/1.1" 200 26525 "-" "python-requests/2.32" rt=0.103
+2026-09-29 23:27:32,201 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=198.0 ip=203.4.148.153
+{"timestamp":"2026-09-29T23:29:27.573Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":109.43,"ip":"172.153.79.200"}
+2026-09-29 23:29:59,016 WARNING  [payment-service] (pay-01) request completed method=POST path=/api/payments status=401 duration_ms=93.71 ip=172.40.178.166
+{"timestamp":"2026-09-29T23:32:34.234Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"Order created"}
+203.87.225.188 - - [29/Sep/2026:23:33:05 +0000] "POST /api/payments HTTP/1.1" 201 19962 "-" "curl/8.5.0" rt=0.116
+{"timestamp":"2026-09-29T23:34:17.128Z","level":"INFO","service":"order-service","host":"ord-01","message":"POST /api/orders 201","method":"POST","path":"/api/orders","status":201,"response_time_ms":141.83,"ip":"172.131.122.254"}
+{"timestamp":"2026-09-29T23:36:32.537Z","level":"INFO","service":"auth-service","host":"auth-01","message":"Order created"}
+2026-09-29 23:37:58,791 INFO     [api-gateway] (gw-02) request completed method=GET path=/api/products/101 status=200 duration_ms=185.59 ip=10.156.133.179
+172.84.201.219 - - [29/Sep/2026:23:38:44 +0000] "POST /api/orders HTTP/1.1" 500 21765 "-" "Mozilla/5.0 (X11; Linux x86_64)" rt=0.214
+10.0.0.1 - - [30/Sep/2026:10:00:00 +0000] "GET /api/x HTTP/1.1" 999 12 "-" "curl/8"
+{"timestamp":"2026-09-29T23:41:37.367Z","level":"INFO","service":"auth-service","host":"auth-01","message":"POST /api/login 200","method":"POST","path":"/api/login","status":200,"response_time_ms":208.81,"ip":"203.21.197.196"}
+172.160.181.112 - - [29/Sep/2026:23:43:48 +0000] "POST /api/login HTTP/1.1" 200 6031 "-" "python-requests/2.32" rt=0.208
+{"timestamp":"2026-09-29T23:45:31.056Z","level":"ERROR","service":"notification-service","host":"notif-01","message":"Database connection timeout"}
+{"timestamp":"2026-09-29T23:46:41.858Z","level":"INFO","service":"payment-service","host":"pay-02","message":"POST /api/payments 201","method":"POST","path":"/api/payments","status":201,"response_time_ms":58.21,"ip":"172.175.211.174"}
+2026-09-29 23:48:10,137 ERROR    [order-service] (ord-01) Unhandled exception in request handler
+{"timestamp":"2026-09-29T23:48:51.085Z","level":"ERROR","service":"api-gateway","host":"gw-01","message":"GET /api/products 500","method":"GET","path":"/api/products","status":500,"response_time_ms":287.17,"ip":"192.166.105.234"}
+{"timestamp":"2026-09-29T23:50:39.049Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/products/101 200","method":"GET","path":"/api/products/101","status":200,"response_time_ms":113.5,"ip":"172.55.228.180"}
+203.249.49.140 - - [29/Sep/2026:23:51:42 +0000] "GET /api/products/101 HTTP/1.1" 200 31683 "-" "python-requests/2.32" rt=0.134
+203.156.240.152 - - [29/Sep/2026:23:52:53 +0000] "GET /api/search HTTP/1.1" 200 7655 "-" "curl/8.5.0" rt=0.097
+2026-09-29 23:55:29,441 INFO     [payment-service] (pay-02) User login succeeded
+2026-09-29 23:56:08,132 ERROR    [order-service] (ord-03) Upstream service unavailable
+2026-09-29 23:57:15,714 INFO     [notification-service] (notif-01) Order created
+{"timestamp":"2026-09-29T23:59:55.944Z","level":"INFO","service":"api-gateway","host":"gw-01","message":"GET /api/search 200","method":"GET","path":"/api/search","status":200,"response_time_ms":36.3,"ip":"203.80.17.60"}

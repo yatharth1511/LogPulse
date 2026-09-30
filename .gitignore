@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+staticfiles/
+incoming_logs/
+processed_logs/
+failed_logs/
+backups/
+rejected/
+sample_logs/generated*.log
+*.sqlite3

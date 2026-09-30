@@ -1,0 +1,35 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-logpulse}
+      POSTGRES_USER: ${POSTGRES_USER:-logpulse}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-logpulse}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  web:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-dev-insecure-secret-key-change-me}
+      DJANGO_DEBUG: "0"
+      DJANGO_ALLOWED_HOSTS: "*"
+      POSTGRES_DB: ${POSTGRES_DB:-logpulse}
+      POSTGRES_USER: ${POSTGRES_USER:-logpulse}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-logpulse}
+      POSTGRES_HOST: db
+      POSTGRES_PORT: "5432"
+      LOGPULSE_SEED_DEMO: "1"   # loads 10,000 synthetic logs on first start
+    ports:
+      - "8000:8000"
+
+volumes:
+  pgdata:
